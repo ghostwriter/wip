@@ -6,12 +6,18 @@ namespace Ghostwriter\wip\Tests\Unit;
 
 use Ghostwriter\wip\Foo;
 
-/** @coversDefaultClass \Ghostwriter\wip\Foo */
-class FooTest extends AbstractTestCase
+/**
+ * @coversDefaultClass \Ghostwriter\wip\Foo
+ *
+ * @internal
+ *
+ * @small
+ */
+final class FooTest extends AbstractTestCase
 {
     /** @covers ::test */
     public function test(): void
     {
-        $this->assertTrue((new Foo())->test());
+        self::assertTrue((new Foo())->test());
     }
 }
