@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "10487114cd3e2ad226656ae6b6df1dc3",
+    "content-hash": "c8177403a06b76e6be661833c4db8307",
     "packages": [
         {
             "name": "ghostwriter/container",
@@ -77,23 +77,22 @@
         },
         {
             "name": "ghostwriter/event-dispatcher",
-            "version": "0.2.4",
+            "version": "0.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ghostwriter/event-dispatcher.git",
-                "reference": "77b133808bba649f20be435185b16f9e5fa64868"
+                "reference": "54d23ffbb71de005eeb4911402f50790f74301eb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/event-dispatcher/zipball/77b133808bba649f20be435185b16f9e5fa64868",
-                "reference": "77b133808bba649f20be435185b16f9e5fa64868",
+                "url": "https://api.github.com/repos/ghostwriter/event-dispatcher/zipball/54d23ffbb71de005eeb4911402f50790f74301eb",
+                "reference": "54d23ffbb71de005eeb4911402f50790f74301eb",
                 "shasum": ""
             },
             "require": {
                 "ghostwriter/container": "^0.4.0",
-                "php": ">=8.0, <8.2",
-                "psr/container": "^1.0 || ^2.0",
-                "psr/event-dispatcher": "^1.0,<2.0"
+                "php": ">=8.0,<8.2",
+                "psr/event-dispatcher": "^1.0.0"
             },
             "conflict": {
                 "ext-psr": "*"
@@ -104,9 +103,9 @@
             "require-dev": {
                 "phpunit/phpunit": "^9.5.20",
                 "psalm/plugin-phpunit": "^0.16.1",
-                "rector/rector": "^0.12.23",
+                "rector/rector": "^0.13.4",
                 "roave/security-advisories": "dev-latest",
-                "symplify/easy-coding-standard": "^10.2.7",
+                "symplify/easy-coding-standard": "^10.2.8",
                 "vimeo/psalm": "^4.23.0"
             },
             "type": "library",
@@ -127,7 +126,7 @@
                     "role": "Developer"
                 }
             ],
-            "description": "Provides a PSR-14 Event Dispatcher implementation.",
+            "description": "Provides an Event Dispatcher implementation for PHP inspired by PSR-14 specification.",
             "keywords": [
                 "event-dispatcher",
                 "ghostwriter",
@@ -146,7 +145,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-05-28T02:40:12+00:00"
+            "time": "2022-06-04T09:33:02+00:00"
         },
         {
             "name": "psr/container",
@@ -992,226 +991,6 @@
                 "source": "https://github.com/felixfbecker/php-language-server-protocol/tree/v1.5.2"
             },
             "time": "2022-03-02T22:36:06+00:00"
-        },
-        {
-            "name": "ghostwriter/compliance",
-            "version": "v1.x-dev",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/ghostwriter/compliance.git",
-                "reference": "fee213407b2eb9ac63c788b1bd22435bddbf5264"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/compliance/zipball/fee213407b2eb9ac63c788b1bd22435bddbf5264",
-                "reference": "fee213407b2eb9ac63c788b1bd22435bddbf5264",
-                "shasum": ""
-            },
-            "require": {
-                "composer-plugin-api": ">=2.2",
-                "composer-runtime-api": ">=2.2",
-                "composer/semver": "^3.3.2",
-                "ghostwriter/container": "^0.4.0",
-                "ghostwriter/event-dispatcher": "^0.2.4",
-                "ghostwriter/option": "^0.1.0",
-                "ghostwriter/result": "^0.1.0",
-                "php": ">=8.0,<8.2",
-                "symfony/console": "^6.1.0",
-                "symfony/finder": "^6.1.0",
-                "symfony/process": "^6.1.0"
-            },
-            "require-dev": {
-                "composer/composer": "^2.2 || ^2.3",
-                "phpbench/phpbench": "^1.2.5",
-                "phpunit/phpunit": "^9.5.20",
-                "psalm/plugin-phpunit": "^0.16.1",
-                "rector/rector": "^0.12.23",
-                "roave/infection-static-analysis-plugin": "^1.19.0",
-                "roave/security-advisories": "dev-latest",
-                "symplify/easy-coding-standard": "^10.2.7",
-                "vimeo/psalm": "^4.23.0"
-            },
-            "default-branch": true,
-            "bin": [
-                "bin/compliance"
-            ],
-            "type": "project",
-            "autoload": {
-                "files": [],
-                "psr-4": {
-                    "Ghostwriter\\Compliance\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Nathanael Esayeas",
-                    "email": "nathanael.esayeas@protonmail.com",
-                    "homepage": "https://github.com/ghostwriter",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Compliance Automation for PHP - Automatically configure and execute multiple CI/CD & QA Tests via GitHub Actions.",
-            "homepage": "https://github.com/ghostwriter/compliance",
-            "keywords": [
-                "compliance",
-                "compliance-automation",
-                "continuous-integration",
-                "ghostwriter",
-                "github-actions"
-            ],
-            "support": {
-                "docs": "https://github.com/ghostwriter/compliance",
-                "forum": "https://github.com/ghostwriter/compliance/discussions",
-                "issues": "https://github.com/ghostwriter/compliance/issues",
-                "rss": "https://github.com/ghostwriter/compliance/releases.atom",
-                "source": "https://github.com/ghostwriter/compliance"
-            },
-            "funding": [
-                {
-                    "url": "https://github.com/sponsors/ghostwriter",
-                    "type": "github"
-                }
-            ],
-            "time": "2022-05-29T18:17:26+00:00"
-        },
-        {
-            "name": "ghostwriter/option",
-            "version": "0.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/ghostwriter/option.git",
-                "reference": "0c87394588e38defe56c83b089b23f0d1d283a1b"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/option/zipball/0c87394588e38defe56c83b089b23f0d1d283a1b",
-                "reference": "0c87394588e38defe56c83b089b23f0d1d283a1b",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=8.0, <8.2"
-            },
-            "require-dev": {
-                "phpbench/phpbench": "^1.2.5",
-                "phpunit/phpunit": "^9.5.20",
-                "psalm/plugin-phpunit": "^0.16.1",
-                "rector/rector": "^0.12.23",
-                "roave/infection-static-analysis-plugin": "^1.18.0",
-                "roave/security-advisories": "dev-latest",
-                "symplify/easy-coding-standard": "^10.2.6",
-                "vimeo/psalm": "^4.23.0"
-            },
-            "type": "library",
-            "autoload": {
-                "files": [],
-                "psr-4": {
-                    "Ghostwriter\\Option\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Nathanael Esayeas",
-                    "email": "nathanael.esayeas@protonmail.com",
-                    "homepage": "https://github.com/ghostwriter",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Provides an Option type implementation for PHP",
-            "homepage": "https://github.com/ghostwriter/option",
-            "keywords": [
-                "ghostwriter",
-                "option"
-            ],
-            "support": {
-                "docs": "https://github.com/ghostwriter/option",
-                "forum": "https://github.com/ghostwriter/option/discussions",
-                "issues": "https://github.com/ghostwriter/option/issues",
-                "rss": "https://github.com/ghostwriter/option/releases.atom",
-                "source": "https://github.com/ghostwriter/option"
-            },
-            "funding": [
-                {
-                    "url": "https://github.com/sponsors/ghostwriter",
-                    "type": "github"
-                }
-            ],
-            "time": "2022-05-19T03:48:17+00:00"
-        },
-        {
-            "name": "ghostwriter/result",
-            "version": "0.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/ghostwriter/result.git",
-                "reference": "19b0c5c6a72cfbbfca9169b44f3ecb9f5a9deb6e"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/result/zipball/19b0c5c6a72cfbbfca9169b44f3ecb9f5a9deb6e",
-                "reference": "19b0c5c6a72cfbbfca9169b44f3ecb9f5a9deb6e",
-                "shasum": ""
-            },
-            "require": {
-                "ghostwriter/option": "^0.1.0",
-                "php": ">=8.0, <8.2"
-            },
-            "require-dev": {
-                "phpbench/phpbench": "^1.2.5",
-                "phpunit/phpunit": "^9.5.20",
-                "psalm/plugin-phpunit": "^0.16.1",
-                "rector/rector": "^0.12.23",
-                "roave/infection-static-analysis-plugin": "^1.18.0",
-                "roave/security-advisories": "dev-latest",
-                "symplify/easy-coding-standard": "^10.2.6",
-                "vimeo/psalm": "^4.23.0"
-            },
-            "type": "library",
-            "autoload": {
-                "files": [],
-                "psr-4": {
-                    "Ghostwriter\\Result\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Nathanael Esayeas",
-                    "email": "nathanael.esayeas@protonmail.com",
-                    "homepage": "https://github.com/ghostwriter",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Provides a Result type implementation for PHP",
-            "homepage": "https://github.com/ghostwriter/result",
-            "keywords": [
-                "ghostwriter",
-                "result"
-            ],
-            "support": {
-                "docs": "https://github.com/ghostwriter/result",
-                "forum": "https://github.com/ghostwriter/result/discussions",
-                "issues": "https://github.com/ghostwriter/result/issues",
-                "rss": "https://github.com/ghostwriter/result/releases.atom",
-                "source": "https://github.com/ghostwriter/result"
-            },
-            "funding": [
-                {
-                    "url": "https://github.com/sponsors/ghostwriter",
-                    "type": "github"
-                }
-            ],
-            "time": "2022-05-19T18:34:57+00:00"
         },
         {
             "name": "infection/abstract-testframework-adapter",
@@ -3114,21 +2893,21 @@
         },
         {
             "name": "rector/rector",
-            "version": "0.13.3",
+            "version": "0.13.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rectorphp/rector.git",
-                "reference": "38c15a123c19748af5c3c2fd011ba105ce34a9e7"
+                "reference": "60b4f87a94e7ed17d4494982ba0cfb5a3f2845fd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rectorphp/rector/zipball/38c15a123c19748af5c3c2fd011ba105ce34a9e7",
-                "reference": "38c15a123c19748af5c3c2fd011ba105ce34a9e7",
+                "url": "https://api.github.com/repos/rectorphp/rector/zipball/60b4f87a94e7ed17d4494982ba0cfb5a3f2845fd",
+                "reference": "60b4f87a94e7ed17d4494982ba0cfb5a3f2845fd",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.2|^8.0",
-                "phpstan/phpstan": "^1.7.6"
+                "phpstan/phpstan": "^1.7.10"
             },
             "conflict": {
                 "phpstan/phpdoc-parser": "<1.2",
@@ -3162,7 +2941,7 @@
             "description": "Instant Upgrade and Automated Refactoring of any PHP code",
             "support": {
                 "issues": "https://github.com/rectorphp/rector/issues",
-                "source": "https://github.com/rectorphp/rector/tree/0.13.3"
+                "source": "https://github.com/rectorphp/rector/tree/0.13.4"
             },
             "funding": [
                 {
@@ -3170,7 +2949,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-05-31T12:26:36+00:00"
+            "time": "2022-06-04T08:19:56+00:00"
         },
         {
             "name": "roave/infection-static-analysis-plugin",
@@ -3229,12 +3008,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "bff7ded3457ec730ad872ebb19cf46a96970e342"
+                "reference": "e44f8ca7996a2573a10b7f1f8baff9c9caf7db09"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/bff7ded3457ec730ad872ebb19cf46a96970e342",
-                "reference": "bff7ded3457ec730ad872ebb19cf46a96970e342",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/e44f8ca7996a2573a10b7f1f8baff9c9caf7db09",
+                "reference": "e44f8ca7996a2573a10b7f1f8baff9c9caf7db09",
                 "shasum": ""
             },
             "conflict": {
@@ -3419,7 +3198,7 @@
                 "league/commonmark": "<0.18.3",
                 "league/flysystem": "<1.1.4|>=2,<2.1.1",
                 "lexik/jwt-authentication-bundle": "<2.10.7|>=2.11,<2.11.3",
-                "librenms/librenms": "<22.2.2",
+                "librenms/librenms": "<22.4",
                 "limesurvey/limesurvey": "<3.27.19",
                 "livehelperchat/livehelperchat": "<=3.91",
                 "livewire/livewire": ">2.2.4,<2.2.6",
@@ -3718,7 +3497,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-06-02T21:04:08+00:00"
+            "time": "2022-06-03T23:04:18+00:00"
         },
         {
             "name": "sanmai/later",
@@ -6335,7 +6114,6 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "ghostwriter/compliance": 20,
         "roave/security-advisories": 20
     },
     "prefer-stable": true,
