@@ -32,15 +32,14 @@
     "require": {
         "php": ">=8.0,<8.2",
         "ghostwriter/container": "^0.4",
-        "ghostwriter/event-dispatcher": "^0.2"
+        "ghostwriter/event-dispatcher": "^0.3"
     },
     "require-dev": {
-        "ghostwriter/compliance": "v1.x-dev",
         "nikic/php-parser": "^4.14.0",
         "phpbench/phpbench": "^1.2.5",
         "phpunit/phpunit": "^9.5.20",
         "psalm/plugin-phpunit": "^0.16.1",
-        "rector/rector": "^0.13.3",
+        "rector/rector": "^0.13.4",
         "roave/infection-static-analysis-plugin": "^1.19.0",
         "roave/security-advisories": "dev-latest",
         "symplify/easy-coding-standard": "^10.2.8",
