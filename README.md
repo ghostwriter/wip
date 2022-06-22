@@ -8,6 +8,11 @@
 
 work in progress
 
+> **Warning**
+>
+> This project is not finished yet, work in progress.
+
+
 ## Installation
 
 You can install the package via composer:
@@ -19,7 +24,7 @@ composer require ghostwriter/wip
 ## Usage
 
 ```php
-// wip
+// work in progress
 ```
 
 ## Testing
