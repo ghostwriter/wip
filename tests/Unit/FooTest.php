@@ -15,7 +15,7 @@ use Ghostwriter\wip\Foo;
  */
 final class FooTest extends AbstractTestCase
 {
-    /** @covers ::test */
+    /** @covers \Ghostwriter\wip\Foo::test */
     public function test(): void
     {
         self::assertTrue((new Foo())->test());
