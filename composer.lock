@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cedcebe1d7399b3bac57eef26c6044dc",
+    "content-hash": "3a9e3857c39317a4cc761363e55cce81",
     "packages": [
         {
             "name": "ghostwriter/container",
-            "version": "0.5.0",
+            "version": "0.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ghostwriter/container.git",
-                "reference": "ee132326e8095dccdc94c616db3b3971f0ad7d32"
+                "reference": "3fecfd9cdbd63326af7da11a0951cd8a03ac880c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/container/zipball/ee132326e8095dccdc94c616db3b3971f0ad7d32",
-                "reference": "ee132326e8095dccdc94c616db3b3971f0ad7d32",
+                "url": "https://api.github.com/repos/ghostwriter/container/zipball/3fecfd9cdbd63326af7da11a0951cd8a03ac880c",
+                "reference": "3fecfd9cdbd63326af7da11a0951cd8a03ac880c",
                 "shasum": ""
             },
             "require": {
@@ -57,7 +57,7 @@
             ],
             "support": {
                 "issues": "https://github.com/ghostwriter/container/issues",
-                "source": "https://github.com/ghostwriter/container/tree/0.5.0"
+                "source": "https://github.com/ghostwriter/container/tree/0.6.0"
             },
             "funding": [
                 {
@@ -65,31 +65,31 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-06-27T23:21:40+00:00"
+            "time": "2022-07-05T19:16:47+00:00"
         },
         {
             "name": "ghostwriter/event-dispatcher",
-            "version": "0.4.1",
+            "version": "0.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ghostwriter/event-dispatcher.git",
-                "reference": "5d8abb6f7436a24918a4758edafe72938fadb657"
+                "reference": "71f0ddfda0d6cfe5d182badd88bfaae7a7ef7e8d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/event-dispatcher/zipball/5d8abb6f7436a24918a4758edafe72938fadb657",
-                "reference": "5d8abb6f7436a24918a4758edafe72938fadb657",
+                "url": "https://api.github.com/repos/ghostwriter/event-dispatcher/zipball/71f0ddfda0d6cfe5d182badd88bfaae7a7ef7e8d",
+                "reference": "71f0ddfda0d6cfe5d182badd88bfaae7a7ef7e8d",
                 "shasum": ""
             },
             "require": {
-                "ghostwriter/container": "^0.5.0",
+                "ghostwriter/container": "^0.6.0",
                 "php": ">=8.0,<8.2"
             },
             "require-dev": {
                 "phpunit/phpunit": "^9.5.21",
-                "psalm/plugin-phpunit": "^0.16.1",
+                "psalm/plugin-phpunit": "^0.17.0",
                 "rector/rector": "^0.13.6",
-                "symplify/easy-coding-standard": "^10.3.3",
+                "symplify/easy-coding-standard": "^11.0.8",
                 "vimeo/psalm": "^4.24.0"
             },
             "type": "library",
@@ -129,7 +129,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-06-27T23:30:22+00:00"
+            "time": "2022-07-05T19:24:46+00:00"
         }
     ],
     "packages-dev": [
@@ -5049,16 +5049,16 @@
         },
         {
             "name": "symplify/easy-coding-standard",
-            "version": "11.0.7",
+            "version": "11.0.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symplify/easy-coding-standard.git",
-                "reference": "d60bb2263932caad6f5bf5a648bb79aa3c4c5f1e"
+                "reference": "ee347cd02e2aea9f706fc3f67ea0fc19cc0ca606"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symplify/easy-coding-standard/zipball/d60bb2263932caad6f5bf5a648bb79aa3c4c5f1e",
-                "reference": "d60bb2263932caad6f5bf5a648bb79aa3c4c5f1e",
+                "url": "https://api.github.com/repos/symplify/easy-coding-standard/zipball/ee347cd02e2aea9f706fc3f67ea0fc19cc0ca606",
+                "reference": "ee347cd02e2aea9f706fc3f67ea0fc19cc0ca606",
                 "shasum": ""
             },
             "require": {
@@ -5088,7 +5088,7 @@
             ],
             "description": "Prefixed scoped version of ECS package",
             "support": {
-                "source": "https://github.com/symplify/easy-coding-standard/tree/11.0.7"
+                "source": "https://github.com/symplify/easy-coding-standard/tree/11.0.8"
             },
             "funding": [
                 {
@@ -5100,7 +5100,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-07-04T21:53:21+00:00"
+            "time": "2022-07-05T11:49:37+00:00"
         },
         {
             "name": "thecodingmachine/safe",
