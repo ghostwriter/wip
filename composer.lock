@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d08dc5eb0563ed1b84a546c3682832f8",
+    "content-hash": "cedcebe1d7399b3bac57eef26c6044dc",
     "packages": [
         {
             "name": "ghostwriter/container",
@@ -5049,16 +5049,16 @@
         },
         {
             "name": "symplify/easy-coding-standard",
-            "version": "11.0.6",
+            "version": "11.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symplify/easy-coding-standard.git",
-                "reference": "6293642287121f5036d0a4962c04b18a490691b1"
+                "reference": "d60bb2263932caad6f5bf5a648bb79aa3c4c5f1e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symplify/easy-coding-standard/zipball/6293642287121f5036d0a4962c04b18a490691b1",
-                "reference": "6293642287121f5036d0a4962c04b18a490691b1",
+                "url": "https://api.github.com/repos/symplify/easy-coding-standard/zipball/d60bb2263932caad6f5bf5a648bb79aa3c4c5f1e",
+                "reference": "d60bb2263932caad6f5bf5a648bb79aa3c4c5f1e",
                 "shasum": ""
             },
             "require": {
@@ -5088,7 +5088,7 @@
             ],
             "description": "Prefixed scoped version of ECS package",
             "support": {
-                "source": "https://github.com/symplify/easy-coding-standard/tree/11.0.6"
+                "source": "https://github.com/symplify/easy-coding-standard/tree/11.0.7"
             },
             "funding": [
                 {
@@ -5100,7 +5100,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-06-29T14:12:16+00:00"
+            "time": "2022-07-04T21:53:21+00:00"
         },
         {
             "name": "thecodingmachine/safe",
