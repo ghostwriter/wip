@@ -35,8 +35,8 @@
         "ghostwriter/event-dispatcher": "^0.4.1"
     },
     "require-dev": {
-        "nikic/php-parser": "^4.14.0",
         "infection/infection": "^0.26.13",
+        "nikic/php-parser": "^4.14.0",
         "phpbench/phpbench": "^1.2.5",
         "phpunit/phpunit": "^9.5.21",
         "psalm/plugin-phpunit": "^0.17.0",
