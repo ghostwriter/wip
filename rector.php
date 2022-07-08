@@ -78,7 +78,6 @@ return static function (RectorConfig $rectorConfig): void {
     ]);
     $rectorConfig->paths([
         __DIR__ . '/bin',
-        __DIR__ . '/compliance.php',
         __DIR__ . '/ecs.php',
         __DIR__ . '/rector.php',
         __DIR__ . '/src',
@@ -97,7 +96,7 @@ return static function (RectorConfig $rectorConfig): void {
     $rectorConfig->ruleWithConfiguration(
         PreferThisOrSelfMethodCallRector::class,
         [
-            TestCase::class => PreferenceSelfThis::PREFER_SELF(),
+            TestCase::class => PreferenceSelfThis::PREFER_SELF,
         ]
     );
     $rectorConfig->ruleWithConfiguration(
