@@ -31,8 +31,13 @@
     ],
     "require": {
         "php": ">=8.0,<8.2",
+        "ghostwriter/collection": "^0.4.1",
         "ghostwriter/container": "^0.6.0",
-        "ghostwriter/event-dispatcher": "^0.4.2"
+        "ghostwriter/environment": "^0.3.0",
+        "ghostwriter/event-dispatcher": "^0.4.2",
+        "ghostwriter/json": "^0.1.0",
+        "ghostwriter/option": "^0.3.0",
+        "ghostwriter/result": "^0.3.0"
     },
     "require-dev": {
         "infection/infection": "^0.26.13",
