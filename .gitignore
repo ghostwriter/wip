@@ -8,8 +8,9 @@
 /.phpunit.result.cache
 /clover.xml
 /coveralls-upload.json
+/infection.json
 /mkdocs.site.yml
-/phpcs.log
+/phpbench.json
 /phpcs.xml
 /phpunit.xml
 /psalm.xml
