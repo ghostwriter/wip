@@ -4,33 +4,34 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "01930bdf24cb68059ab950c0370cc047",
+    "content-hash": "087dcd0c6932dac0c196c7bad7e797d5",
     "packages": [
         {
             "name": "ghostwriter/collection",
-            "version": "0.4.1",
+            "version": "0.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ghostwriter/collection.git",
-                "reference": "6ea7d8419d027a7790c11851714407cd51ecd5ac"
+                "reference": "2d59c2922177b2e823c999232a238357a5ac18da"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/collection/zipball/6ea7d8419d027a7790c11851714407cd51ecd5ac",
-                "reference": "6ea7d8419d027a7790c11851714407cd51ecd5ac",
+                "url": "https://api.github.com/repos/ghostwriter/collection/zipball/2d59c2922177b2e823c999232a238357a5ac18da",
+                "reference": "2d59c2922177b2e823c999232a238357a5ac18da",
                 "shasum": ""
             },
             "require": {
-                "php": ">=8.0,<8.2"
+                "ghostwriter/option": "^0.3.0",
+                "php": ">=8.0,<8.3"
             },
             "require-dev": {
                 "infection/infection": "^0.26.13",
-                "phpbench/phpbench": "^1.2.5",
+                "phpbench/phpbench": "^1.2.6",
                 "phpunit/phpunit": "^9.5.21",
                 "psalm/plugin-phpunit": "^0.17.0",
-                "rector/rector": "^0.13.8",
-                "symplify/easy-coding-standard": "^11.0.8",
-                "vimeo/psalm": "^4.24.0"
+                "rector/rector": "^0.13.10",
+                "symplify/easy-coding-standard": "^11.0.9",
+                "vimeo/psalm": "^4.26"
             },
             "type": "library",
             "autoload": {
@@ -69,7 +70,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-07-13T06:35:23+00:00"
+            "time": "2022-08-06T01:47:05+00:00"
         },
         {
             "name": "ghostwriter/container",
@@ -134,31 +135,31 @@
         },
         {
             "name": "ghostwriter/environment",
-            "version": "0.3.0",
+            "version": "0.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ghostwriter/environment.git",
-                "reference": "62acea4c788f6bc6ae85d2de38893ad62d8b55ae"
+                "reference": "42ecd36c3796ad6293ae5139ae8df37b1f219913"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/environment/zipball/62acea4c788f6bc6ae85d2de38893ad62d8b55ae",
-                "reference": "62acea4c788f6bc6ae85d2de38893ad62d8b55ae",
+                "url": "https://api.github.com/repos/ghostwriter/environment/zipball/42ecd36c3796ad6293ae5139ae8df37b1f219913",
+                "reference": "42ecd36c3796ad6293ae5139ae8df37b1f219913",
                 "shasum": ""
             },
             "require": {
-                "ghostwriter/collection": "^0.4.1",
+                "ghostwriter/collection": "^0.5.0",
                 "php": ">=8.0,<8.2"
             },
             "require-dev": {
                 "infection/infection": "^0.26.13",
                 "nikic/php-parser": "^4.14.0",
-                "phpbench/phpbench": "^1.2.5",
+                "phpbench/phpbench": "^1.2.6",
                 "phpunit/phpunit": "^9.5.21",
                 "psalm/plugin-phpunit": "^0.17.0",
-                "rector/rector": "^0.13.8",
-                "symplify/easy-coding-standard": "^11.0.8",
-                "vimeo/psalm": "^4.24.0"
+                "rector/rector": "^0.13.10",
+                "symplify/easy-coding-standard": "^11.0.9",
+                "vimeo/psalm": "^4.26"
             },
             "type": "library",
             "autoload": {
@@ -199,7 +200,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-07-13T06:51:36+00:00"
+            "time": "2022-08-06T04:37:35+00:00"
         },
         {
             "name": "ghostwriter/event-dispatcher",
@@ -266,17 +267,159 @@
             "time": "2022-07-05T19:24:46+00:00"
         },
         {
-            "name": "ghostwriter/json",
-            "version": "0.1.0",
+            "name": "ghostwriter/finder",
+            "version": "dev-main",
             "source": {
                 "type": "git",
-                "url": "https://github.com/ghostwriter/json.git",
-                "reference": "aca5c81e89a8f7ce0aab37a9043c6ce1e74ff059"
+                "url": "https://github.com/ghostwriter/finder.git",
+                "reference": "0e45b7d8b3bc869a204e326d0bb691d8ef4fcfd6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/json/zipball/aca5c81e89a8f7ce0aab37a9043c6ce1e74ff059",
-                "reference": "aca5c81e89a8f7ce0aab37a9043c6ce1e74ff059",
+                "url": "https://api.github.com/repos/ghostwriter/finder/zipball/0e45b7d8b3bc869a204e326d0bb691d8ef4fcfd6",
+                "reference": "0e45b7d8b3bc869a204e326d0bb691d8ef4fcfd6",
+                "shasum": ""
+            },
+            "require": {
+                "ghostwriter/collection": "^0.5.0",
+                "ghostwriter/container": "^0.6.0",
+                "ghostwriter/environment": "^0.4.0",
+                "ghostwriter/event-dispatcher": "^0.4.2",
+                "ghostwriter/option": "^0.3.0",
+                "ghostwriter/result": "^0.3.0",
+                "php": ">=8.0,<8.2"
+            },
+            "require-dev": {
+                "infection/infection": "^0.26.13",
+                "phpunit/phpunit": "^9.5.21",
+                "psalm/plugin-phpunit": "^0.17.0",
+                "rector/rector": "^0.13.10",
+                "symplify/easy-coding-standard": "^11.0.9",
+                "vimeo/psalm": "^4.26.0"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Ghostwriter\\Finder\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Nathanael Esayeas",
+                    "email": "nathanael.esayeas@protonmail.com",
+                    "homepage": "https://github.com/ghostwriter",
+                    "role": "Developer"
+                }
+            ],
+            "description": "🔍 Finder: find files and directories.",
+            "homepage": "https://github.com/ghostwriter/finder",
+            "keywords": [
+                "finder",
+                "ghostwriter"
+            ],
+            "support": {
+                "docs": "https://github.com/ghostwriter/finder",
+                "forum": "https://github.com/ghostwriter/finder/discussions",
+                "issues": "https://github.com/ghostwriter/finder/issues",
+                "rss": "https://github.com/ghostwriter/finder/releases.atom",
+                "source": "https://github.com/ghostwriter/finder"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/sponsors/ghostwriter",
+                    "type": "github"
+                }
+            ],
+            "time": "2022-08-11T15:34:31+00:00"
+        },
+        {
+            "name": "ghostwriter/http",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ghostwriter/http.git",
+                "reference": "16ae1a058869385a98ccd563a81e7d6a553bd2f4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ghostwriter/http/zipball/16ae1a058869385a98ccd563a81e7d6a553bd2f4",
+                "reference": "16ae1a058869385a98ccd563a81e7d6a553bd2f4",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": ">=7.38",
+                "php": ">=8.0,<8.2"
+            },
+            "require-dev": {
+                "infection/infection": "^0.26.13",
+                "phpbench/phpbench": "^1.2.5",
+                "phpunit/phpunit": "^9.5.21",
+                "psalm/plugin-phpunit": "^0.17.0",
+                "rector/rector": "^0.13.8",
+                "symplify/easy-coding-standard": "^11.0.8",
+                "vimeo/psalm": "^4.24.0"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Ghostwriter\\Http\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Nathanael Esayeas",
+                    "email": "nathanael.esayeas@protonmail.com",
+                    "homepage": "https://github.com/ghostwriter",
+                    "role": "Developer"
+                }
+            ],
+            "description": "HTTP Client and Server abstraction for PHP inspired by PSR-7, PSR-15, PSR-17 and PSR-18 specification.",
+            "homepage": "https://github.com/ghostwriter/http",
+            "keywords": [
+                "ghostwriter",
+                "http",
+                "psr-15",
+                "psr-17",
+                "psr-18",
+                "psr-7"
+            ],
+            "support": {
+                "docs": "https://github.com/ghostwriter/http",
+                "forum": "https://github.com/ghostwriter/http/discussions",
+                "issues": "https://github.com/ghostwriter/http/issues",
+                "rss": "https://github.com/ghostwriter/http/releases.atom",
+                "source": "https://github.com/ghostwriter/http"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/sponsors/ghostwriter",
+                    "type": "github"
+                }
+            ],
+            "time": "2022-07-11T15:09:38+00:00"
+        },
+        {
+            "name": "ghostwriter/json",
+            "version": "0.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ghostwriter/json.git",
+                "reference": "126bf5fb4fadef66d5f436e720f60eccdbf33d4c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ghostwriter/json/zipball/126bf5fb4fadef66d5f436e720f60eccdbf33d4c",
+                "reference": "126bf5fb4fadef66d5f436e720f60eccdbf33d4c",
                 "shasum": ""
             },
             "require": {
@@ -285,13 +428,12 @@
             },
             "require-dev": {
                 "infection/infection": "^0.26.13",
-                "nikic/php-parser": "^4.14.0",
-                "phpbench/phpbench": "^1.2.5",
+                "phpbench/phpbench": "^1.2.6",
                 "phpunit/phpunit": "^9.5.21",
                 "psalm/plugin-phpunit": "^0.17.0",
-                "rector/rector": "^0.13.8",
-                "symplify/easy-coding-standard": "^11.0.8",
-                "vimeo/psalm": "^4.24.0"
+                "rector/rector": "^0.13.10",
+                "symplify/easy-coding-standard": "^11.1.2",
+                "vimeo/psalm": "^4.26.0"
             },
             "type": "library",
             "autoload": {
@@ -330,7 +472,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-07-11T22:12:31+00:00"
+            "time": "2022-08-09T11:00:30+00:00"
         },
         {
             "name": "ghostwriter/option",
@@ -2538,23 +2680,23 @@
         },
         {
             "name": "phpunit/php-code-coverage",
-            "version": "9.2.15",
+            "version": "9.2.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-code-coverage.git",
-                "reference": "2e9da11878c4202f97915c1cb4bb1ca318a63f5f"
+                "reference": "2593003befdcc10db5e213f9f28814f5aa8ac073"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/2e9da11878c4202f97915c1cb4bb1ca318a63f5f",
-                "reference": "2e9da11878c4202f97915c1cb4bb1ca318a63f5f",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/2593003befdcc10db5e213f9f28814f5aa8ac073",
+                "reference": "2593003befdcc10db5e213f9f28814f5aa8ac073",
                 "shasum": ""
             },
             "require": {
                 "ext-dom": "*",
                 "ext-libxml": "*",
                 "ext-xmlwriter": "*",
-                "nikic/php-parser": "^4.13.0",
+                "nikic/php-parser": "^4.14",
                 "php": ">=7.3",
                 "phpunit/php-file-iterator": "^3.0.3",
                 "phpunit/php-text-template": "^2.0.2",
@@ -2603,7 +2745,7 @@
             ],
             "support": {
                 "issues": "https://github.com/sebastianbergmann/php-code-coverage/issues",
-                "source": "https://github.com/sebastianbergmann/php-code-coverage/tree/9.2.15"
+                "source": "https://github.com/sebastianbergmann/php-code-coverage/tree/9.2.16"
             },
             "funding": [
                 {
@@ -2611,7 +2753,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-03-07T09:28:20+00:00"
+            "time": "2022-08-20T05:26:47+00:00"
         },
         {
             "name": "phpunit/php-file-iterator",
@@ -2856,16 +2998,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "9.5.21",
+            "version": "9.5.22",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "0e32b76be457de00e83213528f6bb37e2a38fcb1"
+                "reference": "e329ac6e8744f461518272612a479fde958752fe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/0e32b76be457de00e83213528f6bb37e2a38fcb1",
-                "reference": "0e32b76be457de00e83213528f6bb37e2a38fcb1",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/e329ac6e8744f461518272612a479fde958752fe",
+                "reference": "e329ac6e8744f461518272612a479fde958752fe",
                 "shasum": ""
             },
             "require": {
@@ -2942,7 +3084,7 @@
             ],
             "support": {
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
-                "source": "https://github.com/sebastianbergmann/phpunit/tree/9.5.21"
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/9.5.22"
             },
             "funding": [
                 {
@@ -2954,7 +3096,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-06-19T12:14:25+00:00"
+            "time": "2022-08-20T08:25:46+00:00"
         },
         {
             "name": "psalm/plugin-phpunit",
@@ -5382,16 +5524,16 @@
         },
         {
             "name": "symplify/easy-coding-standard",
-            "version": "11.0.9",
+            "version": "11.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symplify/easy-coding-standard.git",
-                "reference": "f5fa37979195781fac1b7adbc64101501f5b6de1"
+                "reference": "0cdd7d2e7868fa2776c8a32cdfe1a8d5055dee05"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symplify/easy-coding-standard/zipball/f5fa37979195781fac1b7adbc64101501f5b6de1",
-                "reference": "f5fa37979195781fac1b7adbc64101501f5b6de1",
+                "url": "https://api.github.com/repos/symplify/easy-coding-standard/zipball/0cdd7d2e7868fa2776c8a32cdfe1a8d5055dee05",
+                "reference": "0cdd7d2e7868fa2776c8a32cdfe1a8d5055dee05",
                 "shasum": ""
             },
             "require": {
@@ -5421,7 +5563,7 @@
             ],
             "description": "Prefixed scoped version of ECS package",
             "support": {
-                "source": "https://github.com/symplify/easy-coding-standard/tree/11.0.9"
+                "source": "https://github.com/symplify/easy-coding-standard/tree/11.1.5"
             },
             "funding": [
                 {
@@ -5433,20 +5575,20 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-07-28T17:42:26+00:00"
+            "time": "2022-08-16T08:53:49+00:00"
         },
         {
             "name": "thecodingmachine/safe",
-            "version": "v2.2.2",
+            "version": "v2.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thecodingmachine/safe.git",
-                "reference": "440284f9592c9df402832452a6871a8b3c48d97e"
+                "reference": "e454a3142d2197694d1fda291a4462ccd3f66e12"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thecodingmachine/safe/zipball/440284f9592c9df402832452a6871a8b3c48d97e",
-                "reference": "440284f9592c9df402832452a6871a8b3c48d97e",
+                "url": "https://api.github.com/repos/thecodingmachine/safe/zipball/e454a3142d2197694d1fda291a4462ccd3f66e12",
+                "reference": "e454a3142d2197694d1fda291a4462ccd3f66e12",
                 "shasum": ""
             },
             "require": {
@@ -5569,9 +5711,9 @@
             "description": "PHP core functions that throw exceptions instead of returning FALSE on error",
             "support": {
                 "issues": "https://github.com/thecodingmachine/safe/issues",
-                "source": "https://github.com/thecodingmachine/safe/tree/v2.2.2"
+                "source": "https://github.com/thecodingmachine/safe/tree/v2.2.3"
             },
-            "time": "2022-07-20T17:46:34+00:00"
+            "time": "2022-08-04T14:05:49+00:00"
         },
         {
             "name": "theseer/tokenizer",
@@ -5842,7 +5984,10 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "ghostwriter/finder": 20,
+        "ghostwriter/http": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
