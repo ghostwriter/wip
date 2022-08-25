@@ -45,7 +45,7 @@
         "infection/infection": "^0.26.13",
         "nikic/php-parser": "^4.14.0",
         "phpbench/phpbench": "^1.2.6",
-        "phpunit/phpunit": "^9.5.22",
+        "phpunit/phpunit": "^9.5.23",
         "psalm/plugin-phpunit": "^0.17.0",
         "rector/rector": "^0.13.10",
         "symplify/easy-coding-standard": "^11.1.5",
