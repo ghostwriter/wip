@@ -30,26 +30,25 @@
         }
     ],
     "require": {
-        "php": ">=8.0,<8.2",
-        "ghostwriter/collection": "^0.5.0",
-        "ghostwriter/container": "^0.6.0",
+        "php": ">=8.0,<8.3",
+        "ghostwriter/collection": "^0.5.1",
+        "ghostwriter/container": "^0.7.0",
         "ghostwriter/environment": "^0.4.0",
-        "ghostwriter/event-dispatcher": "^0.4.2",
-        "ghostwriter/finder": "dev-main",
+        "ghostwriter/event-dispatcher": "^0.4.3",
         "ghostwriter/http": "dev-main",
-        "ghostwriter/json": "^0.1.1",
-        "ghostwriter/option": "^0.3.0",
-        "ghostwriter/result": "^0.3.0"
+        "ghostwriter/json": "dev-main",
+        "ghostwriter/option": "^1.0.0",
+        "ghostwriter/result": "^1.0.0"
     },
     "require-dev": {
-        "infection/infection": "^0.26.14",
+        "infection/infection": "^0.26.15",
         "nikic/php-parser": "^4.15.1",
         "phpbench/phpbench": "^1.2.6",
-        "phpunit/phpunit": "^9.5.24",
+        "phpunit/phpunit": "^9.5.25",
         "psalm/plugin-phpunit": "^0.17.0",
-        "rector/rector": "^0.14.2",
-        "symplify/easy-coding-standard": "^11.1.9",
-        "vimeo/psalm": "^4.27"
+        "rector/rector": "^0.14.5",
+        "symplify/easy-coding-standard": "^11.1.10",
+        "vimeo/psalm": "^4.27.0"
     },
     "replace": {},
     "minimum-stability": "stable",
