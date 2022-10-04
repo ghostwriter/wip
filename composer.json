@@ -30,15 +30,13 @@
         }
     ],
     "require": {
-        "php": ">=8.0,<8.3",
+        "php": ">=8.1,<8.3",
         "ghostwriter/collection": "^0.5.1",
-        "ghostwriter/container": "^0.7.0",
-        "ghostwriter/environment": "^0.4.0",
-        "ghostwriter/event-dispatcher": "^0.4.3",
-        "ghostwriter/http": "dev-main",
-        "ghostwriter/json": "dev-main",
-        "ghostwriter/option": "^1.0.0",
-        "ghostwriter/result": "^1.0.0"
+        "ghostwriter/container": "^1.0.0",
+        "ghostwriter/event-dispatcher": "^1.0.0",
+        "ghostwriter/json": "^1.0.0",
+        "ghostwriter/option": "^1.0.1",
+        "ghostwriter/result": "^1.0.1"
     },
     "require-dev": {
         "infection/infection": "^0.26.15",
@@ -93,20 +91,14 @@
             "@cs-check",
             "@cs-fix",
             "@test",
-            "@psalm",
+            "@psalm:security",
             "@rector:dry-run",
-            "@psalm:security"
+            "@psalm:dry-run"
         ],
         "cs-check": "vendor/bin/ecs check --clear-cache || true",
         "cs-fix": [
             "vendor/bin/ecs check --fix --clear-cache",
             "vendor/bin/ecs check-markdown --fix --clear-cache"
-        ],
-        "dev": [
-            "@cs-fix",
-            "@test",
-            "@psalm",
-            "@infection"
         ],
         "infection": [
             "@putenv XDEBUG_MODE=coverage",
@@ -114,7 +106,6 @@
         ],
         "missing-returntypes": "psalm --alter --issues=MissingReturnType",
         "normalizer": "composer normalize --no-check-lock",
-        "phpbench": "phpbench run",
         "phpunit": "phpunit --colors=always --testdox --stop-on-failure",
         "psalm": "@psalm:shepherd",
         "psalm:baseline": "psalm --set-baseline=psalm-baseline.xml",
@@ -126,7 +117,9 @@
         "rector:dry-run": "vendor/bin/rector process --dry-run || true",
         "test": [
             "@xdebug",
-            "@phpunit"
+            "@phpunit",
+            "@psalm",
+            "@infection"
         ],
         "test:coverage": [
             "@cache:clear",
