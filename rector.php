@@ -74,7 +74,6 @@ return static function (RectorConfig $rectorConfig): void {
         SetList::TYPE_DECLARATION_STRICT,
         SetList::EARLY_RETURN,
         SetList::PHP_81,
-        SetList::RECTOR_CONFIG,
     ]);
     $rectorConfig->paths([
         __DIR__ . '/bin',
