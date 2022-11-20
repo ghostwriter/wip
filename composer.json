@@ -33,7 +33,7 @@
         "php": ">=8.1,<8.3",
         "ghostwriter/collection": "^0.5.1",
         "ghostwriter/container": "^1.0.0",
-        "ghostwriter/event-dispatcher": "^1.0.0",
+        "ghostwriter/event-dispatcher": "^1.0.2",
         "ghostwriter/json": "^1.0.0",
         "ghostwriter/option": "^1.0.1",
         "ghostwriter/result": "^1.0.1"
