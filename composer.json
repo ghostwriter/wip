@@ -31,10 +31,10 @@
     ],
     "require": {
         "php": ">=8.1,<8.3",
-        "ghostwriter/collection": "^0.5.1",
-        "ghostwriter/container": "^1.0.0",
-        "ghostwriter/event-dispatcher": "^1.0.2",
-        "ghostwriter/json": "^1.0.0",
+        "ghostwriter/collection": "^1.0",
+        "ghostwriter/container": "^1.1",
+        "ghostwriter/event-dispatcher": "^1.0",
+        "ghostwriter/json": "^1.0",
         "ghostwriter/option": "^1.1",
         "ghostwriter/result": "^1.0.1"
     },
@@ -43,10 +43,10 @@
         "nikic/php-parser": "^4.15",
         "phpbench/phpbench": "^1.2",
         "phpunit/phpunit": "^9.5",
-        "psalm/plugin-phpunit": "^0.17",
+        "psalm/plugin-phpunit": "^0.18",
         "rector/rector": "^0.14",
         "symplify/easy-coding-standard": "^11.1",
-        "vimeo/psalm": "^4.30"
+        "vimeo/psalm": "^5.1"
     },
     "replace": {},
     "minimum-stability": "stable",
@@ -79,7 +79,10 @@
         "preferred-install": "dist",
         "prepend-autoloader": true,
         "process-timeout": 5000,
-        "sort-packages": true
+        "sort-packages": true,
+        "platform": {
+            "php": "8.0.99"
+        }
     },
     "scripts": {
         "cache:clear": [
