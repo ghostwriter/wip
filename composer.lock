@@ -4,34 +4,34 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b798db89483634b3333f309c19592b20",
+    "content-hash": "a0f8e6d7e7e6b0d91ef5c6ce9fb06835",
     "packages": [
         {
             "name": "ghostwriter/collection",
-            "version": "0.5.1",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ghostwriter/collection.git",
-                "reference": "daa113492813308d78e9672114b6d885fe56117f"
+                "reference": "18f6e24dc90d3e3c13b3657662bed4d157e73d2a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/collection/zipball/daa113492813308d78e9672114b6d885fe56117f",
-                "reference": "daa113492813308d78e9672114b6d885fe56117f",
+                "url": "https://api.github.com/repos/ghostwriter/collection/zipball/18f6e24dc90d3e3c13b3657662bed4d157e73d2a",
+                "reference": "18f6e24dc90d3e3c13b3657662bed4d157e73d2a",
                 "shasum": ""
             },
             "require": {
-                "ghostwriter/option": "^1.0",
+                "ghostwriter/option": "^1.2.0",
                 "php": ">=8.0,<8.3"
             },
             "require-dev": {
-                "infection/infection": "^0.26.15",
-                "phpbench/phpbench": "^1.2.6",
-                "phpunit/phpunit": "^9.5.25",
-                "psalm/plugin-phpunit": "^0.17.0",
-                "rector/rector": "^0.14.5",
-                "symplify/easy-coding-standard": "^11.1.10",
-                "vimeo/psalm": "^4.27"
+                "infection/infection": "^0.26",
+                "phpbench/phpbench": "^1.2",
+                "phpunit/phpunit": "^9.5",
+                "psalm/plugin-phpunit": "^0.18",
+                "rector/rector": "^0.14",
+                "symplify/easy-coding-standard": "^11.1",
+                "vimeo/psalm": "^5.0"
             },
             "type": "library",
             "autoload": {
@@ -70,7 +70,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-09-30T13:44:26+00:00"
+            "time": "2022-12-02T19:45:55+00:00"
         },
         {
             "name": "ghostwriter/container",
@@ -209,16 +209,16 @@
         },
         {
             "name": "ghostwriter/json",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ghostwriter/json.git",
-                "reference": "6b953b88fb6c713b90c0cd5cc37813868e6d019b"
+                "reference": "6beeaa939d69130f32d1180d743b1a6b1314d1dc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/json/zipball/6b953b88fb6c713b90c0cd5cc37813868e6d019b",
-                "reference": "6b953b88fb6c713b90c0cd5cc37813868e6d019b",
+                "url": "https://api.github.com/repos/ghostwriter/json/zipball/6beeaa939d69130f32d1180d743b1a6b1314d1dc",
+                "reference": "6beeaa939d69130f32d1180d743b1a6b1314d1dc",
                 "shasum": ""
             },
             "require": {
@@ -226,12 +226,12 @@
                 "php": ">=8.0,<8.3"
             },
             "require-dev": {
-                "infection/infection": "^0.26.15",
-                "phpunit/phpunit": "^9.5.25",
-                "psalm/plugin-phpunit": "^0.17.0",
-                "rector/rector": "^0.14.5",
-                "symplify/easy-coding-standard": "^11.1.10",
-                "vimeo/psalm": "^4.27.0"
+                "infection/infection": "^0.26",
+                "phpunit/phpunit": "^9.5",
+                "psalm/plugin-phpunit": "^0.18",
+                "rector/rector": "^0.14",
+                "symplify/easy-coding-standard": "^11.1",
+                "vimeo/psalm": "^5.1"
             },
             "type": "library",
             "autoload": {
@@ -270,20 +270,20 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-10-04T16:49:51+00:00"
+            "time": "2022-12-02T23:14:08+00:00"
         },
         {
             "name": "ghostwriter/option",
-            "version": "1.1.0",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ghostwriter/option.git",
-                "reference": "3ee3b565ae35d40b883edf97c9d777ec9e8c57ce"
+                "reference": "f566374f849f51bc5a89ec56a4afeaa5bbc71934"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/option/zipball/3ee3b565ae35d40b883edf97c9d777ec9e8c57ce",
-                "reference": "3ee3b565ae35d40b883edf97c9d777ec9e8c57ce",
+                "url": "https://api.github.com/repos/ghostwriter/option/zipball/f566374f849f51bc5a89ec56a4afeaa5bbc71934",
+                "reference": "f566374f849f51bc5a89ec56a4afeaa5bbc71934",
                 "shasum": ""
             },
             "require": {
@@ -335,7 +335,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-12-02T11:23:10+00:00"
+            "time": "2022-12-02T17:43:25+00:00"
         },
         {
             "name": "ghostwriter/result",
@@ -2930,16 +2930,16 @@
         },
         {
             "name": "psalm/plugin-phpunit",
-            "version": "0.17.0",
+            "version": "0.18.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/psalm/psalm-plugin-phpunit.git",
-                "reference": "45951541beef07e93e3ad197daf01da88e85c31d"
+                "reference": "e4ab3096653d9eb6f6d0ea5f4461898d59ae4dbc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/psalm/psalm-plugin-phpunit/zipball/45951541beef07e93e3ad197daf01da88e85c31d",
-                "reference": "45951541beef07e93e3ad197daf01da88e85c31d",
+                "url": "https://api.github.com/repos/psalm/psalm-plugin-phpunit/zipball/e4ab3096653d9eb6f6d0ea5f4461898d59ae4dbc",
+                "reference": "e4ab3096653d9eb6f6d0ea5f4461898d59ae4dbc",
                 "shasum": ""
             },
             "require": {
@@ -2947,7 +2947,7 @@
                 "composer/semver": "^1.4 || ^2.0 || ^3.0",
                 "ext-simplexml": "*",
                 "php": "^7.1 || ^8.0",
-                "vimeo/psalm": "dev-master || dev-4.x || ^4.5"
+                "vimeo/psalm": "dev-master || dev-4.x || ^4.7.1 || ^5@beta || ^5.0"
             },
             "conflict": {
                 "phpunit/phpunit": "<7.5"
@@ -2984,9 +2984,9 @@
             "description": "Psalm plugin for PHPUnit",
             "support": {
                 "issues": "https://github.com/psalm/psalm-plugin-phpunit/issues",
-                "source": "https://github.com/psalm/psalm-plugin-phpunit/tree/0.17.0"
+                "source": "https://github.com/psalm/psalm-plugin-phpunit/tree/0.18.4"
             },
-            "time": "2022-06-14T17:05:57+00:00"
+            "time": "2022-12-03T07:47:07+00:00"
         },
         {
             "name": "psr/cache",
@@ -5596,24 +5596,24 @@
         },
         {
             "name": "vimeo/psalm",
-            "version": "4.30.0",
+            "version": "5.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vimeo/psalm.git",
-                "reference": "d0bc6e25d89f649e4f36a534f330f8bb4643dd69"
+                "reference": "4defa177c89397c5e14737a80fe4896584130674"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vimeo/psalm/zipball/d0bc6e25d89f649e4f36a534f330f8bb4643dd69",
-                "reference": "d0bc6e25d89f649e4f36a534f330f8bb4643dd69",
+                "url": "https://api.github.com/repos/vimeo/psalm/zipball/4defa177c89397c5e14737a80fe4896584130674",
+                "reference": "4defa177c89397c5e14737a80fe4896584130674",
                 "shasum": ""
             },
             "require": {
                 "amphp/amp": "^2.4.2",
                 "amphp/byte-stream": "^1.5",
-                "composer/package-versions-deprecated": "^1.8.0",
+                "composer/package-versions-deprecated": "^1.10.0",
                 "composer/semver": "^1.4 || ^2.0 || ^3.0",
-                "composer/xdebug-handler": "^1.1 || ^2.0 || ^3.0",
+                "composer/xdebug-handler": "^2.0 || ^3.0",
                 "dnoegel/php-xdg-base-dir": "^0.1.1",
                 "ext-ctype": "*",
                 "ext-dom": "*",
@@ -5622,35 +5622,34 @@
                 "ext-mbstring": "*",
                 "ext-simplexml": "*",
                 "ext-tokenizer": "*",
-                "felixfbecker/advanced-json-rpc": "^3.0.3",
-                "felixfbecker/language-server-protocol": "^1.5",
+                "felixfbecker/advanced-json-rpc": "^3.1",
+                "felixfbecker/language-server-protocol": "^1.5.2",
                 "netresearch/jsonmapper": "^1.0 || ^2.0 || ^3.0 || ^4.0",
                 "nikic/php-parser": "^4.13",
                 "openlss/lib-array2xml": "^1.0",
-                "php": "^7.1|^8",
-                "sebastian/diff": "^3.0 || ^4.0",
-                "symfony/console": "^3.4.17 || ^4.1.6 || ^5.0 || ^6.0",
-                "symfony/polyfill-php80": "^1.25",
-                "webmozart/path-util": "^2.3"
+                "php": "^7.4 || ~8.0.0 || ~8.1.0 || ~8.2.0",
+                "sebastian/diff": "^4.0",
+                "symfony/console": "^4.1.6 || ^5.0 || ^6.0",
+                "symfony/filesystem": "^5.4 || ^6.0",
+                "symfony/polyfill-php80": "^1.25"
             },
             "provide": {
                 "psalm/psalm": "self.version"
             },
             "require-dev": {
-                "bamarni/composer-bin-plugin": "^1.2",
-                "brianium/paratest": "^4.0||^6.0",
+                "bamarni/composer-bin-plugin": "^1.4",
+                "brianium/paratest": "^6.0",
                 "ext-curl": "*",
+                "mockery/mockery": "^1.5",
+                "nunomaduro/mock-final-classes": "^1.1",
                 "php-parallel-lint/php-parallel-lint": "^1.2",
-                "phpdocumentor/reflection-docblock": "^5",
-                "phpmyadmin/sql-parser": "5.1.0||dev-master",
-                "phpspec/prophecy": ">=1.9.0",
-                "phpstan/phpdoc-parser": "1.2.* || 1.6.4",
-                "phpunit/phpunit": "^9.0",
-                "psalm/plugin-phpunit": "^0.16",
-                "slevomat/coding-standard": "^7.0",
-                "squizlabs/php_codesniffer": "^3.5",
-                "symfony/process": "^4.3 || ^5.0 || ^6.0",
-                "weirdan/prophecy-shim": "^1.0 || ^2.0"
+                "phpstan/phpdoc-parser": "^1.6",
+                "phpunit/phpunit": "^9.5",
+                "psalm/plugin-mockery": "^1.1",
+                "psalm/plugin-phpunit": "^0.18",
+                "slevomat/coding-standard": "^8.4",
+                "squizlabs/php_codesniffer": "^3.6",
+                "symfony/process": "^4.4 || ^5.0 || ^6.0"
             },
             "suggest": {
                 "ext-curl": "In order to send data to shepherd",
@@ -5666,17 +5665,14 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.x-dev",
+                    "dev-master": "5.x-dev",
+                    "dev-4.x": "4.x-dev",
                     "dev-3.x": "3.x-dev",
                     "dev-2.x": "2.x-dev",
                     "dev-1.x": "1.x-dev"
                 }
             },
             "autoload": {
-                "files": [
-                    "src/functions.php",
-                    "src/spl_object_id.php"
-                ],
                 "psr-4": {
                     "Psalm\\": "src/Psalm/"
                 }
@@ -5698,9 +5694,9 @@
             ],
             "support": {
                 "issues": "https://github.com/vimeo/psalm/issues",
-                "source": "https://github.com/vimeo/psalm/tree/4.30.0"
+                "source": "https://github.com/vimeo/psalm/tree/5.1.0"
             },
-            "time": "2022-11-06T20:37:08+00:00"
+            "time": "2022-12-02T01:23:35+00:00"
         },
         {
             "name": "webmozart/assert",
@@ -5808,57 +5804,6 @@
                 "source": "https://github.com/webmozarts/glob/tree/4.6.0"
             },
             "time": "2022-05-24T19:45:58+00:00"
-        },
-        {
-            "name": "webmozart/path-util",
-            "version": "2.3.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/webmozart/path-util.git",
-                "reference": "d939f7edc24c9a1bb9c0dee5cb05d8e859490725"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/webmozart/path-util/zipball/d939f7edc24c9a1bb9c0dee5cb05d8e859490725",
-                "reference": "d939f7edc24c9a1bb9c0dee5cb05d8e859490725",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.3",
-                "webmozart/assert": "~1.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^4.6",
-                "sebastian/version": "^1.0.1"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.3-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Webmozart\\PathUtil\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Bernhard Schussek",
-                    "email": "bschussek@gmail.com"
-                }
-            ],
-            "description": "A robust cross-platform utility for normalizing, comparing and modifying file paths.",
-            "support": {
-                "issues": "https://github.com/webmozart/path-util/issues",
-                "source": "https://github.com/webmozart/path-util/tree/2.3.0"
-            },
-            "abandoned": "symfony/filesystem",
-            "time": "2015-12-17T08:42:14+00:00"
         }
     ],
     "aliases": [],
