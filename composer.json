@@ -39,11 +39,12 @@
         "ghostwriter/result": "^1.0.1"
     },
     "require-dev": {
+        "ghostwriter/config": "^0.1.0",
         "infection/infection": "^0.26",
         "nikic/php-parser": "^4.15",
         "phpunit/phpunit": "^9.5",
         "psalm/plugin-phpunit": "^0.18",
-        "rector/rector": "^0.14",
+        "rector/rector": "^0.15.2",
         "symplify/easy-coding-standard": "^11.1",
         "vimeo/psalm": "^5.4"
     },
