@@ -1,12 +1,22 @@
 <?xml version="1.0"?>
 <psalm
+    allowInternalNamedArgumentCalls="false"
+    allowNamedArgumentCalls="false"
+    cacheDirectory=".cache/psalm"
+    checkForThrowsDocblock="false"
+    disableSuppressAll="true"
+    errorBaseline="psalm-baseline.xml"
     errorLevel="1"
+    findUnusedCode="false"
     findUnusedPsalmSuppress="true"
+    findUnusedVariablesAndParams="true"
+    ignoreInternalFunctionFalseReturn="false"
+    ignoreInternalFunctionNullReturn="false"
+    memoizeMethodCallResults="true"
+    strictBinaryOperands="true"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns="https://getpsalm.org/schema/config"
     xsi:schemaLocation="https://getpsalm.org/schema/config vendor/vimeo/psalm/config.xsd"
-    errorBaseline="psalm-baseline.xml"
-    cacheDirectory=".cache/psalm"
 >
     <projectFiles>
         <directory name="src"/>
@@ -15,19 +25,12 @@
             <directory name=".github"/>
             <directory name="config"/>
             <directory name="docs"/>
-            <directory name="tests/Fixture"/>
+            <directory name="tests/fixture"/>
             <directory name="vendor"/>
             <file name="ecs.php"/>
             <file name="rector.php"/>
         </ignoreFiles>
     </projectFiles>
-    <issueHandlers>
-        <MissingConstructor>
-            <errorLevel type="suppress">
-                <directory name="tests" />
-            </errorLevel>
-        </MissingConstructor>
-    </issueHandlers>
     <plugins>
         <pluginClass class="Psalm\PhpUnitPlugin\Plugin"/>
     </plugins>
