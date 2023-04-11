@@ -1547,12 +1547,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ghostwriter/coding-standard.git",
-                "reference": "3347d45029621ff6e82427f86c4d9e97b1526575"
+                "reference": "91afed13e0eb921c24d41c4ccd568b0085288c0f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/coding-standard/zipball/3347d45029621ff6e82427f86c4d9e97b1526575",
-                "reference": "3347d45029621ff6e82427f86c4d9e97b1526575",
+                "url": "https://api.github.com/repos/ghostwriter/coding-standard/zipball/91afed13e0eb921c24d41c4ccd568b0085288c0f",
+                "reference": "91afed13e0eb921c24d41c4ccd568b0085288c0f",
                 "shasum": ""
             },
             "require": {
@@ -1600,7 +1600,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-04-10T16:39:17+00:00"
+            "time": "2023-04-10T17:30:07+00:00"
         },
         {
             "name": "infection/abstract-testframework-adapter",
