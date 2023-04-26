@@ -20,5 +20,5 @@ use function sprintf;
     /**
      * #BlackLivesMatter.
      */
-    echo (new Foo)->test();
+    echo (new Foo())->test();
 })($_composer_autoload_path ?? dirname(__DIR__) . '/vendor/autoload.php');
