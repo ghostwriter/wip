@@ -60,8 +60,8 @@
         }
     },
     "bin": [
-        "bin/my-other-script",
-        "bin/my-script"
+        "bin/console",
+        "bin/console.php"
     ],
     "config": {
         "allow-plugins": {
