@@ -25,7 +25,7 @@
             <directory name=".github"/>
             <directory name="config"/>
             <directory name="docs"/>
-            <directory name="tests/fixture"/>
+            <directory name="tests/Fixture"/>
             <directory name="vendor"/>
             <file name="ecs.php"/>
             <file name="rector.php"/>
