@@ -36,7 +36,7 @@
         "ghostwriter/container": "^1.5",
         "ghostwriter/event-dispatcher": "^1.4.1",
         "ghostwriter/json": "^1.1",
-        "ghostwriter/option": "^1.4",
+        "ghostwriter/option": "^1.5",
         "ghostwriter/result": "^1.2"
     },
     "require-dev": {
