@@ -43,9 +43,9 @@
     <logging>
         <junit outputFile=".cache/phpunit/report.junit.xml"/>
     </logging>
-    <source>
+    <source restrictDeprecations="true" restrictNotices="true" restrictWarnings="true">
         <include>
-            <directory suffix=".php">src</directory>
+            <directory>src</directory>
         </include>
     </source>
     <testsuites>
