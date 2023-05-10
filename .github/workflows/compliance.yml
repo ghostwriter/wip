@@ -12,8 +12,8 @@ on:
   schedule:
     - cron: "0 * * * *" # Runs hourly
 
-  workflow_dispatch:
+  workflow_dispatch: # Manually Trigger workflow
 
 jobs:
   compliance:
-    uses: ghostwriter/compliance/.github/workflows/compliance-reusable.yml@main
+    uses: ghostwriter/compliance/.github/workflows/automation.yml@main
