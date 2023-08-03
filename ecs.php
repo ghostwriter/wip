@@ -11,9 +11,10 @@ use Symplify\EasyCodingStandard\Config\ECSConfig;
 
 return static function (ECSConfig $ecsConfig): void {
     $ecsConfig->import(__DIR__ . '/vendor/ghostwriter/coding-standard/ecs.php');
+
     $ecsConfig->paths([
         __DIR__ . '/bin',
-        __DIR__ . '/ecs.php',
+        __FILE__,
         __DIR__ . '/README.md',
         __DIR__ . '/rector.php',
         __DIR__ . '/src',
@@ -21,7 +22,7 @@ return static function (ECSConfig $ecsConfig): void {
     ]);
 
     $ecsConfig->skip([
-        '*/tests/Fixture/*',
+        __DIR__ . '/fixtures',
         '*/vendor/*',
         GroupImportFixer::class,
         BinaryOperatorSpacesFixer::class,
