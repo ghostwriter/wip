@@ -31,23 +31,24 @@
     ],
     "require": {
         "php": ">=8.1 <8.4",
-        "ghostwriter/collection": "^1.3.2",
-        "ghostwriter/config": "^0.4.1",
+        "ghostwriter/collection": "^1.3",
+        "ghostwriter/config": "^0.4",
         "ghostwriter/container": "^1.6",
-        "ghostwriter/event-dispatcher": "^1.4.2",
+        "ghostwriter/event-dispatcher": "^1.5",
         "ghostwriter/json": "^1.1",
-        "ghostwriter/option": "^1.5.1",
+        "ghostwriter/option": "^1.5",
         "ghostwriter/result": "^1.3"
     },
     "require-dev": {
-        "ghostwriter/coding-standard": "dev-main"
+        "ghostwriter/coding-standard": "dev-main",
+        "ghostwriter/phpunit-psalm-plugin": "dev-main"
     },
     "replace": {},
     "minimum-stability": "stable",
     "prefer-stable": true,
     "autoload": {
         "psr-4": {
-            "Ghostwriter\\wip\\": "src/"
+            "Ghostwriter\\Wip\\": "src/"
         },
         "files": [
             "src/constants.php",
@@ -56,7 +57,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Ghostwriter\\wip\\Tests\\": "tests/"
+            "Ghostwriter\\Wip\\Tests\\": "tests/"
         }
     },
     "bin": [
@@ -86,15 +87,18 @@
         "check": [
             "@composer validate",
             "@normalizer",
-            "@cs-check",
-            "@cs-fix",
+            "@ecs",
             "@test",
             "@psalm:security",
             "@rector:dry-run",
             "@psalm:dry-run"
         ],
-        "cs-check": "vendor/bin/ecs check --clear-cache || true",
-        "cs-fix": [
+        "ecs": [
+            "@ecs:fix",
+            "@ecs:check"
+        ],
+        "ecs:check": "vendor/bin/ecs check --clear-cache || true",
+        "ecs:fix": [
             "vendor/bin/ecs check --fix --clear-cache"
         ],
         "infection": [
@@ -103,13 +107,13 @@
         ],
         "missing-returntypes": "psalm --alter --issues=MissingReturnType",
         "normalizer": "composer normalize --no-check-lock",
-        "phpunit": "phpunit --colors=always --testdox --stop-on-failure",
+        "phpunit": "phpunit --colors=always",
         "psalm": "@psalm:shepherd",
-        "psalm:baseline": "psalm --set-baseline=psalm-baseline.xml",
+        "psalm:baseline": "psalm --no-cache --no-diff --set-baseline=psalm-baseline.xml",
         "psalm:dry-run": "psalm --alter --issues=all --dry-run",
         "psalm:missing": "psalm --alter --issues=MissingReturnType",
-        "psalm:security": "psalm --taint-analysis",
-        "psalm:shepherd": "psalm --shepherd --stats --no-diff --no-cache",
+        "psalm:security": "psalm --no-cache --taint-analysis",
+        "psalm:shepherd": "psalm --no-diff --no-cache --shepherd --stats",
         "rector": "vendor/bin/rector process",
         "rector:dry-run": "vendor/bin/rector process --dry-run || true",
         "test": [
