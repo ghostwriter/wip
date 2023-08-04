@@ -41,7 +41,7 @@
     },
     "require-dev": {
         "ghostwriter/coding-standard": "dev-main",
-        "ghostwriter/phpunit-psalm-plugin": "dev-main"
+        "ghostwriter/psalm-plugin": "0.1.x-dev"
     },
     "replace": {},
     "minimum-stability": "stable",
