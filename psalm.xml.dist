@@ -32,6 +32,6 @@
         </ignoreFiles>
     </projectFiles>
     <plugins>
-        <pluginClass class="Ghostwriter\PHPUnitPsalmPlugin\PHPUnitPlugin"/>
+        <pluginClass class="Ghostwriter\PsalmPlugin\Plugin"/>
     </plugins>
 </psalm>
