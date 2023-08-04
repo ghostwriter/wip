@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c443e4ec12a83bb11fee459a176c6414",
+    "content-hash": "c8a1c2dc0b3dd353d67d20e636aedb8a",
     "packages": [
         {
             "name": "ghostwriter/collection",
@@ -1524,40 +1524,44 @@
             "time": "2023-07-31T00:27:55+00:00"
         },
         {
-            "name": "ghostwriter/phpunit-psalm-plugin",
-            "version": "dev-main",
+            "name": "ghostwriter/psalm-plugin",
+            "version": "0.1.x-dev",
             "source": {
                 "type": "git",
-                "url": "https://github.com/ghostwriter/phpunit-psalm-plugin.git",
-                "reference": "5333d293a75f303aeb871f10369d9aa4a14d6460"
+                "url": "https://github.com/ghostwriter/psalm-plugin.git",
+                "reference": "fb3809487e74cb30a78da4030dbcc6f87a9bdeb8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/phpunit-psalm-plugin/zipball/5333d293a75f303aeb871f10369d9aa4a14d6460",
-                "reference": "5333d293a75f303aeb871f10369d9aa4a14d6460",
+                "url": "https://api.github.com/repos/ghostwriter/psalm-plugin/zipball/fb3809487e74cb30a78da4030dbcc6f87a9bdeb8",
+                "reference": "fb3809487e74cb30a78da4030dbcc6f87a9bdeb8",
                 "shasum": ""
             },
             "require": {
                 "ext-simplexml": "*",
+                "ghostwriter/collection": "^1.3",
+                "ghostwriter/config": "^0.4",
+                "ghostwriter/container": "^1.6",
+                "ghostwriter/event-dispatcher": "^1.5",
+                "ghostwriter/json": "^1.1",
+                "ghostwriter/option": "^1.5",
+                "ghostwriter/result": "^1.3",
                 "php": ">=8.1"
             },
             "require-dev": {
                 "ghostwriter/coding-standard": "dev-main",
-                "ghostwriter/psalm-plugin-tester": "dev-main",
-                "phpunit/phpunit": "^10.2 || ^11.0",
-                "psalm/plugin-phpunit": "^0.18",
-                "vimeo/psalm": "^5.14 || ^6.0"
+                "ghostwriter/psalm-plugin-tester": "dev-main"
             },
             "default-branch": true,
             "type": "psalm-plugin",
             "extra": {
                 "psalm": {
-                    "pluginClass": "Ghostwriter\\PHPUnitPsalmPlugin\\Plugin"
+                    "pluginClass": "Ghostwriter\\PsalmPlugin\\Plugin"
                 }
             },
             "autoload": {
                 "psr-4": {
-                    "Ghostwriter\\PHPUnitPsalmPlugin\\": "src/"
+                    "Ghostwriter\\PsalmPlugin\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1572,20 +1576,19 @@
                     "role": "Developer"
                 }
             ],
-            "description": "Provides a PHPUnit plugin for Psalm",
-            "homepage": "https://github.com/ghostwriter/phpunit-psalm-plugin",
+            "description": "Provides a plugin for Psalm",
+            "homepage": "https://github.com/ghostwriter/psalm-plugin",
             "keywords": [
                 "ghostwriter",
-                "phpunit",
+                "psalm",
                 "psalm-plugin"
             ],
             "support": {
-                "docs": "https://github.com/ghostwriter/phpunit-psalm-plugin",
-                "forum": "https://github.com/ghostwriter/phpunit-psalm-plugin/discussions",
-                "issues": "https://github.com/ghostwriter/phpunit-psalm-plugin/issues",
-                "rss": "https://github.com/ghostwriter/phpunit-psalm-plugin/releases.atom",
-                "security": "https://github.com/ghostwriter/phpunit-psalm-plugin/security/advisories",
-                "source": "https://github.com/ghostwriter/phpunit-psalm-plugin"
+                "docs": "https://github.com/ghostwriter/psalm-plugin",
+                "forum": "https://github.com/ghostwriter/psalm-plugin/discussions",
+                "issues": "https://github.com/ghostwriter/psalm-plugin/issues",
+                "rss": "https://github.com/ghostwriter/psalm-plugin/releases.atom",
+                "source": "https://github.com/ghostwriter/psalm-plugin"
             },
             "funding": [
                 {
@@ -1593,7 +1596,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-08-03T00:52:37+00:00"
+            "time": "2023-08-03T19:11:10+00:00"
         },
         {
             "name": "myclabs/deep-copy",
@@ -2042,16 +2045,16 @@
         },
         {
             "name": "phpstan/phpdoc-parser",
-            "version": "1.23.0",
+            "version": "1.23.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpdoc-parser.git",
-                "reference": "a2b24135c35852b348894320d47b3902a94bc494"
+                "reference": "846ae76eef31c6d7790fac9bc399ecee45160b26"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpdoc-parser/zipball/a2b24135c35852b348894320d47b3902a94bc494",
-                "reference": "a2b24135c35852b348894320d47b3902a94bc494",
+                "url": "https://api.github.com/repos/phpstan/phpdoc-parser/zipball/846ae76eef31c6d7790fac9bc399ecee45160b26",
+                "reference": "846ae76eef31c6d7790fac9bc399ecee45160b26",
                 "shasum": ""
             },
             "require": {
@@ -2083,9 +2086,9 @@
             "description": "PHPDoc parser with support for nullable, intersection and generic types",
             "support": {
                 "issues": "https://github.com/phpstan/phpdoc-parser/issues",
-                "source": "https://github.com/phpstan/phpdoc-parser/tree/1.23.0"
+                "source": "https://github.com/phpstan/phpdoc-parser/tree/1.23.1"
             },
-            "time": "2023-07-23T22:17:56+00:00"
+            "time": "2023-08-03T16:32:59+00:00"
         },
         {
             "name": "phpstan/phpstan",
@@ -2471,16 +2474,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "10.2.7",
+            "version": "10.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "a215d9ee8bac1733796e4ddff3306811f14414e5"
+                "reference": "c87ae282d17b256d09cfef0eb4f5db2d09cfd36a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/a215d9ee8bac1733796e4ddff3306811f14414e5",
-                "reference": "a215d9ee8bac1733796e4ddff3306811f14414e5",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/c87ae282d17b256d09cfef0eb4f5db2d09cfd36a",
+                "reference": "c87ae282d17b256d09cfef0eb4f5db2d09cfd36a",
                 "shasum": ""
             },
             "require": {
@@ -2520,7 +2523,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "10.2-dev"
+                    "dev-main": "10.3-dev"
                 }
             },
             "autoload": {
@@ -2552,7 +2555,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
                 "security": "https://github.com/sebastianbergmann/phpunit/security/policy",
-                "source": "https://github.com/sebastianbergmann/phpunit/tree/10.2.7"
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/10.3.0"
             },
             "funding": [
                 {
@@ -2568,7 +2571,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-08-02T06:46:08+00:00"
+            "time": "2023-08-04T03:56:35+00:00"
         },
         {
             "name": "psalm/plugin-phpunit",
@@ -2834,16 +2837,16 @@
         },
         {
             "name": "rector/rector",
-            "version": "0.17.9",
+            "version": "0.17.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rectorphp/rector.git",
-                "reference": "8451dc04753c8a5897a837aca5ceb7f58999759c"
+                "reference": "f4c0627d5e157272cf4783099730ef7241fddb14"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rectorphp/rector/zipball/8451dc04753c8a5897a837aca5ceb7f58999759c",
-                "reference": "8451dc04753c8a5897a837aca5ceb7f58999759c",
+                "url": "https://api.github.com/repos/rectorphp/rector/zipball/f4c0627d5e157272cf4783099730ef7241fddb14",
+                "reference": "f4c0627d5e157272cf4783099730ef7241fddb14",
                 "shasum": ""
             },
             "require": {
@@ -2883,7 +2886,7 @@
             ],
             "support": {
                 "issues": "https://github.com/rectorphp/rector/issues",
-                "source": "https://github.com/rectorphp/rector/tree/0.17.9"
+                "source": "https://github.com/rectorphp/rector/tree/0.17.10"
             },
             "funding": [
                 {
@@ -2891,7 +2894,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-08-03T13:14:27+00:00"
+            "time": "2023-08-03T14:19:51+00:00"
         },
         {
             "name": "sebastian/cli-parser",
@@ -5556,7 +5559,7 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "ghostwriter/coding-standard": 20,
-        "ghostwriter/phpunit-psalm-plugin": 20
+        "ghostwriter/psalm-plugin": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
