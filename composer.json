@@ -30,7 +30,7 @@
         }
     ],
     "require": {
-        "php": ">=8.1",
+        "php": ">=8.2",
         "ghostwriter/collection": "^1.4",
         "ghostwriter/config": "^0.4.1",
         "ghostwriter/container": "^1.6",
@@ -72,54 +72,36 @@
         "sort-packages": true
     },
     "scripts": {
-        "cache:clear": [
-            "rm -fr ./.cache"
-        ],
+        "bench": "vendor/bin/phpbench --colors=always",
+        "cache:clear": "rm -fr ./.cache",
         "check": [
             "@composer validate",
-            "@normalizer",
-            "@ecs",
-            "@test",
-            "@psalm:security",
-            "@rector:dry-run",
-            "@psalm:dry-run"
+            "@cs",
+            "@test"
         ],
-        "ecs": [
-            "@ecs:fix",
-            "@ecs:check"
+        "cs": [
+            "@phpcs",
+            "@phpcbf"
         ],
-        "ecs:check": "vendor/bin/ecs check --clear-cache || true",
-        "ecs:fix": [
-            "vendor/bin/ecs check --fix --clear-cache"
+        "infection": ["@xdebug","vendor/bin/infection --ansi --verbose"],
+        "phpcbf": "vendor/bin/phpcbf --colors --no-cache --standard=PSR12 -s ./src",
+        "phpcs": "vendor/bin/phpcs --colors --no-cache --standard=PSR12 -s ./src",
+        "phpunit": ["@xdebug","vendor/bin/phpunit --do-not-cache-result --colors=always --testdox --stop-on-failure"],
+        "phpunit:migrate": "vendor/bin/phpunit --migrate-configuration",
+        "psalm": [
+            "@psalm:shepherd",
+            "@psalm:security"
         ],
-        "infection": [
-            "@xdebug",
-            "vendor/bin/infection --verbose"
-        ],
-        "missing-returntypes": "psalm --alter --issues=MissingReturnType",
-        "normalizer": "composer normalize --no-check-lock",
-        "phpunit": "phpunit --colors=always",
-        "psalm": "@psalm:shepherd",
-        "psalm:baseline": "psalm --no-cache --no-diff --set-baseline=psalm-baseline.xml",
-        "psalm:dry-run": "psalm --alter --issues=all --dry-run",
-        "psalm:missing": "psalm --alter --issues=MissingReturnType",
-        "psalm:security": "psalm --no-cache --taint-analysis",
-        "psalm:shepherd": "psalm --no-diff --no-cache --shepherd --stats",
-        "rector": "vendor/bin/rector process",
-        "rector:dry-run": "vendor/bin/rector process --dry-run || true",
+        "psalm:baseline": "vendor/bin/psalm --set-baseline=psalm-baseline.xml",
+        "psalm:dry-run": "vendor/bin/psalm --alter --issues=all --dry-run",
+        "psalm:missing-return-types": "vendor/bin/psalm --alter --issues=MissingReturnType",
+        "psalm:security": "vendor/bin/psalm --taint-analysis",
+        "psalm:shepherd": "vendor/bin/psalm --shepherd --stats --no-diff --no-cache",
         "test": [
-            "@xdebug",
             "@phpunit",
             "@psalm",
             "@infection"
         ],
-        "test:coverage": [
-            "@cache:clear",
-            "@xdebug",
-            "@phpunit"
-        ],
-        "xdebug": [
-            "@putenv XDEBUG_MODE=coverage"
-        ]
+        "xdebug": "@putenv XDEBUG_MODE=coverage"
     }
 }
