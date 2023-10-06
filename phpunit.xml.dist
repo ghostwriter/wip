@@ -23,15 +23,9 @@
         failOnRisky="true"
         failOnSkipped="true"
         failOnWarning="true"
+        failOnDeprecation="true"
+        failOnNotice="true"
         requireCoverageMetadata="true"
-        stopOnDefect="true"
-        stopOnError="true"
-        stopOnFailure="true"
-        stopOnIncomplete="true"
-        stopOnRisky="true"
-        stopOnSkipped="true"
-        stopOnWarning="true"
-        testdox="true"
 >
     <coverage>
         <report>
@@ -40,9 +34,6 @@
             <text outputFile=".cache/phpunit/coverage.txt"/>
         </report>
     </coverage>
-    <logging>
-        <junit outputFile=".cache/phpunit/report.junit.xml"/>
-    </logging>
     <source restrictDeprecations="true" restrictNotices="true" restrictWarnings="true">
         <include>
             <directory>src</directory>
