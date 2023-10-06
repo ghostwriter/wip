@@ -34,7 +34,7 @@
         "ghostwriter/collection": "^1.4",
         "ghostwriter/config": "^0.4.1",
         "ghostwriter/container": "^1.6",
-        "ghostwriter/event-dispatcher": "^1.5",
+        "ghostwriter/event-dispatcher": "^1.5 || ^2.0",
         "ghostwriter/json": "^1.2",
         "ghostwriter/option": "^1.5.1",
         "ghostwriter/result": "^1.3"

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6bf913327801da4246c1d51dae7573f0",
+    "content-hash": "a3af9eb624e54b401549913c5e09782a",
     "packages": [
         {
             "name": "ghostwriter/collection",
@@ -183,30 +183,30 @@
         },
         {
             "name": "ghostwriter/event-dispatcher",
-            "version": "1.5.0",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ghostwriter/event-dispatcher.git",
-                "reference": "d612d5d8099c116d45c157a2a12de25b0d9ff69b"
+                "reference": "381346a6b633437d8dbb9a5ff2c5589229429ddc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/event-dispatcher/zipball/d612d5d8099c116d45c157a2a12de25b0d9ff69b",
-                "reference": "d612d5d8099c116d45c157a2a12de25b0d9ff69b",
+                "url": "https://api.github.com/repos/ghostwriter/event-dispatcher/zipball/381346a6b633437d8dbb9a5ff2c5589229429ddc",
+                "reference": "381346a6b633437d8dbb9a5ff2c5589229429ddc",
                 "shasum": ""
             },
             "require": {
                 "ghostwriter/container": "^1.6",
-                "ghostwriter/option": "^1.5.1",
-                "php": ">=8.1 <8.4"
+                "php": ">=8.2"
             },
             "require-dev": {
-                "ghostwriter/coding-standard": "dev-main"
+                "ghostwriter/coding-standard": "dev-main",
+                "ghostwriter/psalm-plugin": "^0 || ^1.0"
             },
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Ghostwriter\\EventDispatcher\\": "src/"
+                    "Ghostwriter\\EventDispatcher\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -240,7 +240,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-07-31T17:40:47+00:00"
+            "time": "2023-09-13T07:34:23+00:00"
         },
         {
             "name": "ghostwriter/json",
@@ -4134,5 +4134,5 @@
         "php": ">=8.2"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.6.0"
+    "plugin-api-version": "2.3.0"
 }
