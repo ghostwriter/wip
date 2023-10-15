@@ -40,7 +40,7 @@ If you discover any security-related issues, please use [`Security Advisories`](
 ### Credits
 
 - [Nathanael Esayeas](https://github.com/ghostwriter)
-- [All Contributors](https://github.com/ghostwriter/psalm-plugin/contributors)
+- [All Contributors](https://github.com/ghostwriter/wip/contributors)
 
 ### License
 
