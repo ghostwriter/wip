@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3103093978324659278f10823a11bb35",
+    "content-hash": "090ba8df05c27f4835d760397f7b1d3a",
     "packages": [
         {
             "name": "ghostwriter/collection",
@@ -591,16 +591,16 @@
         },
         {
             "name": "composer/pcre",
-            "version": "3.1.0",
+            "version": "3.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/pcre.git",
-                "reference": "4bff79ddd77851fe3cdd11616ed3f92841ba5bd2"
+                "reference": "00104306927c7a0919b4ced2aaa6782c1e61a3c9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/pcre/zipball/4bff79ddd77851fe3cdd11616ed3f92841ba5bd2",
-                "reference": "4bff79ddd77851fe3cdd11616ed3f92841ba5bd2",
+                "url": "https://api.github.com/repos/composer/pcre/zipball/00104306927c7a0919b4ced2aaa6782c1e61a3c9",
+                "reference": "00104306927c7a0919b4ced2aaa6782c1e61a3c9",
                 "shasum": ""
             },
             "require": {
@@ -642,7 +642,7 @@
             ],
             "support": {
                 "issues": "https://github.com/composer/pcre/issues",
-                "source": "https://github.com/composer/pcre/tree/3.1.0"
+                "source": "https://github.com/composer/pcre/tree/3.1.1"
             },
             "funding": [
                 {
@@ -658,7 +658,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-11-17T09:50:14+00:00"
+            "time": "2023-10-11T07:11:09+00:00"
         },
         {
             "name": "composer/semver",
@@ -1059,17 +1059,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ghostwriter/coding-standard.git",
-                "reference": "f4ee6cdefccded6448364522499a59d4f87d4050"
+                "reference": "9b51ddbb39be7c0229b7f76584dae04b48cdd8aa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/coding-standard/zipball/f4ee6cdefccded6448364522499a59d4f87d4050",
-                "reference": "f4ee6cdefccded6448364522499a59d4f87d4050",
+                "url": "https://api.github.com/repos/ghostwriter/coding-standard/zipball/9b51ddbb39be7c0229b7f76584dae04b48cdd8aa",
+                "reference": "9b51ddbb39be7c0229b7f76584dae04b48cdd8aa",
                 "shasum": ""
             },
             "require": {
                 "php": ">=8.1",
-                "phpunit/phpunit": "^10.3",
+                "phpunit/phpunit": "^10.4",
                 "vimeo/psalm": "^5.15"
             },
             "default-branch": true,
@@ -1082,7 +1082,8 @@
                 "tools/php-fuzzer",
                 "tools/phpbench",
                 "tools/phpcbf",
-                "tools/phpcs"
+                "tools/phpcs",
+                "tools/psalm"
             ],
             "type": "library",
             "notification-url": "https://packagist.org/downloads/",
@@ -1116,7 +1117,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-10-01T16:17:57+00:00"
+            "time": "2023-10-12T13:26:12+00:00"
         },
         {
             "name": "ghostwriter/psalm-plugin",
@@ -2007,16 +2008,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "10.4.0",
+            "version": "10.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "9784e877e3700de37475545bdbdce8383ff53d25"
+                "reference": "62bd7af13d282deeb95650077d28ba3600ca321c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/9784e877e3700de37475545bdbdce8383ff53d25",
-                "reference": "9784e877e3700de37475545bdbdce8383ff53d25",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/62bd7af13d282deeb95650077d28ba3600ca321c",
+                "reference": "62bd7af13d282deeb95650077d28ba3600ca321c",
                 "shasum": ""
             },
             "require": {
@@ -2088,7 +2089,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
                 "security": "https://github.com/sebastianbergmann/phpunit/security/policy",
-                "source": "https://github.com/sebastianbergmann/phpunit/tree/10.4.0"
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/10.4.1"
             },
             "funding": [
                 {
@@ -2104,7 +2105,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-10-06T03:41:22+00:00"
+            "time": "2023-10-08T05:01:11+00:00"
         },
         {
             "name": "psr/container",
