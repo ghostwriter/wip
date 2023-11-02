@@ -1059,12 +1059,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ghostwriter/coding-standard.git",
-                "reference": "9b51ddbb39be7c0229b7f76584dae04b48cdd8aa"
+                "reference": "90ad26707b8ae18f2a41da3ab96786cbfd5194ac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/coding-standard/zipball/9b51ddbb39be7c0229b7f76584dae04b48cdd8aa",
-                "reference": "9b51ddbb39be7c0229b7f76584dae04b48cdd8aa",
+                "url": "https://api.github.com/repos/ghostwriter/coding-standard/zipball/90ad26707b8ae18f2a41da3ab96786cbfd5194ac",
+                "reference": "90ad26707b8ae18f2a41da3ab96786cbfd5194ac",
                 "shasum": ""
             },
             "require": {
@@ -1117,7 +1117,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-10-12T13:26:12+00:00"
+            "time": "2023-11-02T13:11:58+00:00"
         },
         {
             "name": "ghostwriter/psalm-plugin",
@@ -2008,16 +2008,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "10.4.1",
+            "version": "10.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "62bd7af13d282deeb95650077d28ba3600ca321c"
+                "reference": "cacd8b9dd224efa8eb28beb69004126c7ca1a1a1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/62bd7af13d282deeb95650077d28ba3600ca321c",
-                "reference": "62bd7af13d282deeb95650077d28ba3600ca321c",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/cacd8b9dd224efa8eb28beb69004126c7ca1a1a1",
+                "reference": "cacd8b9dd224efa8eb28beb69004126c7ca1a1a1",
                 "shasum": ""
             },
             "require": {
@@ -2089,7 +2089,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
                 "security": "https://github.com/sebastianbergmann/phpunit/security/policy",
-                "source": "https://github.com/sebastianbergmann/phpunit/tree/10.4.1"
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/10.4.2"
             },
             "funding": [
                 {
@@ -2105,7 +2105,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-10-08T05:01:11+00:00"
+            "time": "2023-10-26T07:21:45+00:00"
         },
         {
             "name": "psr/container",
