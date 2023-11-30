@@ -20,4 +20,4 @@ use function sprintf;
      * #BlackLivesMatter.
      */
     echo (new Foo())->test();
-})($_composer_autoload_path);
+})($_composer_autoload_path ?? null);
