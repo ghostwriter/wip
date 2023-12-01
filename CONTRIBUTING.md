@@ -4,7 +4,7 @@ First of all thank you for considering to contribute.
 
 Individuals making significant and valuable contributions are made Collaborators and given commit-access to the project.
 
-> **Warning**
+> [!IMPORTANT]
 >
 > This project uses GitHub Issues to track bugs and feature requests.
 >
