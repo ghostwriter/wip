@@ -31,6 +31,7 @@
     ],
     "require": {
         "php": ">=8.2",
+        "ghostwriter/clock": "^1.1",
         "ghostwriter/collection": "^1.4",
         "ghostwriter/config": "^0.4",
         "ghostwriter/container": "^2.0",
@@ -88,15 +89,16 @@
         "phpcs": "vendor/bin/phpcs --colors --no-cache --standard=PSR12 -s ./src",
         "phpunit": ["@xdebug","vendor/bin/phpunit --do-not-cache-result --colors=always --testdox --stop-on-failure"],
         "phpunit:migrate": "vendor/bin/phpunit --migrate-configuration",
-        "psalm": [
+        "psalm": "tools/psalm --shepherd --stats --no-diff --no-cache ",
+        "psalm:home": [
             "@psalm:shepherd",
             "@psalm:security"
         ],
-        "psalm:baseline": "vendor/bin/psalm --set-baseline=psalm-baseline.xml",
-        "psalm:dry-run": "vendor/bin/psalm --alter --issues=all --dry-run",
-        "psalm:missing-return-types": "vendor/bin/psalm --alter --issues=MissingReturnType",
-        "psalm:security": "vendor/bin/psalm --taint-analysis",
-        "psalm:shepherd": "vendor/bin/psalm --shepherd --stats --no-diff --no-cache",
+        "psalm:baseline": "@psalm --set-baseline=psalm-baseline.xml",
+        "psalm:dry-run": "@psalm --alter --issues=all --dry-run",
+        "psalm:missing-return-types": "@psalm --alter --issues=MissingReturnType",
+        "psalm:security": "@psalm --taint-analysis",
+        "psalm:shepherd": "@psalm --shepherd --stats --no-diff --no-cache",
         "test": [
             "@phpunit",
             "@psalm",
