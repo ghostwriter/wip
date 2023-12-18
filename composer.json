@@ -31,7 +31,7 @@
     ],
     "require": {
         "php": ">=8.2",
-        "ghostwriter/clock": "^1.1",
+        "ghostwriter/clock": "^1.1 || ^2.0",
         "ghostwriter/collection": "^1.4",
         "ghostwriter/config": "^0.4",
         "ghostwriter/container": "^2.0",

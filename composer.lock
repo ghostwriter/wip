@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d86539b34aaa460d3c39635cff295b32",
+    "content-hash": "b2e22580823f3634ee2d93563c45ed3e",
     "packages": [
         {
             "name": "ghostwriter/clock",
-            "version": "1.1.0",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ghostwriter/clock.git",
-                "reference": "df85e68d5d74cfb629ea91c8d1e0f04338ca25a9"
+                "reference": "60617f8b14533d6c37e3ba16ec2e6d61e5617884"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/clock/zipball/df85e68d5d74cfb629ea91c8d1e0f04338ca25a9",
-                "reference": "df85e68d5d74cfb629ea91c8d1e0f04338ca25a9",
+                "url": "https://api.github.com/repos/ghostwriter/clock/zipball/60617f8b14533d6c37e3ba16ec2e6d61e5617884",
+                "reference": "60617f8b14533d6c37e3ba16ec2e6d61e5617884",
                 "shasum": ""
             },
             "require": {
@@ -64,7 +64,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-09-29T03:22:58+00:00"
+            "time": "2023-12-16T06:50:14+00:00"
         },
         {
             "name": "ghostwriter/collection",
