@@ -23,6 +23,10 @@ You can install the package via composer:
 composer require ghostwriter/wip
 ```
 
+### Star ⭐️ this repo if you find it useful
+
+You can also star (🌟) this repo to find it easier later.
+
 ## Usage
 
 ```php
