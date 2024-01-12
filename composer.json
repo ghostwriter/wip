@@ -30,7 +30,7 @@
         }
     ],
     "require": {
-        "php": ">=8.2",
+        "php": "^8.3",
         "ghostwriter/clock": "^2.0",
         "ghostwriter/collection": "^1.4",
         "ghostwriter/config": "^0.4",
