@@ -11,7 +11,7 @@
 
 work in progress
 
-> **Warning**
+> [!WARNING]
 >
 > This project is not finished yet, work in progress.
 
