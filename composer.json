@@ -31,12 +31,13 @@
     ],
     "require": {
         "php": "^8.3",
+        "ghostwriter/case-converter": "^1.0",
         "ghostwriter/clock": "^2.0",
         "ghostwriter/collection": "^1.4",
         "ghostwriter/config": "^0.4",
-        "ghostwriter/container": "^2.0",
-        "ghostwriter/event-dispatcher": "^3.0",
-        "ghostwriter/json": "^2.0",
+        "ghostwriter/container": "^3.0",
+        "ghostwriter/event-dispatcher": "^4.0",
+        "ghostwriter/json": "^3.0",
         "ghostwriter/option": "^1.5",
         "ghostwriter/result": "^1.3"
     },
