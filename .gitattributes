@@ -5,7 +5,6 @@
 *.png binary
 *.jpg binary
 /.github/ export-ignore
-/docs/ export-ignore
 /fixtures/ export-ignore
 /tests/ export-ignore
 /.editorconfig export-ignore
