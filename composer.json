@@ -75,23 +75,22 @@
         "optimize-autoloader": true,
         "preferred-install": "dist",
         "prepend-autoloader": true,
+        "process-timeout": 5000,
         "sort-packages": true,
         "use-parent-dir": false
     },
     "scripts": {
-        "bench": "vendor/ghostwriter/coding-standard/tools/phpbench run --revs=10 --iterations=10 --report='extends:aggregate,cols:[benchmark,subject,revs,its,mem_peak,mode,rstdev]' --time-unit=milliseconds",
         "cache:clear": "rm -rf ./.cache/*",
         "check": [
             "@composer validate",
             "@ecs",
             "@test"
         ],
-        "composer-normalize": "vendor/ghostwriter/coding-standard/tools/composer-normalize --no-check-lock",
+        "composer-normalize": "vendor/ghostwriter/coding-standard/tools/composer-normalize --no-cache --diff --no-check-lock --no-scripts --no-plugins",
         "composer-require-checker": "vendor/ghostwriter/coding-standard/tools/composer-require-checker check",
         "composer-unused": "vendor/ghostwriter/coding-standard/tools/composer-unused",
         "dev": [
             "@cache:clear",
-            "@composer update --no-plugins --no-scripts --no-progress --no-interaction --prefer-stable --with-dependencies",
             "@composer-normalize",
             "@psalm:baseline",
             "@check",
