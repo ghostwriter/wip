@@ -30,7 +30,7 @@
         }
     ],
     "require": {
-        "php": "^8.3",
+        "php": ">=8.3",
         "ghostwriter/case-converter": "^1.0.0",
         "ghostwriter/clock": "^2.0.0",
         "ghostwriter/collection": "^2.0.0",
@@ -67,47 +67,53 @@
         "bin/console.php"
     ],
     "config": {
+        "allow-plugins": {
+            "ghostwriter/coding-standard": true
+        },
+        "classmap-authoritative": false,
         "discard-changes": true,
         "optimize-autoloader": true,
         "preferred-install": "dist",
         "prepend-autoloader": true,
         "sort-packages": true,
-        "allow-plugins": {
-            "ghostwriter/coding-standard": true
-        }
+        "use-parent-dir": false
     },
     "scripts": {
-        "bench": "vendor/bin/phpbench --colors=always",
-        "cache:clear": "rm -fr ./.cache",
+        "bench": "vendor/ghostwriter/coding-standard/tools/phpbench run --revs=10 --iterations=10 --report='extends:aggregate,cols:[benchmark,subject,revs,its,mem_peak,mode,rstdev]' --time-unit=milliseconds",
+        "cache:clear": "rm -rf ./.cache/*",
         "check": [
             "@composer validate",
-            "@cs",
+            "@ecs",
             "@test"
         ],
-        "cs": [
-            "@phpcs",
-            "@phpcbf"
+        "composer-normalize": "vendor/ghostwriter/coding-standard/tools/composer-normalize --no-check-lock",
+        "composer-require-checker": "vendor/ghostwriter/coding-standard/tools/composer-require-checker check",
+        "composer-unused": "vendor/ghostwriter/coding-standard/tools/composer-unused",
+        "dev": [
+            "@cache:clear",
+            "@composer update --no-plugins --no-scripts --no-progress --no-interaction --prefer-stable --with-dependencies",
+            "@composer-normalize",
+            "@psalm:baseline",
+            "@check",
+            "@psalm:security",
+            "@psalm:dry-run"
         ],
-        "infection": ["@xdebug","vendor/bin/infection --ansi --verbose"],
-        "phpcbf": "vendor/bin/phpcbf --colors --no-cache --standard=PSR12 -s ./src",
-        "phpcs": "vendor/bin/phpcs --colors --no-cache --standard=PSR12 -s ./src",
-        "phpunit": ["@xdebug","vendor/bin/phpunit --do-not-cache-result --colors=always --testdox --stop-on-failure"],
-        "phpunit:migrate": "vendor/bin/phpunit --migrate-configuration",
-        "psalm": "vendor/bin/psalm --shepherd --stats --no-diff --no-cache ",
-        "psalm:home": [
-            "@psalm:shepherd",
-            "@psalm:security"
-        ],
-        "psalm:baseline": "@psalm --set-baseline=psalm-baseline.xml",
-        "psalm:dry-run": "@psalm --alter --issues=all --dry-run",
-        "psalm:missing-return-types": "@psalm --alter --issues=MissingReturnType",
-        "psalm:security": "@psalm --taint-analysis",
-        "psalm:shepherd": "@psalm --shepherd --stats --no-diff --no-cache",
+        "ecs": "vendor/bin/ecs check --clear-cache --fix --no-interaction",
+        "infection": "vendor/ghostwriter/coding-standard/tools/infection --ansi --verbose --threads=max --min-msi=0 --min-covered-msi=0",
+        "phpunit": "vendor/ghostwriter/coding-standard/tools/phpunit --do-not-cache-result --colors=always",
+        "phpunit:migrate": "@phpunit --migrate-configuration",
+        "psalm": "vendor/ghostwriter/coding-standard/tools/psalm --no-cache",
+        "psalm:alter": "@psalm --no-diff --shepherd --stats --alter --allow-backwards-incompatible-changes=false",
+        "psalm:baseline": "@psalm --no-diff --set-baseline=psalm-baseline.xml",
+        "psalm:dry-run": "@psalm:alter --issues=all --dry-run",
+        "psalm:fix": "@psalm:alter --issues=MissingReturnType",
+        "psalm:security": "@psalm --no-diff --taint-analysis",
+        "psalm:shepherd": "@psalm --no-diff --shepherd --stats",
+        "rector": "vendor/bin/rector process --no-ansi --no-interaction --clear-cache",
         "test": [
             "@phpunit",
-            "@psalm",
+            "@psalm:shepherd",
             "@infection"
-        ],
-        "xdebug": "@putenv XDEBUG_MODE=coverage"
+        ]
     }
 }
