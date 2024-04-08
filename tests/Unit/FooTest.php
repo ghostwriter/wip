@@ -13,6 +13,14 @@ use PHPUnit\Framework\TestCase;
 #[CoversClass(Foo::class)]
 final class FooTest extends TestCase
 {
+    #[DataProvider('dataProvider')]
+    public function test(bool $value): void
+    {
+        self::assertSame($value, $value);
+
+        self::assertTrue((new Foo())->test());
+    }
+
     /**
      * @return Generator<array{bool}>
      */
@@ -22,13 +30,5 @@ final class FooTest extends TestCase
             'true' => [true],
             'false' => [false],
         ];
-    }
-
-    #[DataProvider('dataProvider')]
-    public function test(bool $value): void
-    {
-        self::assertSame($value, $value);
-
-        self::assertTrue((new Foo())->test());
     }
 }
