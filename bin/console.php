@@ -6,6 +6,10 @@ declare(strict_types=1);
 namespace Ghostwriter\Wip\Console;
 
 use Ghostwriter\Wip\Foo;
+
+use const STDERR;
+
+use function fwrite;
 use function sprintf;
 
 /** @var ?string $_composer_autoload_path */
