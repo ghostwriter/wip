@@ -29,9 +29,9 @@
 >
     <coverage>
         <report>
-            <html outputDirectory=".cache/phpunit/coverage-html"/>
-            <clover outputFile=".cache/phpunit/clover.xml"/>
-            <text outputFile=".cache/phpunit/coverage.txt"/>
+            <html outputDirectory=".cache/phpunit/coverage-html" />
+            <clover outputFile=".cache/phpunit/clover.xml" />
+            <text outputFile=".cache/phpunit/coverage.txt" />
         </report>
     </coverage>
     <source restrictNotices="true" restrictWarnings="true">
