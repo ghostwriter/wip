@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f1aa0cba8d9780edd3d3bfff3bf2e134",
+    "content-hash": "8768b3739e9113bd1cc81198088a24f8",
     "packages": [
         {
             "name": "ghostwriter/case-converter",
@@ -1605,12 +1605,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ghostwriter/coding-standard.git",
-                "reference": "f483c141269728584c306b7ab00b03b92c7d5990"
+                "reference": "3c1edf708bd1ea7be65b081df98847949e715197"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/coding-standard/zipball/f483c141269728584c306b7ab00b03b92c7d5990",
-                "reference": "f483c141269728584c306b7ab00b03b92c7d5990",
+                "url": "https://api.github.com/repos/ghostwriter/coding-standard/zipball/3c1edf708bd1ea7be65b081df98847949e715197",
+                "reference": "3c1edf708bd1ea7be65b081df98847949e715197",
                 "shasum": ""
             },
             "require": {
@@ -1674,7 +1674,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-04-09T22:38:17+00:00"
+            "time": "2024-04-10T00:24:37+00:00"
         },
         {
             "name": "ghostwriter/psalm-plugin",
