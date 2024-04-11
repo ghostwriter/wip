@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8768b3739e9113bd1cc81198088a24f8",
+    "content-hash": "23f885f6b17ab21f8736b05c5f488305",
     "packages": [
         {
             "name": "ghostwriter/case-converter",
@@ -260,24 +260,24 @@
         },
         {
             "name": "ghostwriter/container",
-            "version": "3.0.2",
+            "version": "3.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ghostwriter/container.git",
-                "reference": "f0aaf48118aec90dd5bae69a55c17bbb17ddae06"
+                "reference": "0e64f73571acef7ff2ad0678c52e148036407144"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/container/zipball/f0aaf48118aec90dd5bae69a55c17bbb17ddae06",
-                "reference": "f0aaf48118aec90dd5bae69a55c17bbb17ddae06",
+                "url": "https://api.github.com/repos/ghostwriter/container/zipball/0e64f73571acef7ff2ad0678c52e148036407144",
+                "reference": "0e64f73571acef7ff2ad0678c52e148036407144",
                 "shasum": ""
             },
             "require": {
-                "php": "^8.3"
+                "php": ">=8.3"
             },
             "require-dev": {
                 "ghostwriter/coding-standard": "dev-main",
-                "ghostwriter/psalm-plugin": "^0 || ^0.3 || ^1.0"
+                "ghostwriter/psalm-plugin": "^0.2 || ^1.0"
             },
             "type": "library",
             "autoload": {
@@ -305,7 +305,7 @@
             ],
             "support": {
                 "issues": "https://github.com/ghostwriter/container/issues",
-                "source": "https://github.com/ghostwriter/container/tree/3.0.2"
+                "source": "https://github.com/ghostwriter/container/tree/3.0.3"
             },
             "funding": [
                 {
@@ -313,7 +313,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-02-19T03:38:42+00:00"
+            "time": "2024-04-10T15:11:03+00:00"
         },
         {
             "name": "ghostwriter/event-dispatcher",
@@ -1605,12 +1605,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ghostwriter/coding-standard.git",
-                "reference": "3c1edf708bd1ea7be65b081df98847949e715197"
+                "reference": "9ff19edcbdc4391fdf5df189823f19f463c95a99"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/coding-standard/zipball/3c1edf708bd1ea7be65b081df98847949e715197",
-                "reference": "3c1edf708bd1ea7be65b081df98847949e715197",
+                "url": "https://api.github.com/repos/ghostwriter/coding-standard/zipball/9ff19edcbdc4391fdf5df189823f19f463c95a99",
+                "reference": "9ff19edcbdc4391fdf5df189823f19f463c95a99",
                 "shasum": ""
             },
             "require": {
@@ -1674,20 +1674,90 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-04-10T00:24:37+00:00"
+            "time": "2024-04-10T22:04:40+00:00"
         },
         {
-            "name": "ghostwriter/psalm-plugin",
-            "version": "0.2.0",
+            "name": "ghostwriter/phormat",
+            "version": "dev-main",
             "source": {
                 "type": "git",
-                "url": "https://github.com/ghostwriter/psalm-plugin.git",
-                "reference": "c1e0e0110f2e8ad5dd3f4f8decd698dcd4803f60"
+                "url": "https://github.com/ghostwriter/phormat.git",
+                "reference": "cb553e7a6430abf62156dbbc595e336a518d3d30"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/psalm-plugin/zipball/c1e0e0110f2e8ad5dd3f4f8decd698dcd4803f60",
-                "reference": "c1e0e0110f2e8ad5dd3f4f8decd698dcd4803f60",
+                "url": "https://api.github.com/repos/ghostwriter/phormat/zipball/cb553e7a6430abf62156dbbc595e336a518d3d30",
+                "reference": "cb553e7a6430abf62156dbbc595e336a518d3d30",
+                "shasum": ""
+            },
+            "require": {
+                "ghostwriter/case-converter": "^1.0.0",
+                "ghostwriter/container": "^3.0.2",
+                "ghostwriter/event-dispatcher": "^4.0.0",
+                "nikic/php-parser": "^4.19.1",
+                "php": ">=8.3",
+                "sebastian/diff": "^5.1.1"
+            },
+            "require-dev": {
+                "ghostwriter/coding-standard": "dev-main",
+                "ghostwriter/psalm-plugin": "^0.2 || ^1.0"
+            },
+            "default-branch": true,
+            "bin": [
+                "bin/phormat"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Ghostwriter\\Phormat\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Nathanael Esayeas",
+                    "email": "nathanael.esayeas@protonmail.com",
+                    "homepage": "https://github.com/ghostwriter",
+                    "role": "Developer"
+                }
+            ],
+            "description": "PHP code formatter",
+            "homepage": "https://github.com/ghostwriter/phormat",
+            "keywords": [
+                "dev",
+                "ghostwriter",
+                "phormat"
+            ],
+            "support": {
+                "docs": "https://github.com/ghostwriter/phormat",
+                "forum": "https://github.com/ghostwriter/phormat/discussions",
+                "issues": "https://github.com/ghostwriter/phormat/issues",
+                "rss": "https://github.com/ghostwriter/phormat/releases.atom",
+                "source": "https://github.com/ghostwriter/phormat"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/sponsors/ghostwriter",
+                    "type": "github"
+                }
+            ],
+            "time": "2024-04-09T23:40:48+00:00"
+        },
+        {
+            "name": "ghostwriter/psalm-plugin",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ghostwriter/psalm-plugin.git",
+                "reference": "fc8ae0fc63a9848b5aed385b088e3b7bfb59afcf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ghostwriter/psalm-plugin/zipball/fc8ae0fc63a9848b5aed385b088e3b7bfb59afcf",
+                "reference": "fc8ae0fc63a9848b5aed385b088e3b7bfb59afcf",
                 "shasum": ""
             },
             "require": {
@@ -1703,6 +1773,7 @@
                 "psr/container": "^1.1 || ^2.0",
                 "vimeo/psalm": "^5.0 || ^6.0"
             },
+            "default-branch": true,
             "type": "psalm-plugin",
             "extra": {
                 "psalm": {
@@ -1748,7 +1819,77 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-08-27T13:19:25+00:00"
+            "time": "2023-12-05T03:03:08+00:00"
+        },
+        {
+            "name": "ghostwriter/testify",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ghostwriter/testify.git",
+                "reference": "6b3f2b1155ea1d73c982e7bf3892d6da9567278d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ghostwriter/testify/zipball/6b3f2b1155ea1d73c982e7bf3892d6da9567278d",
+                "reference": "6b3f2b1155ea1d73c982e7bf3892d6da9567278d",
+                "shasum": ""
+            },
+            "require": {
+                "ghostwriter/case-converter": "^1.0.0",
+                "ghostwriter/container": "^3.0.3",
+                "ghostwriter/event-dispatcher": "^4.0.0",
+                "php": ">=8.3",
+                "symfony/console": "^7.0.6"
+            },
+            "require-dev": {
+                "ghostwriter/coding-standard": "dev-main",
+                "ghostwriter/psalm-plugin": "^0.2 || ^1.0"
+            },
+            "default-branch": true,
+            "bin": [
+                "bin/testify"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Ghostwriter\\Testify\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Nathanael Esayeas",
+                    "email": "nathanael.esayeas@protonmail.com",
+                    "homepage": "https://github.com/ghostwriter",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Automated test Generation for PHP code.",
+            "homepage": "https://github.com/ghostwriter/testify",
+            "keywords": [
+                "dev",
+                "ghostwriter",
+                "testify",
+                "testing"
+            ],
+            "support": {
+                "docs": "https://github.com/ghostwriter/testify",
+                "forum": "https://github.com/ghostwriter/testify/discussions",
+                "issues": "https://github.com/ghostwriter/testify/issues",
+                "rss": "https://github.com/ghostwriter/testify/releases.atom",
+                "source": "https://github.com/ghostwriter/testify"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/sponsors/ghostwriter",
+                    "type": "github"
+                }
+            ],
+            "time": "2024-04-11T10:43:36+00:00"
         },
         {
             "name": "hamcrest/hamcrest-php",
@@ -5421,10 +5562,32 @@
             "time": "2022-06-03T18:03:27+00:00"
         }
     ],
-    "aliases": [],
+    "aliases": [
+        {
+            "package": "ghostwriter/phormat",
+            "version": "dev-main",
+            "alias": "0.999",
+            "alias_normalized": "0.999.0.0"
+        },
+        {
+            "package": "ghostwriter/psalm-plugin",
+            "version": "dev-main",
+            "alias": "0.999",
+            "alias_normalized": "0.999.0.0"
+        },
+        {
+            "package": "ghostwriter/testify",
+            "version": "dev-main",
+            "alias": "0.999",
+            "alias_normalized": "0.999.0.0"
+        }
+    ],
     "minimum-stability": "stable",
     "stability-flags": {
-        "ghostwriter/coding-standard": 20
+        "ghostwriter/coding-standard": 20,
+        "ghostwriter/phormat": 20,
+        "ghostwriter/psalm-plugin": 20,
+        "ghostwriter/testify": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
