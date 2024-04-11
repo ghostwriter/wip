@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Ghostwriter\Wip\Tests\Unit;
+namespace Tests\Unit;
 
 use Generator;
 use Ghostwriter\Wip\Foo;
