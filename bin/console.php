@@ -7,10 +7,10 @@ namespace Ghostwriter\Wip\Console;
 
 use Ghostwriter\Wip\Foo;
 
+use const STDERR;
+
 use function fwrite;
 use function sprintf;
-
-use const STDERR;
 
 /** @var ?string $_composer_autoload_path */
 (static function (string $composerAutoloadPath): void {
