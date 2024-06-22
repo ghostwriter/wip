@@ -21,7 +21,8 @@
         "forum": "https://github.com/ghostwriter/wip/discussions",
         "source": "https://github.com/ghostwriter/wip",
         "docs": "https://github.com/ghostwriter/wip",
-        "rss": "https://github.com/ghostwriter/wip/releases.atom"
+        "rss": "https://github.com/ghostwriter/wip/releases.atom",
+        "security": "https://github.com/ghostwriter/wip/security/advisories/new"
     },
     "funding": [
         {
@@ -29,14 +30,15 @@
             "url": "https://github.com/sponsors/ghostwriter"
         }
     ],
+    "_comment": "#BlackLivesMatter",
     "require": {
         "php": ">=8.3",
         "ghostwriter/case-converter": "^1.0.0",
-        "ghostwriter/clock": "^2.0.0",
+        "ghostwriter/clock": "^3.0.0",
         "ghostwriter/collection": "^2.0.0",
         "ghostwriter/config": "^0.4.1",
-        "ghostwriter/container": "^3.0.3",
-        "ghostwriter/event-dispatcher": "^5.0.0",
+        "ghostwriter/container": "^4.0.0",
+        "ghostwriter/event-dispatcher": "^5.0.1",
         "ghostwriter/json": "^3.0.0",
         "ghostwriter/option": "^1.5.1",
         "ghostwriter/result": "^1.3.0"
@@ -71,6 +73,9 @@
         "classmap-authoritative": false,
         "discard-changes": true,
         "optimize-autoloader": true,
+        "platform": {
+            "php": "8.3.999"
+        },
         "preferred-install": "dist",
         "prepend-autoloader": true,
         "process-timeout": 5000,
@@ -79,11 +84,11 @@
     },
     "scripts": {
         "bin_ecs": "ecs check --clear-cache --no-interaction",
-        "bin_infection": "infection --ansi --verbose --threads=max --min-msi=0 --min-covered-msi=0",
+        "bin_infection": "infection --ansi --show-mutations --threads=max --min-msi=0 --min-covered-msi=0",
         "bin_phive": "phive",
         "bin_phpunit": "phpunit --do-not-cache-result --colors=always",
         "bin_psalm": "psalm --no-cache",
-        "bin_rector": "rector process --no-ansi --no-interaction --clear-cache",
+        "bin_rector": "rector process --no-ansi --clear-cache",
         "cache:clear": "rm -rf ./.cache/*",
         "check": [
             "@composer validate",
