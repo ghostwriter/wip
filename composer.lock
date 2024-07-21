@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3bbee078c5a08e5388971ee6bd2cfacf",
+    "content-hash": "e2fc5f46ea62d577ed203b67f0be0516",
     "packages": [
         {
             "name": "ghostwriter/case-converter",
@@ -619,6 +619,67 @@
                 }
             ],
             "time": "2024-06-22T22:15:04+00:00"
+        },
+        {
+            "name": "ghostwriter/uuid",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ghostwriter/uuid.git",
+                "reference": "ee0a6421e7349acaf23e89b5322254bdbf106a32"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ghostwriter/uuid/zipball/ee0a6421e7349acaf23e89b5322254bdbf106a32",
+                "reference": "ee0a6421e7349acaf23e89b5322254bdbf106a32",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "php": ">=8.3"
+            },
+            "require-dev": {
+                "ghostwriter/coding-standard": "dev-main"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Ghostwriter\\Uuid\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Nathanael Esayeas",
+                    "email": "nathanael.esayeas@protonmail.com",
+                    "homepage": "https://github.com/ghostwriter",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Version 7 UUIDs using a Unix timestamp for PHP",
+            "homepage": "https://github.com/ghostwriter/uuid",
+            "keywords": [
+                "ghostwriter",
+                "uuid"
+            ],
+            "support": {
+                "docs": "https://github.com/ghostwriter/uuid",
+                "forum": "https://github.com/ghostwriter/uuid/discussions",
+                "issues": "https://github.com/ghostwriter/uuid/issues",
+                "rss": "https://github.com/ghostwriter/uuid/releases.atom",
+                "security": "https://github.com/ghostwriter/uuid/security/advisories/new",
+                "source": "https://github.com/ghostwriter/uuid"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/sponsors/ghostwriter",
+                    "type": "github"
+                }
+            ],
+            "time": "2024-07-21T05:45:53+00:00"
         }
     ],
     "packages-dev": [
@@ -1258,12 +1319,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ghostwriter/coding-standard.git",
-                "reference": "f16dad3926b3d9c564c42aee97d53600b6dd05ee"
+                "reference": "b422186778145edf5a435322312226bb9c026261"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/coding-standard/zipball/f16dad3926b3d9c564c42aee97d53600b6dd05ee",
-                "reference": "f16dad3926b3d9c564c42aee97d53600b6dd05ee",
+                "url": "https://api.github.com/repos/ghostwriter/coding-standard/zipball/b422186778145edf5a435322312226bb9c026261",
+                "reference": "b422186778145edf5a435322312226bb9c026261",
                 "shasum": ""
             },
             "require": {
@@ -1329,7 +1390,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-07-12T15:18:17+00:00"
+            "time": "2024-07-19T15:08:05+00:00"
         },
         {
             "name": "hamcrest/hamcrest-php",
