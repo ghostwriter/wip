@@ -42,7 +42,8 @@
         "ghostwriter/json": "^3.0.0",
         "ghostwriter/option": "^1.5.1",
         "ghostwriter/result": "^1.3.0",
-        "ghostwriter/shell": "^0.1.0"
+        "ghostwriter/shell": "^0.1.0",
+        "ghostwriter/uuid": "^1.0.0"
     },
     "require-dev": {
         "ghostwriter/coding-standard": "dev-main"
