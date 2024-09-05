@@ -501,16 +501,16 @@
         },
         {
             "name": "ghostwriter/plex",
-            "version": "0.1.0",
+            "version": "0.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ghostwriter/plex.git",
-                "reference": "bb82424e97c33ad0be5fc273407dc2aa72b31afd"
+                "reference": "0de6d8de3af18d79a7eb77660842ce377e8ec8cc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/plex/zipball/bb82424e97c33ad0be5fc273407dc2aa72b31afd",
-                "reference": "bb82424e97c33ad0be5fc273407dc2aa72b31afd",
+                "url": "https://api.github.com/repos/ghostwriter/plex/zipball/0de6d8de3af18d79a7eb77660842ce377e8ec8cc",
+                "reference": "0de6d8de3af18d79a7eb77660842ce377e8ec8cc",
                 "shasum": ""
             },
             "require": {
@@ -557,7 +557,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-08-30T22:02:05+00:00"
+            "time": "2024-09-04T15:14:26+00:00"
         },
         {
             "name": "ghostwriter/result",
