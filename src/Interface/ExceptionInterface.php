@@ -6,6 +6,4 @@ namespace Ghostwriter\Wip\Interface;
 
 use Throwable;
 
-interface FooExceptionInterface extends Throwable
-{
-}
+interface ExceptionInterface extends Throwable {}
