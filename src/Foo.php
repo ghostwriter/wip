@@ -9,17 +9,15 @@ use Ghostwriter\Wip\Interface\FooInterface;
 /** @see FooTest */
 final class Foo implements FooInterface
 {
-    public function __construct()
+    public function __construct() {}
+
+    public static function new(): self
     {
+        return new self();
     }
 
     public function test(): bool
     {
         return true;
-    }
-
-    public static function new(): self
-    {
-        return new self();
     }
 }
