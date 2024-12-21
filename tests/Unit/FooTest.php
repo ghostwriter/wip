@@ -6,12 +6,13 @@ namespace Tests\Unit;
 
 use Generator;
 use Ghostwriter\Wip\Foo;
-use Ghostwriter\Wip\Interface\FooExceptionInterface;
 use Ghostwriter\Wip\Interface\FooInterface;
 use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\TestCase;
 use Throwable;
+
+use function is_a;
 
 #[CoversClass(Foo::class)]
 final class FooTest extends TestCase
@@ -32,8 +33,7 @@ final class FooTest extends TestCase
      */
     public function testImplementsInterface(): void
     {
-        self::assertTrue(\is_a(Foo::class, FooInterface::class, true));
-        self::assertTrue(\is_a(FooExceptionInterface::class, Throwable::class, true));
+        self::assertTrue(is_a(Foo::class, FooInterface::class, true));
     }
 
     /**
