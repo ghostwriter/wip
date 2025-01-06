@@ -719,16 +719,16 @@
         },
         {
             "name": "ghostwriter/clock",
-            "version": "3.0.0",
+            "version": "3.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ghostwriter/clock.git",
-                "reference": "906ded66d7dda723531aa7b0d3554f9026304d3b"
+                "reference": "e68368475feb957b7d40e3d1e03de411fe6b032d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/clock/zipball/906ded66d7dda723531aa7b0d3554f9026304d3b",
-                "reference": "906ded66d7dda723531aa7b0d3554f9026304d3b",
+                "url": "https://api.github.com/repos/ghostwriter/clock/zipball/e68368475feb957b7d40e3d1e03de411fe6b032d",
+                "reference": "e68368475feb957b7d40e3d1e03de411fe6b032d",
                 "shasum": ""
             },
             "require": {
@@ -736,12 +736,12 @@
             },
             "require-dev": {
                 "ghostwriter/coding-standard": "dev-main",
-                "ghostwriter/psalm-plugin": "^0.2.0"
+                "ghostwriter/psalm-plugin": "dev-main"
             },
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Ghostwriter\\Clock\\": "src"
+                    "Ghostwriter\\Clock\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -763,8 +763,6 @@
                 "ghostwriter"
             ],
             "support": {
-                "docs": "https://github.com/ghostwriter/clock",
-                "forum": "https://github.com/ghostwriter/clock/discussions",
                 "issues": "https://github.com/ghostwriter/clock/issues",
                 "rss": "https://github.com/ghostwriter/clock/releases.atom",
                 "security": "https://github.com/ghostwriter/clock/security/advisories/new",
@@ -776,7 +774,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-06-21T23:42:37+00:00"
+            "time": "2025-01-05T19:26:41+00:00"
         },
         {
             "name": "ghostwriter/collection",
