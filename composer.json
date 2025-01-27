@@ -42,7 +42,7 @@
         "ghostwriter/container": "^4.0.3",
         "ghostwriter/event-dispatcher": "^5.0.2",
         "ghostwriter/filesystem": "^0.1.1",
-        "ghostwriter/handrail": "^0.1.3",
+        "ghostwriter/handrail": "^0.1.4",
         "ghostwriter/json": "^3.0.0",
         "ghostwriter/option": "^1.5.1",
         "ghostwriter/plex": "^0.1.3",

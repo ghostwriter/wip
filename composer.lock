@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5d879736efa7063b8b005add342d787c",
+    "content-hash": "58a6dbb1b316e8abf642540a53c8f777",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -1077,22 +1077,22 @@
         },
         {
             "name": "ghostwriter/handrail",
-            "version": "0.1.3",
+            "version": "0.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ghostwriter/handrail.git",
-                "reference": "947a9a7c5c52dd931a51dfcef5e2fd97917aa320"
+                "reference": "474eabfe83562c5356ac61e89273c82332daf35b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/handrail/zipball/947a9a7c5c52dd931a51dfcef5e2fd97917aa320",
-                "reference": "947a9a7c5c52dd931a51dfcef5e2fd97917aa320",
+                "url": "https://api.github.com/repos/ghostwriter/handrail/zipball/474eabfe83562c5356ac61e89273c82332daf35b",
+                "reference": "474eabfe83562c5356ac61e89273c82332daf35b",
                 "shasum": ""
             },
             "require": {
                 "composer-plugin-api": "^2.6.0",
                 "composer-runtime-api": "^2.2.2",
-                "composer/composer": "^2.8.1",
+                "composer/composer": "^2.8.4",
                 "ext-tokenizer": "*",
                 "ghostwriter/container": "^4.0.3",
                 "ghostwriter/event-dispatcher": "^5.0.2",
@@ -1101,7 +1101,8 @@
                 "php": ">=8.3"
             },
             "require-dev": {
-                "ghostwriter/coding-standard": "dev-main"
+                "ghostwriter/coding-standard": "dev-main",
+                "ghostwriter/psalm-plugin": "dev-main"
             },
             "type": "composer-plugin",
             "extra": {
@@ -1110,7 +1111,7 @@
             },
             "autoload": {
                 "psr-4": {
-                    "Ghostwriter\\Handrail\\": "src"
+                    "Ghostwriter\\Handrail\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1150,7 +1151,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-10-13T18:18:47+00:00"
+            "time": "2025-01-19T20:28:55+00:00"
         },
         {
             "name": "ghostwriter/json",
@@ -5147,7 +5148,7 @@
     "platform": {
         "php": ">=8.3"
     },
-    "platform-dev": {},
+    "platform-dev": [],
     "platform-overrides": {
         "php": "8.3.999"
     },
