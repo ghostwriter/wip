@@ -3,8 +3,6 @@
 [![Automation](https://github.com/ghostwriter/wip/actions/workflows/automation.yml/badge.svg)](https://github.com/ghostwriter/wip/actions/workflows/automation.yml)
 [![Supported PHP Version](https://badgen.net/packagist/php/ghostwriter/wip?color=8892bf)](https://www.php.net/supported-versions)
 [![GitHub Sponsors](https://img.shields.io/github/sponsors/ghostwriter?label=Sponsor+@ghostwriter/wip&logo=GitHub+Sponsors)](https://github.com/sponsors/ghostwriter)
-[![Code Coverage](https://codecov.io/gh/ghostwriter/wip/branch/main/graph/badge.svg)](https://codecov.io/gh/ghostwriter/wip)
-[![Latest Version on Packagist](https://badgen.net/packagist/v/ghostwriter/wip)](https://packagist.org/packages/ghostwriter/wip)
 [![Downloads](https://badgen.net/packagist/dt/ghostwriter/wip?color=blue)](https://packagist.org/packages/ghostwriter/wip)
 
 work in progress
