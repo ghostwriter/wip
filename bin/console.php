@@ -14,6 +14,7 @@ use const STDERR;
 use function dirname;
 use function file_exists;
 use function fwrite;
+use function restore_error_handler;
 use function set_error_handler;
 
 /** @var ?string $_composer_autoload_path */
