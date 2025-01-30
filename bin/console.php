@@ -34,4 +34,6 @@ use function set_error_handler;
      * #BlackLivesMatter.
      */
     echo Foo::new()->test();
+
+    restore_error_handler();
 })($_composer_autoload_path ?? dirname(__DIR__) . DIRECTORY_SEPARATOR . 'vendor/autoload.php');
