@@ -52,8 +52,6 @@
     },
     "require-dev": {
         "ghostwriter/coding-standard": "@dev",
-        "ghostwriter/handrail": "@dev",
-        "ghostwriter/phormat": "@dev",
         "ghostwriter/psalm-plugin": "@dev",
         "ghostwriter/testify": "@dev"
     },
@@ -85,8 +83,7 @@
     ],
     "config": {
         "allow-plugins": {
-            "ghostwriter/coding-standard": true,
-            "ghostwriter/handrail": true
+            "ghostwriter/coding-standard": true
         },
         "bump-after-update": true,
         "classmap-authoritative": false,
