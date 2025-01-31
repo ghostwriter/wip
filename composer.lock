@@ -2607,12 +2607,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ghostwriter/coding-standard.git",
-                "reference": "7bfa7da99bc61a774ab66e432aafd060ade6dcbb"
+                "reference": "a395065e178551271c93c7099fede9a66773f7d5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/coding-standard/zipball/7bfa7da99bc61a774ab66e432aafd060ade6dcbb",
-                "reference": "7bfa7da99bc61a774ab66e432aafd060ade6dcbb",
+                "url": "https://api.github.com/repos/ghostwriter/coding-standard/zipball/a395065e178551271c93c7099fede9a66773f7d5",
+                "reference": "a395065e178551271c93c7099fede9a66773f7d5",
                 "shasum": ""
             },
             "require": {
@@ -2621,7 +2621,7 @@
                 "composer/composer": "^2.8.5",
                 "mockery/mockery": "^1.6.12",
                 "php": "^8.2",
-                "phpunit/phpunit": "^11.5.5",
+                "phpunit/phpunit": "^11.5.6",
                 "symfony/var-dumper": "^7.2.3",
                 "vimeo/psalm": "^6.1.0"
             },
@@ -2684,7 +2684,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-01-30T20:05:07+00:00"
+            "time": "2025-01-31T09:19:20+00:00"
         },
         {
             "name": "ghostwriter/psalm-plugin",
@@ -2766,12 +2766,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ghostwriter/testify.git",
-                "reference": "785335b131558b766b5c31a51aebdd90374d8a40"
+                "reference": "d8c436d8362b23a55d81fb20362a26db71c09680"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/testify/zipball/785335b131558b766b5c31a51aebdd90374d8a40",
-                "reference": "785335b131558b766b5c31a51aebdd90374d8a40",
+                "url": "https://api.github.com/repos/ghostwriter/testify/zipball/d8c436d8362b23a55d81fb20362a26db71c09680",
+                "reference": "d8c436d8362b23a55d81fb20362a26db71c09680",
                 "shasum": ""
             },
             "require": {
@@ -2829,7 +2829,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-01-30T19:39:47+00:00"
+            "time": "2025-01-31T18:49:16+00:00"
         },
         {
             "name": "hamcrest/hamcrest-php",
