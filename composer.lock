@@ -2762,16 +2762,16 @@
         },
         {
             "name": "ghostwriter/testify",
-            "version": "0.1.x-dev",
+            "version": "1.0.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ghostwriter/testify.git",
-                "reference": "d8c436d8362b23a55d81fb20362a26db71c09680"
+                "reference": "e16de5bd7cf9161347ba132e833bdfb17f1ffb19"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/testify/zipball/d8c436d8362b23a55d81fb20362a26db71c09680",
-                "reference": "d8c436d8362b23a55d81fb20362a26db71c09680",
+                "url": "https://api.github.com/repos/ghostwriter/testify/zipball/e16de5bd7cf9161347ba132e833bdfb17f1ffb19",
+                "reference": "e16de5bd7cf9161347ba132e833bdfb17f1ffb19",
                 "shasum": ""
             },
             "require": {
@@ -2787,7 +2787,6 @@
                 "ghostwriter/coding-standard": "dev-main",
                 "ghostwriter/psalm-plugin": "dev-main"
             },
-            "default-branch": true,
             "bin": [
                 "bin/testify"
             ],
@@ -2829,7 +2828,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-01-31T18:49:16+00:00"
+            "time": "2025-02-01T03:41:29+00:00"
         },
         {
             "name": "hamcrest/hamcrest-php",
