@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1c1b23b3984b4aee4905e3007ca1da01",
+    "content-hash": "f1d40870614ad1491079b78fcf5d9d89",
     "packages": [
         {
             "name": "ghostwriter/case-converter",
@@ -258,28 +258,30 @@
         },
         {
             "name": "ghostwriter/container",
-            "version": "4.0.3",
+            "version": "4.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ghostwriter/container.git",
-                "reference": "a36501ae47e77441504b04500e303d118509f162"
+                "reference": "a0aa3c884e1b8e4bb1b044c72ebac74675a45bf6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/container/zipball/a36501ae47e77441504b04500e303d118509f162",
-                "reference": "a36501ae47e77441504b04500e303d118509f162",
+                "url": "https://api.github.com/repos/ghostwriter/container/zipball/a0aa3c884e1b8e4bb1b044c72ebac74675a45bf6",
+                "reference": "a0aa3c884e1b8e4bb1b044c72ebac74675a45bf6",
                 "shasum": ""
             },
             "require": {
                 "php": ">=8.3"
             },
             "require-dev": {
-                "ghostwriter/coding-standard": "dev-main"
+                "ghostwriter/coding-standard": "@dev",
+                "ghostwriter/psalm-plugin": "@dev",
+                "ghostwriter/testify": "@dev"
             },
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Ghostwriter\\Container\\": "src"
+                    "Ghostwriter\\Container\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -301,8 +303,6 @@
                 "ghostwriter"
             ],
             "support": {
-                "docs": "https://github.com/ghostwriter/container",
-                "forum": "https://github.com/ghostwriter/container/discussions",
                 "issues": "https://github.com/ghostwriter/container/issues",
                 "rss": "https://github.com/ghostwriter/container/releases.atom",
                 "security": "https://github.com/ghostwriter/container/security/advisories/new",
@@ -314,7 +314,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-10-09T18:15:29+00:00"
+            "time": "2025-02-02T00:23:20+00:00"
         },
         {
             "name": "ghostwriter/event-dispatcher",
@@ -2607,12 +2607,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ghostwriter/coding-standard.git",
-                "reference": "a395065e178551271c93c7099fede9a66773f7d5"
+                "reference": "15574d058d28e48abc2e1ebb2d3e65c916a294db"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/coding-standard/zipball/a395065e178551271c93c7099fede9a66773f7d5",
-                "reference": "a395065e178551271c93c7099fede9a66773f7d5",
+                "url": "https://api.github.com/repos/ghostwriter/coding-standard/zipball/15574d058d28e48abc2e1ebb2d3e65c916a294db",
+                "reference": "15574d058d28e48abc2e1ebb2d3e65c916a294db",
                 "shasum": ""
             },
             "require": {
@@ -2629,7 +2629,7 @@
                 "vimeo/psalm": "<6.0"
             },
             "require-dev": {
-                "ghostwriter/container": "^4.0.3",
+                "ghostwriter/container": "^4.0.5",
                 "ghostwriter/filesystem": "^0.1.1",
                 "ghostwriter/shell": "^0.1.0"
             },
@@ -2684,7 +2684,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-01-31T09:19:20+00:00"
+            "time": "2025-02-02T01:50:43+00:00"
         },
         {
             "name": "ghostwriter/psalm-plugin",
@@ -2762,22 +2762,22 @@
         },
         {
             "name": "ghostwriter/testify",
-            "version": "0.1.x-dev",
+            "version": "1.0.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ghostwriter/testify.git",
-                "reference": "d8c436d8362b23a55d81fb20362a26db71c09680"
+                "reference": "f83c938e3e3130896920148ee85ff8b483bfd9d9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/testify/zipball/d8c436d8362b23a55d81fb20362a26db71c09680",
-                "reference": "d8c436d8362b23a55d81fb20362a26db71c09680",
+                "url": "https://api.github.com/repos/ghostwriter/testify/zipball/f83c938e3e3130896920148ee85ff8b483bfd9d9",
+                "reference": "f83c938e3e3130896920148ee85ff8b483bfd9d9",
                 "shasum": ""
             },
             "require": {
                 "ghostwriter/case-converter": "^1.0.0",
                 "ghostwriter/config": "^1.0.0",
-                "ghostwriter/container": "^4.0.3",
+                "ghostwriter/container": "^4.0.5",
                 "ghostwriter/event-dispatcher": "^5.0.2",
                 "ghostwriter/filesystem": "^0.1.1",
                 "nikic/php-parser": "^5.4.0",
@@ -2787,7 +2787,6 @@
                 "ghostwriter/coding-standard": "dev-main",
                 "ghostwriter/psalm-plugin": "dev-main"
             },
-            "default-branch": true,
             "bin": [
                 "bin/testify"
             ],
@@ -2829,7 +2828,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-01-31T18:49:16+00:00"
+            "time": "2025-02-02T01:27:11+00:00"
         },
         {
             "name": "hamcrest/hamcrest-php",
