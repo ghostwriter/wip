@@ -683,7 +683,7 @@
         },
         {
             "name": "ghostwriter/result",
-            "version": "dev-main",
+            "version": "1.4.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ghostwriter/result.git",
@@ -703,7 +703,6 @@
                 "ghostwriter/coding-standard": "dev-main",
                 "ghostwriter/psalm-plugin": "^0.2.0"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -2607,18 +2606,38 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ghostwriter/coding-standard.git",
-                "reference": "227c9ecb393528e237c58d9c910a7fe981ca88aa"
+                "reference": "9e81c5b90172dae5e1e52668cdc9124b7860320d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/coding-standard/zipball/227c9ecb393528e237c58d9c910a7fe981ca88aa",
-                "reference": "227c9ecb393528e237c58d9c910a7fe981ca88aa",
+                "url": "https://api.github.com/repos/ghostwriter/coding-standard/zipball/9e81c5b90172dae5e1e52668cdc9124b7860320d",
+                "reference": "9e81c5b90172dae5e1e52668cdc9124b7860320d",
                 "shasum": ""
             },
             "require": {
                 "composer-plugin-api": "^2.6.0",
                 "composer-runtime-api": "^2.2.2",
                 "composer/composer": "^2.8.5",
+                "composer/semver": "^3.4.3",
+                "ext-ctype": "*",
+                "ext-curl": "*",
+                "ext-dom": "*",
+                "ext-filter": "*",
+                "ext-gd": "*",
+                "ext-hash": "*",
+                "ext-iconv": "*",
+                "ext-intl": "*",
+                "ext-json": "*",
+                "ext-libxml": "*",
+                "ext-mbstring": "*",
+                "ext-openssl": "*",
+                "ext-phar": "*",
+                "ext-readline": "*",
+                "ext-session": "*",
+                "ext-simplexml": "*",
+                "ext-tokenizer": "*",
+                "ext-xml": "*",
+                "ext-xmlwriter": "*",
                 "mockery/mockery": "^1.6.12",
                 "php": "^8.2",
                 "phpunit/phpunit": "^11.5.6",
@@ -2684,7 +2703,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-02-03T14:34:44+00:00"
+            "time": "2025-02-03T20:34:41+00:00"
         },
         {
             "name": "ghostwriter/psalm-plugin",
@@ -7162,7 +7181,7 @@
     "platform": {
         "php": ">=8.4"
     },
-    "platform-dev": [],
+    "platform-dev": {},
     "platform-overrides": {
         "php": "8.4.999"
     },
