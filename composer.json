@@ -34,13 +34,13 @@
         "#StandWithUkraine"
     ],
     "require": {
-        "php": ">=8.4",
+        "php": "^8.4",
         "ghostwriter/case-converter": "^2.0.0",
         "ghostwriter/clock": "^3.0.1",
         "ghostwriter/collection": "^2.0.0",
         "ghostwriter/config": "^1.0.0",
-        "ghostwriter/container": "5.0.0",
-        "ghostwriter/event-dispatcher": "5.0.3",
+        "ghostwriter/container": "^5.0.0",
+        "ghostwriter/event-dispatcher": "^5.0.3",
         "ghostwriter/filesystem": "^0.1.1",
         "ghostwriter/http": "@dev",
         "ghostwriter/json": "^3.0.0",
