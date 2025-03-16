@@ -880,16 +880,16 @@
         },
         {
             "name": "amphp/byte-stream",
-            "version": "v2.1.1",
+            "version": "v2.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/amphp/byte-stream.git",
-                "reference": "daa00f2efdbd71565bf64ffefa89e37542addf93"
+                "reference": "55a6bd071aec26fa2a3e002618c20c35e3df1b46"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/amphp/byte-stream/zipball/daa00f2efdbd71565bf64ffefa89e37542addf93",
-                "reference": "daa00f2efdbd71565bf64ffefa89e37542addf93",
+                "url": "https://api.github.com/repos/amphp/byte-stream/zipball/55a6bd071aec26fa2a3e002618c20c35e3df1b46",
+                "reference": "55a6bd071aec26fa2a3e002618c20c35e3df1b46",
                 "shasum": ""
             },
             "require": {
@@ -943,7 +943,7 @@
             ],
             "support": {
                 "issues": "https://github.com/amphp/byte-stream/issues",
-                "source": "https://github.com/amphp/byte-stream/tree/v2.1.1"
+                "source": "https://github.com/amphp/byte-stream/tree/v2.1.2"
             },
             "funding": [
                 {
@@ -951,7 +951,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-02-17T04:49:38+00:00"
+            "time": "2025-03-16T17:10:27+00:00"
         },
         {
             "name": "amphp/cache",
@@ -1255,16 +1255,16 @@
         },
         {
             "name": "amphp/pipeline",
-            "version": "v1.2.2",
+            "version": "v1.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/amphp/pipeline.git",
-                "reference": "97cbf289f4d8877acfe58dd90ed5a4370a43caa4"
+                "reference": "7b52598c2e9105ebcddf247fc523161581930367"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/amphp/pipeline/zipball/97cbf289f4d8877acfe58dd90ed5a4370a43caa4",
-                "reference": "97cbf289f4d8877acfe58dd90ed5a4370a43caa4",
+                "url": "https://api.github.com/repos/amphp/pipeline/zipball/7b52598c2e9105ebcddf247fc523161581930367",
+                "reference": "7b52598c2e9105ebcddf247fc523161581930367",
                 "shasum": ""
             },
             "require": {
@@ -1310,7 +1310,7 @@
             ],
             "support": {
                 "issues": "https://github.com/amphp/pipeline/issues",
-                "source": "https://github.com/amphp/pipeline/tree/v1.2.2"
+                "source": "https://github.com/amphp/pipeline/tree/v1.2.3"
             },
             "funding": [
                 {
@@ -1318,7 +1318,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-01-19T15:42:46+00:00"
+            "time": "2025-03-16T16:33:53+00:00"
         },
         {
             "name": "amphp/process",
@@ -2688,12 +2688,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ghostwriter/coding-standard.git",
-                "reference": "819fd1014358c4dc0b575d93227feb7303b39785"
+                "reference": "b112ccbd5517fdda81714c3e486f7d834d0f4e4f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/coding-standard/zipball/819fd1014358c4dc0b575d93227feb7303b39785",
-                "reference": "819fd1014358c4dc0b575d93227feb7303b39785",
+                "url": "https://api.github.com/repos/ghostwriter/coding-standard/zipball/b112ccbd5517fdda81714c3e486f7d834d0f4e4f",
+                "reference": "b112ccbd5517fdda81714c3e486f7d834d0f4e4f",
                 "shasum": ""
             },
             "require": {
@@ -2837,7 +2837,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-03-16T02:31:09+00:00"
+            "time": "2025-03-16T19:14:25+00:00"
         },
         {
             "name": "ghostwriter/psr-phpunit-assertions",
@@ -2845,12 +2845,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ghostwriter/psr-phpunit-assertions.git",
-                "reference": "b12905690dfc3cd42cd028bf98cf23c30b13f80f"
+                "reference": "fceacdb0215be6bd499738142fc657c0b81e74d8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/psr-phpunit-assertions/zipball/b12905690dfc3cd42cd028bf98cf23c30b13f80f",
-                "reference": "b12905690dfc3cd42cd028bf98cf23c30b13f80f",
+                "url": "https://api.github.com/repos/ghostwriter/psr-phpunit-assertions/zipball/fceacdb0215be6bd499738142fc657c0b81e74d8",
+                "reference": "fceacdb0215be6bd499738142fc657c0b81e74d8",
                 "shasum": ""
             },
             "require": {
@@ -2926,7 +2926,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-03-16T04:53:50+00:00"
+            "time": "2025-03-16T20:15:34+00:00"
         },
         {
             "name": "hamcrest/hamcrest-php",
@@ -8154,16 +8154,16 @@
         },
         {
             "name": "vimeo/psalm",
-            "version": "6.8.9",
+            "version": "6.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vimeo/psalm.git",
-                "reference": "e856423a5dc38d65e56b5792750c557277afe393"
+                "reference": "6264ad417d999db4df1ee8b4765eb98fc1907183"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vimeo/psalm/zipball/e856423a5dc38d65e56b5792750c557277afe393",
-                "reference": "e856423a5dc38d65e56b5792750c557277afe393",
+                "url": "https://api.github.com/repos/vimeo/psalm/zipball/6264ad417d999db4df1ee8b4765eb98fc1907183",
+                "reference": "6264ad417d999db4df1ee8b4765eb98fc1907183",
                 "shasum": ""
             },
             "require": {
@@ -8268,7 +8268,7 @@
                 "issues": "https://github.com/vimeo/psalm/issues",
                 "source": "https://github.com/vimeo/psalm"
             },
-            "time": "2025-03-10T13:29:13+00:00"
+            "time": "2025-03-16T20:24:18+00:00"
         },
         {
             "name": "webmozart/assert",
