@@ -2688,12 +2688,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ghostwriter/coding-standard.git",
-                "reference": "b112ccbd5517fdda81714c3e486f7d834d0f4e4f"
+                "reference": "4c1cfc0ed98ef0f96c3eeeeb80ed1a0f9f963294"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/coding-standard/zipball/b112ccbd5517fdda81714c3e486f7d834d0f4e4f",
-                "reference": "b112ccbd5517fdda81714c3e486f7d834d0f4e4f",
+                "url": "https://api.github.com/repos/ghostwriter/coding-standard/zipball/4c1cfc0ed98ef0f96c3eeeeb80ed1a0f9f963294",
+                "reference": "4c1cfc0ed98ef0f96c3eeeeb80ed1a0f9f963294",
                 "shasum": ""
             },
             "require": {
@@ -2728,7 +2728,7 @@
                 "php": "^8.4",
                 "phpunit/phpunit": "@stable",
                 "symfony/var-dumper": "@stable",
-                "vimeo/psalm": "@stable"
+                "vimeo/psalm": "^6.9.1"
             },
             "conflict": {
                 "pestphp/pest": "*",
@@ -2837,7 +2837,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-03-16T19:14:25+00:00"
+            "time": "2025-03-17T16:36:39+00:00"
         },
         {
             "name": "ghostwriter/psr-phpunit-assertions",
@@ -2845,12 +2845,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ghostwriter/psr-phpunit-assertions.git",
-                "reference": "fceacdb0215be6bd499738142fc657c0b81e74d8"
+                "reference": "a09f7ad065b9fb098fb907f2103ab642aaf8c2e9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/psr-phpunit-assertions/zipball/fceacdb0215be6bd499738142fc657c0b81e74d8",
-                "reference": "fceacdb0215be6bd499738142fc657c0b81e74d8",
+                "url": "https://api.github.com/repos/ghostwriter/psr-phpunit-assertions/zipball/a09f7ad065b9fb098fb907f2103ab642aaf8c2e9",
+                "reference": "a09f7ad065b9fb098fb907f2103ab642aaf8c2e9",
                 "shasum": ""
             },
             "require": {
@@ -2926,7 +2926,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-03-16T20:15:34+00:00"
+            "time": "2025-03-17T17:21:35+00:00"
         },
         {
             "name": "hamcrest/hamcrest-php",
@@ -4306,16 +4306,16 @@
         },
         {
             "name": "phpunit/php-code-coverage",
-            "version": "12.0.5",
+            "version": "12.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-code-coverage.git",
-                "reference": "da732486790670c622aa367eb3dbb7e1619e68be"
+                "reference": "d331a5ced3d9a2b917baa9841b2211e72f9e780d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/da732486790670c622aa367eb3dbb7e1619e68be",
-                "reference": "da732486790670c622aa367eb3dbb7e1619e68be",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/d331a5ced3d9a2b917baa9841b2211e72f9e780d",
+                "reference": "d331a5ced3d9a2b917baa9841b2211e72f9e780d",
                 "shasum": ""
             },
             "require": {
@@ -4342,7 +4342,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "12.0.x-dev"
+                    "dev-main": "12.1.x-dev"
                 }
             },
             "autoload": {
@@ -4371,7 +4371,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/php-code-coverage/issues",
                 "security": "https://github.com/sebastianbergmann/php-code-coverage/security/policy",
-                "source": "https://github.com/sebastianbergmann/php-code-coverage/tree/12.0.5"
+                "source": "https://github.com/sebastianbergmann/php-code-coverage/tree/12.1.0"
             },
             "funding": [
                 {
@@ -4379,7 +4379,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-03-15T07:24:51+00:00"
+            "time": "2025-03-17T13:56:07+00:00"
         },
         {
             "name": "phpunit/php-file-iterator",
@@ -8154,16 +8154,16 @@
         },
         {
             "name": "vimeo/psalm",
-            "version": "6.9.0",
+            "version": "6.9.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vimeo/psalm.git",
-                "reference": "6264ad417d999db4df1ee8b4765eb98fc1907183"
+                "reference": "81c8a77c0793d450fee40265cfe68891df11d505"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vimeo/psalm/zipball/6264ad417d999db4df1ee8b4765eb98fc1907183",
-                "reference": "6264ad417d999db4df1ee8b4765eb98fc1907183",
+                "url": "https://api.github.com/repos/vimeo/psalm/zipball/81c8a77c0793d450fee40265cfe68891df11d505",
+                "reference": "81c8a77c0793d450fee40265cfe68891df11d505",
                 "shasum": ""
             },
             "require": {
@@ -8268,7 +8268,7 @@
                 "issues": "https://github.com/vimeo/psalm/issues",
                 "source": "https://github.com/vimeo/psalm"
             },
-            "time": "2025-03-16T20:24:18+00:00"
+            "time": "2025-03-17T09:40:52+00:00"
         },
         {
             "name": "webmozart/assert",
