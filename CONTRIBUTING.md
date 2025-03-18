@@ -1,4 +1,4 @@
-# Contributing to Wip
+# Contributing
 
 First of all thank you for considering to contribute.
 
@@ -24,12 +24,12 @@ cd wip
 git remote add upstream git://github.com/ghostwriter/wip.git
 ```
 
-## Step 3: Branch
+# Step 3: Branch
 
 Create a feature branch and start hacking:
 
 ```bash
-git checkout -b my-feature-branch -t origin/main 
+git checkout -b my-feature-branch -t origin/main
 ```
 
 ## Step 4: Commit
@@ -38,9 +38,7 @@ Make sure git knows your name and email address:
 
 ```bash
 git config --global user.name "name"
-
 git config --global user.email "email@example.com"
-
 git commit --signoff --message "Add my feature"
 ```
 
@@ -54,7 +52,7 @@ git fetch upstream
 git rebase upstream/main
 ```
 
-### Step 6: Test
+## Step 6: Test
 
 Bug fixes and features should come with tests. Add your tests in the `tests` directory.
 
@@ -62,7 +60,7 @@ Bug fixes and features should come with tests. Add your tests in the `tests` dir
 composer test
 ```
 
-### Step 7: Push
+## Step 7: Push
 
 ```bash
 git push origin my-feature-branch
