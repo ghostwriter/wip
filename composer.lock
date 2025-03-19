@@ -2692,19 +2692,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ghostwriter/coding-standard.git",
-                "reference": "8f72a6c8d819213790aaab39daa3f646f3abb280"
+                "reference": "393f3c6860a42ed86f7c958ef457517fbf595d08"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/coding-standard/zipball/8f72a6c8d819213790aaab39daa3f646f3abb280",
-                "reference": "8f72a6c8d819213790aaab39daa3f646f3abb280",
+                "url": "https://api.github.com/repos/ghostwriter/coding-standard/zipball/393f3c6860a42ed86f7c958ef457517fbf595d08",
+                "reference": "393f3c6860a42ed86f7c958ef457517fbf595d08",
                 "shasum": ""
             },
             "require": {
-                "composer-plugin-api": "^2.6.0",
-                "composer-runtime-api": "^2.2.2",
-                "composer/composer": "^2.8 <3.0",
-                "composer/semver": "^3.0 <4.0",
+                "composer-plugin-api": "~2.6.0",
+                "composer-runtime-api": "~2.2.2",
+                "composer/composer": "~2.8.6",
+                "composer/semver": "~3.4.3",
                 "ext-ctype": "*",
                 "ext-curl": "*",
                 "ext-dom": "*",
@@ -2727,24 +2727,25 @@
                 "ext-xml": "*",
                 "ext-xmlwriter": "*",
                 "ext-zlib": "*",
-                "infection/infection": "^0.29 <1.0",
-                "mockery/mockery": "^1.6 <2.0",
-                "php": "^8.4",
-                "phpunit/phpunit": "^12.0.8",
-                "symfony/var-dumper": "^7.0 <8.0",
-                "vimeo/psalm": "^6.9 <7.0"
+                "infection/infection": "~0.29.14",
+                "mockery/mockery": "~1.6.12",
+                "php": "^8.2",
+                "phpunit/phpunit": "~11.5.14 || ~12.0.9",
+                "symfony/var-dumper": "~7.2.3",
+                "vimeo/psalm": "~6.9.1"
             },
             "conflict": {
                 "pestphp/pest": "*",
                 "phpunit/phpunit": "<12.0"
             },
             "require-dev": {
-                "doctrine/inflector": "^2.0.10",
-                "ghostwriter/case-converter": "^2.0.0",
-                "ghostwriter/container": "^5.0.1",
-                "ghostwriter/filesystem": "^0.1.1",
-                "ghostwriter/json": "^3.0.0",
-                "ghostwriter/shell": "^0.1.0"
+                "doctrine/inflector": "~2.0.10",
+                "ghostwriter/case-converter": "~2.0.0",
+                "ghostwriter/container": "~5.0.1",
+                "ghostwriter/event-dispatcher": "~5.0.3",
+                "ghostwriter/filesystem": "~0.1.1",
+                "ghostwriter/json": "~3.0.0",
+                "ghostwriter/shell": "~0.1.0"
             },
             "default-branch": true,
             "bin": [
@@ -2841,7 +2842,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-03-19T16:11:48+00:00"
+            "time": "2025-03-19T18:02:37+00:00"
         },
         {
             "name": "ghostwriter/psr-phpunit-assertions",
@@ -2849,12 +2850,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ghostwriter/psr-phpunit-assertions.git",
-                "reference": "a41b81661febb4a2995d9d240f2dda0307614cb9"
+                "reference": "fa169714b11b29baf662dfd6fbb0fdc3d9fc7b1f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/psr-phpunit-assertions/zipball/a41b81661febb4a2995d9d240f2dda0307614cb9",
-                "reference": "a41b81661febb4a2995d9d240f2dda0307614cb9",
+                "url": "https://api.github.com/repos/ghostwriter/psr-phpunit-assertions/zipball/fa169714b11b29baf662dfd6fbb0fdc3d9fc7b1f",
+                "reference": "fa169714b11b29baf662dfd6fbb0fdc3d9fc7b1f",
                 "shasum": ""
             },
             "require": {
@@ -2930,7 +2931,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-03-18T18:09:07+00:00"
+            "time": "2025-03-19T17:55:44+00:00"
         },
         {
             "name": "hamcrest/hamcrest-php",
