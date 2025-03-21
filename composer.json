@@ -38,7 +38,7 @@
         "ghostwriter/http": "@dev"
     },
     "require-dev": {
-        "ghostwriter/case-converter": "^2.1.0",
+        "ghostwriter/case-converter": "~2.1.0",
         "ghostwriter/clock": "~3.0.1",
         "ghostwriter/coding-standard": "dev-main",
         "ghostwriter/collection": "~2.0.0",
