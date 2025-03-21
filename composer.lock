@@ -2851,29 +2851,29 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ghostwriter/psr-phpunit-assertions.git",
-                "reference": "8bd97481f30ff0fd9d04967dd933900a4700ecff"
+                "reference": "6acefa28c6c15eb5bf94d0628c53428967e1b08c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/psr-phpunit-assertions/zipball/8bd97481f30ff0fd9d04967dd933900a4700ecff",
-                "reference": "8bd97481f30ff0fd9d04967dd933900a4700ecff",
+                "url": "https://api.github.com/repos/ghostwriter/psr-phpunit-assertions/zipball/6acefa28c6c15eb5bf94d0628c53428967e1b08c",
+                "reference": "6acefa28c6c15eb5bf94d0628c53428967e1b08c",
                 "shasum": ""
             },
             "require": {
-                "fig/http-message-util": "^1.1.5",
+                "fig/http-message-util": "~1.1.5",
                 "php": "^8.4",
-                "psr/cache": "^3.0.0",
-                "psr/clock": "^1.0.0",
-                "psr/container": "^2.0.2",
-                "psr/event-dispatcher": "^1.0.0",
-                "psr/http-client": "^1.0.3",
-                "psr/http-factory": "^1.1.0",
+                "psr/cache": "~3.0.0",
+                "psr/clock": "~1.0.0",
+                "psr/container": "~2.0.2",
+                "psr/event-dispatcher": "~1.0.0",
+                "psr/http-client": "~1.0.3",
+                "psr/http-factory": "~1.1.0",
                 "psr/http-message": "^2.0",
-                "psr/http-server-handler": "^1.0.2",
-                "psr/http-server-middleware": "^1.0.2",
-                "psr/link": "^2.0.1",
-                "psr/log": "^3.0.2",
-                "psr/simple-cache": "^3.0.0"
+                "psr/http-server-handler": "~1.0.2",
+                "psr/http-server-middleware": "~1.0.2",
+                "psr/link": "~2.0.1",
+                "psr/log": "~3.0.2",
+                "psr/simple-cache": "~3.0.0"
             },
             "require-dev": {
                 "ghostwriter/coding-standard": "dev-main"
@@ -2931,7 +2931,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-03-21T05:14:04+00:00"
+            "time": "2025-03-21T21:29:44+00:00"
         },
         {
             "name": "hamcrest/hamcrest-php",
