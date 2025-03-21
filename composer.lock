@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bfc562405856970ea84de567f4cc39c3",
+    "content-hash": "0e898c4652435d85159c8428feafdf3b",
     "packages": [
         {
             "name": "ghostwriter/case-converter",
@@ -2851,12 +2851,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ghostwriter/psr-phpunit-assertions.git",
-                "reference": "6f77107a87e9da307f44ee637f2d38623c5aa727"
+                "reference": "8bd97481f30ff0fd9d04967dd933900a4700ecff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/psr-phpunit-assertions/zipball/6f77107a87e9da307f44ee637f2d38623c5aa727",
-                "reference": "6f77107a87e9da307f44ee637f2d38623c5aa727",
+                "url": "https://api.github.com/repos/ghostwriter/psr-phpunit-assertions/zipball/8bd97481f30ff0fd9d04967dd933900a4700ecff",
+                "reference": "8bd97481f30ff0fd9d04967dd933900a4700ecff",
                 "shasum": ""
             },
             "require": {
@@ -2931,7 +2931,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-03-21T02:59:40+00:00"
+            "time": "2025-03-21T05:14:04+00:00"
         },
         {
             "name": "hamcrest/hamcrest-php",
@@ -8346,7 +8346,7 @@
     "platform": {
         "php": "^8.4"
     },
-    "platform-dev": {},
+    "platform-dev": [],
     "platform-overrides": {
         "php": "8.4.999"
     },
