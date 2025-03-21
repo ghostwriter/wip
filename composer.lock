@@ -2693,12 +2693,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ghostwriter/coding-standard.git",
-                "reference": "ea3f2cd6f5487370fd10e8e7e3a9dc507e674410"
+                "reference": "e61fcd5e61886f1fd635b73a85c69701e8cde4cd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/coding-standard/zipball/ea3f2cd6f5487370fd10e8e7e3a9dc507e674410",
-                "reference": "ea3f2cd6f5487370fd10e8e7e3a9dc507e674410",
+                "url": "https://api.github.com/repos/ghostwriter/coding-standard/zipball/e61fcd5e61886f1fd635b73a85c69701e8cde4cd",
+                "reference": "e61fcd5e61886f1fd635b73a85c69701e8cde4cd",
                 "shasum": ""
             },
             "require": {
@@ -2733,7 +2733,7 @@
                 "php": "^8.2",
                 "phpunit/phpunit": "~11.5.14 || ~12.0.9",
                 "symfony/var-dumper": "~7.2.3",
-                "vimeo/psalm": "~6.9.1"
+                "vimeo/psalm": "~6.9.4"
             },
             "conflict": {
                 "pestphp/pest": "*",
@@ -2843,7 +2843,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-03-21T03:55:37+00:00"
+            "time": "2025-03-21T22:50:06+00:00"
         },
         {
             "name": "ghostwriter/psr-phpunit-assertions",
@@ -2851,12 +2851,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ghostwriter/psr-phpunit-assertions.git",
-                "reference": "6acefa28c6c15eb5bf94d0628c53428967e1b08c"
+                "reference": "f90646ee9118591e75305a360a55e53e1e6533d8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/psr-phpunit-assertions/zipball/6acefa28c6c15eb5bf94d0628c53428967e1b08c",
-                "reference": "6acefa28c6c15eb5bf94d0628c53428967e1b08c",
+                "url": "https://api.github.com/repos/ghostwriter/psr-phpunit-assertions/zipball/f90646ee9118591e75305a360a55e53e1e6533d8",
+                "reference": "f90646ee9118591e75305a360a55e53e1e6533d8",
                 "shasum": ""
             },
             "require": {
@@ -2931,7 +2931,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-03-21T21:29:44+00:00"
+            "time": "2025-03-21T22:29:19+00:00"
         },
         {
             "name": "hamcrest/hamcrest-php",
