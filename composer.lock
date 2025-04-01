@@ -2668,12 +2668,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ghostwriter/coding-standard.git",
-                "reference": "af1343928d7f7979681cd89e94811c7c717a8956"
+                "reference": "92292702fca84ca707a8fce589ee1f0f4d71dafa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/coding-standard/zipball/af1343928d7f7979681cd89e94811c7c717a8956",
-                "reference": "af1343928d7f7979681cd89e94811c7c717a8956",
+                "url": "https://api.github.com/repos/ghostwriter/coding-standard/zipball/92292702fca84ca707a8fce589ee1f0f4d71dafa",
+                "reference": "92292702fca84ca707a8fce589ee1f0f4d71dafa",
                 "shasum": ""
             },
             "require": {
@@ -2715,7 +2715,7 @@
                 "php": "^8.4",
                 "phpunit/phpunit": "~11.5.14 || ~12.0.10",
                 "symfony/var-dumper": "~7.2.3",
-                "vimeo/psalm": "~6.9.6"
+                "vimeo/psalm": "~6.9.6 || ~6.10.0"
             },
             "conflict": {
                 "pestphp/pest": "*",
@@ -2819,7 +2819,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-03-31T03:31:04+00:00"
+            "time": "2025-03-31T23:27:59+00:00"
         },
         {
             "name": "ghostwriter/psr-phpunit-assertions",
@@ -2827,12 +2827,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ghostwriter/psr-phpunit-assertions.git",
-                "reference": "4e13b5f18bc3b3772b72a28720d082075b5b528a"
+                "reference": "420bebce68f8eba7f97467d2d8fd3ece086cfe4b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/psr-phpunit-assertions/zipball/4e13b5f18bc3b3772b72a28720d082075b5b528a",
-                "reference": "4e13b5f18bc3b3772b72a28720d082075b5b528a",
+                "url": "https://api.github.com/repos/ghostwriter/psr-phpunit-assertions/zipball/420bebce68f8eba7f97467d2d8fd3ece086cfe4b",
+                "reference": "420bebce68f8eba7f97467d2d8fd3ece086cfe4b",
                 "shasum": ""
             },
             "require": {
@@ -2907,7 +2907,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-03-30T17:37:33+00:00"
+            "time": "2025-03-31T04:49:30+00:00"
         },
         {
             "name": "hamcrest/hamcrest-php",
@@ -7431,16 +7431,16 @@
         },
         {
             "name": "vimeo/psalm",
-            "version": "6.9.6",
+            "version": "6.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vimeo/psalm.git",
-                "reference": "61488aa2849793acfb72411829d114b4aa670941"
+                "reference": "9c0add4eb88d4b169ac04acb7c679918cbb9c252"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vimeo/psalm/zipball/61488aa2849793acfb72411829d114b4aa670941",
-                "reference": "61488aa2849793acfb72411829d114b4aa670941",
+                "url": "https://api.github.com/repos/vimeo/psalm/zipball/9c0add4eb88d4b169ac04acb7c679918cbb9c252",
+                "reference": "9c0add4eb88d4b169ac04acb7c679918cbb9c252",
                 "shasum": ""
             },
             "require": {
@@ -7545,7 +7545,7 @@
                 "issues": "https://github.com/vimeo/psalm/issues",
                 "source": "https://github.com/vimeo/psalm"
             },
-            "time": "2025-03-27T19:06:48+00:00"
+            "time": "2025-03-31T10:12:50+00:00"
         },
         {
             "name": "webmozart/assert",
