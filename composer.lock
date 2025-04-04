@@ -1761,16 +1761,16 @@
         },
         {
             "name": "composer/composer",
-            "version": "2.8.7",
+            "version": "2.8.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/composer.git",
-                "reference": "fc06c099955929ac67270d169e8b5fb83ad53807"
+                "reference": "85ff84d6c5260ba21740a7c5c9a111890805d6e7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/composer/zipball/fc06c099955929ac67270d169e8b5fb83ad53807",
-                "reference": "fc06c099955929ac67270d169e8b5fb83ad53807",
+                "url": "https://api.github.com/repos/composer/composer/zipball/85ff84d6c5260ba21740a7c5c9a111890805d6e7",
+                "reference": "85ff84d6c5260ba21740a7c5c9a111890805d6e7",
                 "shasum": ""
             },
             "require": {
@@ -1855,7 +1855,7 @@
                 "irc": "ircs://irc.libera.chat:6697/composer",
                 "issues": "https://github.com/composer/composer/issues",
                 "security": "https://github.com/composer/composer/security/policy",
-                "source": "https://github.com/composer/composer/tree/2.8.7"
+                "source": "https://github.com/composer/composer/tree/2.8.8"
             },
             "funding": [
                 {
@@ -1871,7 +1871,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-04-03T14:26:28+00:00"
+            "time": "2025-04-04T14:56:46+00:00"
         },
         {
             "name": "composer/metadata-minifier",
@@ -2668,12 +2668,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ghostwriter/coding-standard.git",
-                "reference": "f5c053874e788a8d75a53fa401054d28de385c2e"
+                "reference": "d0eb866acbd4aa32f0a9b7719021b83509256e09"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/coding-standard/zipball/f5c053874e788a8d75a53fa401054d28de385c2e",
-                "reference": "f5c053874e788a8d75a53fa401054d28de385c2e",
+                "url": "https://api.github.com/repos/ghostwriter/coding-standard/zipball/d0eb866acbd4aa32f0a9b7719021b83509256e09",
+                "reference": "d0eb866acbd4aa32f0a9b7719021b83509256e09",
                 "shasum": ""
             },
             "require": {
@@ -2819,7 +2819,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-04-04T05:00:11+00:00"
+            "time": "2025-04-04T14:46:23+00:00"
         },
         {
             "name": "ghostwriter/psr-phpunit-assertions",
@@ -2827,12 +2827,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ghostwriter/psr-phpunit-assertions.git",
-                "reference": "7f2d20e1b67ccaa1db19541eb486e79587bc87c3"
+                "reference": "c21846ba247d4fb5cdb5f01471c9dae025580137"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/psr-phpunit-assertions/zipball/7f2d20e1b67ccaa1db19541eb486e79587bc87c3",
-                "reference": "7f2d20e1b67ccaa1db19541eb486e79587bc87c3",
+                "url": "https://api.github.com/repos/ghostwriter/psr-phpunit-assertions/zipball/c21846ba247d4fb5cdb5f01471c9dae025580137",
+                "reference": "c21846ba247d4fb5cdb5f01471c9dae025580137",
                 "shasum": ""
             },
             "require": {
@@ -2907,7 +2907,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-04-03T19:16:58+00:00"
+            "time": "2025-04-04T05:25:36+00:00"
         },
         {
             "name": "hamcrest/hamcrest-php",
@@ -2962,16 +2962,16 @@
         },
         {
             "name": "justinrainbow/json-schema",
-            "version": "6.4.0",
+            "version": "6.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jsonrainbow/json-schema.git",
-                "reference": "16b274cb469bc8165c59b76c283724a035d27f4c"
+                "reference": "35d262c94959571e8736db1e5c9bc36ab94ae900"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jsonrainbow/json-schema/zipball/16b274cb469bc8165c59b76c283724a035d27f4c",
-                "reference": "16b274cb469bc8165c59b76c283724a035d27f4c",
+                "url": "https://api.github.com/repos/jsonrainbow/json-schema/zipball/35d262c94959571e8736db1e5c9bc36ab94ae900",
+                "reference": "35d262c94959571e8736db1e5c9bc36ab94ae900",
                 "shasum": ""
             },
             "require": {
@@ -3031,9 +3031,9 @@
             ],
             "support": {
                 "issues": "https://github.com/jsonrainbow/json-schema/issues",
-                "source": "https://github.com/jsonrainbow/json-schema/tree/6.4.0"
+                "source": "https://github.com/jsonrainbow/json-schema/tree/6.4.1"
             },
-            "time": "2025-04-01T18:50:59+00:00"
+            "time": "2025-04-04T13:08:07+00:00"
         },
         {
             "name": "kelunik/certificate",
