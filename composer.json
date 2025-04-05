@@ -51,7 +51,9 @@
     },
     "require-dev": {
         "ghostwriter/coding-standard": "dev-main",
-        "ghostwriter/psr-phpunit-assertions": "@dev"
+        "ghostwriter/psr-phpunit-assertions": "@dev",
+        "mockery/mockery": "~1.6.12",
+        "phpunit/phpunit": "~12.1.0"
     },
     "minimum-stability": "stable",
     "prefer-stable": true,
