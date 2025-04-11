@@ -1502,12 +1502,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ghostwriter/coding-standard.git",
-                "reference": "259af89be76b9ae3d45221373b51fa2e22610bc1"
+                "reference": "5f57fedd3e9f9de3fbeb16f5dabd36cd80ce9c25"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/coding-standard/zipball/259af89be76b9ae3d45221373b51fa2e22610bc1",
-                "reference": "259af89be76b9ae3d45221373b51fa2e22610bc1",
+                "url": "https://api.github.com/repos/ghostwriter/coding-standard/zipball/5f57fedd3e9f9de3fbeb16f5dabd36cd80ce9c25",
+                "reference": "5f57fedd3e9f9de3fbeb16f5dabd36cd80ce9c25",
                 "shasum": ""
             },
             "require": {
@@ -1650,7 +1650,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-04-11T00:59:03+00:00"
+            "time": "2025-04-11T16:22:47+00:00"
         },
         {
             "name": "ghostwriter/psr-phpunit-assertions",
@@ -1658,12 +1658,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ghostwriter/psr-phpunit-assertions.git",
-                "reference": "a8600d374cf5a11019b34a94fb9295ed91481914"
+                "reference": "9a34d3eb2cfe1d4e189a0b753bbf8b524f1cb31c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/psr-phpunit-assertions/zipball/a8600d374cf5a11019b34a94fb9295ed91481914",
-                "reference": "a8600d374cf5a11019b34a94fb9295ed91481914",
+                "url": "https://api.github.com/repos/ghostwriter/psr-phpunit-assertions/zipball/9a34d3eb2cfe1d4e189a0b753bbf8b524f1cb31c",
+                "reference": "9a34d3eb2cfe1d4e189a0b753bbf8b524f1cb31c",
                 "shasum": ""
             },
             "require": {
@@ -1690,7 +1690,6 @@
             "default-branch": true,
             "type": "library",
             "autoload": {
-                "files": [],
                 "psr-4": {
                     "Ghostwriter\\PsrPhpunitAssertions\\": "src"
                 }
@@ -1740,7 +1739,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-04-08T12:40:39+00:00"
+            "time": "2025-04-11T01:20:52+00:00"
         },
         {
             "name": "hamcrest/hamcrest-php",
