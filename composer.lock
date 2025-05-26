@@ -804,16 +804,16 @@
     "packages-dev": [
         {
             "name": "composer/ca-bundle",
-            "version": "1.5.6",
+            "version": "1.5.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/ca-bundle.git",
-                "reference": "f65c239c970e7f072f067ab78646e9f0b2935175"
+                "reference": "d665d22c417056996c59019579f1967dfe5c1e82"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/ca-bundle/zipball/f65c239c970e7f072f067ab78646e9f0b2935175",
-                "reference": "f65c239c970e7f072f067ab78646e9f0b2935175",
+                "url": "https://api.github.com/repos/composer/ca-bundle/zipball/d665d22c417056996c59019579f1967dfe5c1e82",
+                "reference": "d665d22c417056996c59019579f1967dfe5c1e82",
                 "shasum": ""
             },
             "require": {
@@ -860,7 +860,7 @@
             "support": {
                 "irc": "irc://irc.freenode.org/composer",
                 "issues": "https://github.com/composer/ca-bundle/issues",
-                "source": "https://github.com/composer/ca-bundle/tree/1.5.6"
+                "source": "https://github.com/composer/ca-bundle/tree/1.5.7"
             },
             "funding": [
                 {
@@ -876,7 +876,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-03-06T14:30:56+00:00"
+            "time": "2025-05-26T15:08:54+00:00"
         },
         {
             "name": "composer/class-map-generator",
@@ -1658,12 +1658,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ghostwriter/psr-phpunit-assertions.git",
-                "reference": "e8d482dfda3688b85a9d4fec773ce4f07c0299a2"
+                "reference": "71cc2c9c6e34ff4556907648ae2b0b579f1fabae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/psr-phpunit-assertions/zipball/e8d482dfda3688b85a9d4fec773ce4f07c0299a2",
-                "reference": "e8d482dfda3688b85a9d4fec773ce4f07c0299a2",
+                "url": "https://api.github.com/repos/ghostwriter/psr-phpunit-assertions/zipball/71cc2c9c6e34ff4556907648ae2b0b579f1fabae",
+                "reference": "71cc2c9c6e34ff4556907648ae2b0b579f1fabae",
                 "shasum": ""
             },
             "require": {
@@ -1739,7 +1739,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-05-24T01:39:20+00:00"
+            "time": "2025-05-26T13:03:21+00:00"
         },
         {
             "name": "hamcrest/hamcrest-php",
