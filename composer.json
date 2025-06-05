@@ -35,7 +35,7 @@
     ],
     "require": {
         "php": "^8.4",
-        "ghostwriter/case-converter": "^2.0.0 || ~2.1.0",
+        "ghostwriter/case-converter": "~2.0.0 || ~2.1.0",
         "ghostwriter/clock": "~3.0.1",
         "ghostwriter/collection": "~2.0.0",
         "ghostwriter/config": "~1.0.0",
@@ -56,7 +56,6 @@
         "infection/infection": "~0.29.14",
         "mockery/mockery": "~1.6.12",
         "phpunit/phpunit": "~12.1.6",
-        "symfony/var-dumper": "~7.3.0",
         "vimeo/psalm": "~6.12.0"
     },
     "minimum-stability": "stable",
