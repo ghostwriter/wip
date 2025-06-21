@@ -2696,12 +2696,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ghostwriter/coding-standard.git",
-                "reference": "0b8d68ed206eb07b4cbb3e13a3b65b87ead4b403"
+                "reference": "1bc1e0ac81c344f56c53a4ee13b9c27215ab6980"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/coding-standard/zipball/0b8d68ed206eb07b4cbb3e13a3b65b87ead4b403",
-                "reference": "0b8d68ed206eb07b4cbb3e13a3b65b87ead4b403",
+                "url": "https://api.github.com/repos/ghostwriter/coding-standard/zipball/1bc1e0ac81c344f56c53a4ee13b9c27215ab6980",
+                "reference": "1bc1e0ac81c344f56c53a4ee13b9c27215ab6980",
                 "shasum": ""
             },
             "require": {
@@ -2844,7 +2844,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-06-17T14:51:20+00:00"
+            "time": "2025-06-21T22:18:26+00:00"
         },
         {
             "name": "ghostwriter/psr-phpunit-assertions",
