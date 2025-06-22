@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "87cb42c6386b7298e8716e9aaa63c47b",
+    "content-hash": "812874a5f926958102f72176ddafafec",
     "packages": [
         {
             "name": "ghostwriter/case-converter",
@@ -2696,12 +2696,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ghostwriter/coding-standard.git",
-                "reference": "1bc1e0ac81c344f56c53a4ee13b9c27215ab6980"
+                "reference": "20d4b4bf3eb061ac6c580d6b2e8a58d68de5e5f7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/coding-standard/zipball/1bc1e0ac81c344f56c53a4ee13b9c27215ab6980",
-                "reference": "1bc1e0ac81c344f56c53a4ee13b9c27215ab6980",
+                "url": "https://api.github.com/repos/ghostwriter/coding-standard/zipball/20d4b4bf3eb061ac6c580d6b2e8a58d68de5e5f7",
+                "reference": "20d4b4bf3eb061ac6c580d6b2e8a58d68de5e5f7",
                 "shasum": ""
             },
             "require": {
@@ -2844,7 +2844,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-06-21T22:18:26+00:00"
+            "time": "2025-06-22T04:27:04+00:00"
         },
         {
             "name": "ghostwriter/psr-phpunit-assertions",
@@ -2852,12 +2852,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ghostwriter/psr-phpunit-assertions.git",
-                "reference": "1224e92224355ae4225dd3fbe29cb72424d34c5a"
+                "reference": "c20d5e3bfc0b1cfab64ce12f4ba367c27d2eda2c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/psr-phpunit-assertions/zipball/1224e92224355ae4225dd3fbe29cb72424d34c5a",
-                "reference": "1224e92224355ae4225dd3fbe29cb72424d34c5a",
+                "url": "https://api.github.com/repos/ghostwriter/psr-phpunit-assertions/zipball/c20d5e3bfc0b1cfab64ce12f4ba367c27d2eda2c",
+                "reference": "c20d5e3bfc0b1cfab64ce12f4ba367c27d2eda2c",
                 "shasum": ""
             },
             "require": {
@@ -2881,7 +2881,7 @@
                 "ghostwriter/coding-standard": "dev-main",
                 "infection/infection": "~0.29.14",
                 "mockery/mockery": "~1.6.12",
-                "phpunit/phpunit": "~12.1.6",
+                "phpunit/phpunit": "~12.2.3",
                 "symfony/var-dumper": "~7.3.0",
                 "vimeo/psalm": "~6.12.0"
             },
@@ -2937,7 +2937,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-06-18T11:21:46+00:00"
+            "time": "2025-06-22T19:41:09+00:00"
         },
         {
             "name": "hamcrest/hamcrest-php",
@@ -4734,16 +4734,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "12.1.6",
+            "version": "12.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "2fdf0056c673c8f0f1eed00030be5f8243c1e6e0"
+                "reference": "60a8ea2d8b2f070000051b56778009e11576e7d1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/2fdf0056c673c8f0f1eed00030be5f8243c1e6e0",
-                "reference": "2fdf0056c673c8f0f1eed00030be5f8243c1e6e0",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/60a8ea2d8b2f070000051b56778009e11576e7d1",
+                "reference": "60a8ea2d8b2f070000051b56778009e11576e7d1",
                 "shasum": ""
             },
             "require": {
@@ -4757,15 +4757,15 @@
                 "phar-io/manifest": "^2.0.4",
                 "phar-io/version": "^3.2.1",
                 "php": ">=8.3",
-                "phpunit/php-code-coverage": "^12.2.1",
+                "phpunit/php-code-coverage": "^12.3.1",
                 "phpunit/php-file-iterator": "^6.0.0",
                 "phpunit/php-invoker": "^6.0.0",
                 "phpunit/php-text-template": "^5.0.0",
                 "phpunit/php-timer": "^8.0.0",
                 "sebastian/cli-parser": "^4.0.0",
-                "sebastian/comparator": "^7.0.1",
+                "sebastian/comparator": "^7.1.0",
                 "sebastian/diff": "^7.0.0",
-                "sebastian/environment": "^8.0.1",
+                "sebastian/environment": "^8.0.2",
                 "sebastian/exporter": "^7.0.0",
                 "sebastian/global-state": "^8.0.0",
                 "sebastian/object-enumerator": "^7.0.0",
@@ -4779,7 +4779,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "12.1-dev"
+                    "dev-main": "12.2-dev"
                 }
             },
             "autoload": {
@@ -4811,7 +4811,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
                 "security": "https://github.com/sebastianbergmann/phpunit/security/policy",
-                "source": "https://github.com/sebastianbergmann/phpunit/tree/12.1.6"
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/12.2.3"
             },
             "funding": [
                 {
@@ -4835,7 +4835,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-05-21T12:36:31+00:00"
+            "time": "2025-06-20T11:33:06+00:00"
         },
         {
             "name": "psr/cache",
