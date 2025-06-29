@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a4c2b8642cc2ebe82debfcae4134e580",
+    "content-hash": "f7eb0046db14171986f4ea62f58ba53e",
     "packages": [
         {
             "name": "ghostwriter/case-converter",
@@ -4735,16 +4735,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "12.2.4",
+            "version": "12.2.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "63f78466588d51e0f886c1d3b1ac22a7351cd026"
+                "reference": "b71849b29f7a8d7574e4401873cb8b539896613f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/63f78466588d51e0f886c1d3b1ac22a7351cd026",
-                "reference": "63f78466588d51e0f886c1d3b1ac22a7351cd026",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/b71849b29f7a8d7574e4401873cb8b539896613f",
+                "reference": "b71849b29f7a8d7574e4401873cb8b539896613f",
                 "shasum": ""
             },
             "require": {
@@ -4812,7 +4812,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
                 "security": "https://github.com/sebastianbergmann/phpunit/security/policy",
-                "source": "https://github.com/sebastianbergmann/phpunit/tree/12.2.4"
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/12.2.5"
             },
             "funding": [
                 {
@@ -4836,7 +4836,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-06-26T15:03:18+00:00"
+            "time": "2025-06-27T04:37:55+00:00"
         },
         {
             "name": "psr/cache",
