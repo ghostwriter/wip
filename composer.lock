@@ -2853,12 +2853,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ghostwriter/psr-phpunit-assertions.git",
-                "reference": "8293f1378d118b08fe0c82a96a1780212d722fd1"
+                "reference": "d38dadda0009a74269f3cfc2ce9a50a406c0cc6f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/psr-phpunit-assertions/zipball/8293f1378d118b08fe0c82a96a1780212d722fd1",
-                "reference": "8293f1378d118b08fe0c82a96a1780212d722fd1",
+                "url": "https://api.github.com/repos/ghostwriter/psr-phpunit-assertions/zipball/d38dadda0009a74269f3cfc2ce9a50a406c0cc6f",
+                "reference": "d38dadda0009a74269f3cfc2ce9a50a406c0cc6f",
                 "shasum": ""
             },
             "require": {
@@ -2880,10 +2880,10 @@
             "require-dev": {
                 "ext-xdebug": "*",
                 "ghostwriter/coding-standard": "dev-main",
-                "infection/infection": "~0.29.14",
+                "infection/infection": "~0.30.0",
                 "mockery/mockery": "~1.6.12",
-                "phpunit/phpunit": "~12.2.3",
-                "symfony/var-dumper": "~7.3.0",
+                "phpunit/phpunit": "~12.2.5",
+                "symfony/var-dumper": "~7.3.1",
                 "vimeo/psalm": "~6.12.0"
             },
             "default-branch": true,
@@ -2938,7 +2938,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-06-26T17:18:43+00:00"
+            "time": "2025-07-02T23:30:49+00:00"
         },
         {
             "name": "hamcrest/hamcrest-php",
@@ -5681,16 +5681,16 @@
         },
         {
             "name": "sanmai/pipeline",
-            "version": "6.17",
+            "version": "6.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sanmai/pipeline.git",
-                "reference": "491b172349d77c9e2f2f2aa1791c9de95bfd1abe"
+                "reference": "d9fbdf2a4a363f44f4d8155f71766f35d49b8fb2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sanmai/pipeline/zipball/491b172349d77c9e2f2f2aa1791c9de95bfd1abe",
-                "reference": "491b172349d77c9e2f2f2aa1791c9de95bfd1abe",
+                "url": "https://api.github.com/repos/sanmai/pipeline/zipball/d9fbdf2a4a363f44f4d8155f71766f35d49b8fb2",
+                "reference": "d9fbdf2a4a363f44f4d8155f71766f35d49b8fb2",
                 "shasum": ""
             },
             "require": {
@@ -5734,7 +5734,7 @@
             "description": "General-purpose collections pipeline",
             "support": {
                 "issues": "https://github.com/sanmai/pipeline/issues",
-                "source": "https://github.com/sanmai/pipeline/tree/6.17"
+                "source": "https://github.com/sanmai/pipeline/tree/v6.12"
             },
             "funding": [
                 {
@@ -5742,7 +5742,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-06-16T07:09:33+00:00"
+            "time": "2025-06-30T23:36:16+00:00"
         },
         {
             "name": "sebastian/cli-parser",
