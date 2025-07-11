@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d299060143d45d34de1ae6156859227b",
+    "content-hash": "5a929933cd1e5bc6b66e4654450250cc",
     "packages": [
         {
             "name": "ghostwriter/case-converter",
@@ -3170,16 +3170,16 @@
         },
         {
             "name": "infection/infection",
-            "version": "0.30.2",
+            "version": "0.30.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/infection/infection.git",
-                "reference": "edff4c9aaf0bdb2a6f36fffb2fb7672597818612"
+                "reference": "a23f4a0b9e279d021fdf0bb91334e74d1cc32b07"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/infection/infection/zipball/edff4c9aaf0bdb2a6f36fffb2fb7672597818612",
-                "reference": "edff4c9aaf0bdb2a6f36fffb2fb7672597818612",
+                "url": "https://api.github.com/repos/infection/infection/zipball/a23f4a0b9e279d021fdf0bb91334e74d1cc32b07",
+                "reference": "a23f4a0b9e279d021fdf0bb91334e74d1cc32b07",
                 "shasum": ""
             },
             "require": {
@@ -3283,7 +3283,7 @@
             ],
             "support": {
                 "issues": "https://github.com/infection/infection/issues",
-                "source": "https://github.com/infection/infection/tree/0.30.2"
+                "source": "https://github.com/infection/infection/tree/0.30.3"
             },
             "funding": [
                 {
@@ -3295,7 +3295,7 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2025-07-09T23:00:20+00:00"
+            "time": "2025-07-11T21:15:39+00:00"
         },
         {
             "name": "infection/mutator",
