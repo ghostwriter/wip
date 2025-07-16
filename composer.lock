@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4049aabcbe0817a2da65fdf9047f7b62",
+    "content-hash": "31923339057a24c08c96aacfed728a28",
     "packages": [
         {
             "name": "ghostwriter/case-converter",
@@ -2855,12 +2855,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ghostwriter/psr-phpunit-assertions.git",
-                "reference": "d4db2041e4adf708a9ad57597ee175e06083f170"
+                "reference": "aa1bdaeab69fec7266f9105a588960cd24f09fd5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/psr-phpunit-assertions/zipball/d4db2041e4adf708a9ad57597ee175e06083f170",
-                "reference": "d4db2041e4adf708a9ad57597ee175e06083f170",
+                "url": "https://api.github.com/repos/ghostwriter/psr-phpunit-assertions/zipball/aa1bdaeab69fec7266f9105a588960cd24f09fd5",
+                "reference": "aa1bdaeab69fec7266f9105a588960cd24f09fd5",
                 "shasum": ""
             },
             "require": {
@@ -2882,11 +2882,11 @@
             "require-dev": {
                 "ext-xdebug": "*",
                 "ghostwriter/coding-standard": "dev-main",
-                "infection/infection": "~0.30.3",
-                "mockery/mockery": "~1.6.12",
-                "phpunit/phpunit": "~12.2.7",
-                "symfony/var-dumper": "~7.3.1",
-                "vimeo/psalm": "~6.13.0"
+                "infection/infection": "^0.30.3",
+                "mockery/mockery": "^1.6.12",
+                "phpunit/phpunit": "^12.2.7",
+                "symfony/var-dumper": "^7.3.1",
+                "vimeo/psalm": "^6.13.0"
             },
             "default-branch": true,
             "type": "library",
@@ -2940,7 +2940,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-07-16T06:28:02+00:00"
+            "time": "2025-07-16T08:49:23+00:00"
         },
         {
             "name": "hamcrest/hamcrest-php",
