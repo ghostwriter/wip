@@ -4,8 +4,8 @@
   "homepage": "https://github.com/ghostwriter/template"
   "topics": "ghostwriter, php, template, template-repository, wip"
   "has_issues": true
-  "has_projects": true
-  "has_wiki": true
+  "has_projects": false
+  "has_wiki": false
   "has_downloads": true
   "default_branch": "0.1.x"
   "allow_squash_merge": true
