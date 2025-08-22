@@ -1,8 +1,8 @@
 "repository":
-  "name": "template"
+  "name": "package-template"
   "description": "[WIP] Template for PHP projects"
-  "homepage": "https://github.com/ghostwriter/template"
-  "topics": "ghostwriter, php, template, template-repository, wip"
+  "homepage": "https://github.com/ghostwriter/package-template"
+  "topics": "ghostwriter, package-template, php, template, template-repository, wip"
   "has_issues": true
   "has_projects": false
   "has_wiki": false
