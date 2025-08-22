@@ -19,9 +19,9 @@ Fork the project on GitHub and check out your copy locally.
 ## Step 2: Clone the repository
 
 ```bash
-git clone git@github.com:ghostwriter/template.git
-cd template
-git remote add upstream git://github.com/ghostwriter/template.git
+git clone git@github.com:ghostwriter/package-template.git
+cd package-template
+git remote add upstream git://github.com/ghostwriter/package-template.git
 ```
 
 # Step 3: Branch
