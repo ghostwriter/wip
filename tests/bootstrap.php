@@ -19,8 +19,9 @@ $path = __DIR__ . \DIRECTORY_SEPARATOR . 'Fixture';
 if (\is_dir($path)) {
     /** @psalm-suppress UncaughtThrowInGlobalScope */
     $classLoader->addPsr4('', [
-        \dirname(__DIR__),
         $path,
+        __DIR__,
+        \dirname(__DIR__),
     ]);
 }
 
