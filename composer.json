@@ -54,7 +54,6 @@
         "ext-xdebug": "*",
         "ghostwriter/coding-standard": "dev-main",
         "ghostwriter/psr-phpunit-assertions": "@dev",
-        "infection/infection": "~0.31.2",
         "mockery/mockery": "~1.6.12",
         "phpunit/phpunit": "~12.3.6",
         "symfony/var-dumper": "~7.3.2",
@@ -112,17 +111,36 @@
         "bin_phpunit": "vendor/bin/phpunit --do-not-cache-result --colors=always",
         "bin_psalm": "vendor/ghostwriter/coding-standard/tools/phar/psalm --no-cache",
         "cache:clear": "rm -rf ./.cache/*",
-        "check": ["@cache:clear", "@bin_composer validate", "@test"],
+        "check": [
+            "@cache:clear",
+            "@bin_composer validate",
+            "@test"
+        ],
         "composer-normalize": "@bin_normalize --no-cache --diff --no-check-lock --no-scripts --no-plugins",
-        "docker": ["@docker:build", "@docker:run"],
+        "docker": [
+            "@docker:build",
+            "@docker:run"
+        ],
         "docker:build": "docker buildx build --pull --tag workspace .",
         "docker:run": "docker run -v $(PWD):/github/workspace -w=/github/workspace -e GITHUB_DEBUG=1 -e GITHUB_WORKSPACE=/github/workspace -e GITHUB_TOKEN=github-token -e SIGNING_SECRET_KEY=secret-key workspace",
         "git:submodule:update": "git submodule update --depth=1 --init --recursive --recommend-shallow --remote",
-        "infection": ["@xdebug", "@bin_infection"],
+        "infection": [
+            "@xdebug",
+            "@bin_infection"
+        ],
         "normalize": "@bin_normalize --no-cache --diff --no-check-lock --no-scripts --no-plugins",
-        "phive": ["@bin_phive update --force-accept-unsigned", "@bin_phive purge"],
-        "phpunit": ["@xdebug", "@bin_phpunit"],
-        "phpunit:migrate": ["@xdebug", "@bin_phpunit --migrate-configuration"],
+        "phive": [
+            "@bin_phive update --force-accept-unsigned",
+            "@bin_phive purge"
+        ],
+        "phpunit": [
+            "@xdebug",
+            "@bin_phpunit"
+        ],
+        "phpunit:migrate": [
+            "@xdebug",
+            "@bin_phpunit --migrate-configuration"
+        ],
         "psalm": "@bin_psalm --show-info=true --no-diff --shepherd --stats",
         "psalm:alter": "@bin_psalm --alter --allow-backwards-incompatible-changes=false --safe-types",
         "psalm:baseline": "@bin_psalm --no-diff --set-baseline=psalm-baseline.xml",
@@ -130,8 +148,11 @@
         "psalm:fix": "@bin_psalm --alter --issues=UnnecessaryVarAnnotation",
         "psalm:security": "@bin_psalm --no-diff --taint-analysis",
         "psalm:update": "@bin_psalm --no-diff --update-baseline=psalm-baseline.xml",
-        "rector:dry-run": "@rector --dry-run",
-        "test": ["@phpunit", "@infection", "@psalm"],
+        "test": [
+            "@phpunit",
+            "@infection",
+            "@psalm"
+        ],
         "xdebug": "@putenv XDEBUG_MODE=coverage"
     }
 }
