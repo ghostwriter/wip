@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "290f08c8120593e6c900607ec2c88416",
+    "content-hash": "6c8102cdea434e7ed0298b6092146e09",
     "packages": [
         {
             "name": "ghostwriter/case-converter",
@@ -2770,24 +2770,24 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ghostwriter/psr-phpunit-assertions.git",
-                "reference": "19005932a20c196b3a370fc154b2544880a13013"
+                "reference": "22bad7a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/psr-phpunit-assertions/zipball/19005932a20c196b3a370fc154b2544880a13013",
-                "reference": "19005932a20c196b3a370fc154b2544880a13013",
+                "url": "https://api.github.com/repos/ghostwriter/psr-phpunit-assertions/zipball/22bad7a",
+                "reference": "22bad7a",
                 "shasum": ""
             },
             "require": {
                 "fig/http-message-util": "~1.1.5",
-                "php": "~8.4.0",
+                "php": "~8.4.0 || ~8.5.0",
                 "psr/cache": "~3.0.0",
                 "psr/clock": "~1.0.0",
                 "psr/container": "~2.0.2",
                 "psr/event-dispatcher": "~1.0.0",
                 "psr/http-client": "~1.0.3",
                 "psr/http-factory": "~1.1.0",
-                "psr/http-message": "~2.0.0",
+                "psr/http-message": "~2.0",
                 "psr/http-server-handler": "~1.0.2",
                 "psr/http-server-middleware": "~1.0.2",
                 "psr/link": "~2.0.1",
@@ -2797,11 +2797,10 @@
             "require-dev": {
                 "ext-xdebug": "*",
                 "ghostwriter/coding-standard": "dev-main",
-                "infection/infection": "~0.30.3",
                 "mockery/mockery": "~1.6.12",
-                "phpunit/phpunit": "~12.2.7",
-                "symfony/var-dumper": "~7.3.1",
-                "vimeo/psalm": "~6.13.0"
+                "phpunit/phpunit": "~12.3.6",
+                "symfony/var-dumper": "~7.3.2",
+                "vimeo/psalm": "~6.13.1"
             },
             "default-branch": true,
             "type": "library",
@@ -2855,7 +2854,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-07-21T22:46:38+00:00"
+            "time": "2025-08-26T16:57:18+00:00"
         },
         {
             "name": "hamcrest/hamcrest-php",
