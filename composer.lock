@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ee725dd777fbc1b04ecc9432b1aeedcb",
+    "content-hash": "ad3d800e1cc77191e27e3d651036c209",
     "packages": [
         {
             "name": "ghostwriter/case-converter",
@@ -2770,12 +2770,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ghostwriter/psr-phpunit-assertions.git",
-                "reference": "22bad7a"
+                "reference": "6e61681d47bbf3c4eb1ea9db5a026efc4e13cb44"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/psr-phpunit-assertions/zipball/22bad7a",
-                "reference": "22bad7a",
+                "url": "https://api.github.com/repos/ghostwriter/psr-phpunit-assertions/zipball/6e61681d47bbf3c4eb1ea9db5a026efc4e13cb44",
+                "reference": "6e61681d47bbf3c4eb1ea9db5a026efc4e13cb44",
                 "shasum": ""
             },
             "require": {
@@ -2798,8 +2798,8 @@
                 "ext-xdebug": "*",
                 "ghostwriter/coding-standard": "dev-main",
                 "mockery/mockery": "~1.6.12",
-                "phpunit/phpunit": "~12.3.6",
-                "symfony/var-dumper": "~7.3.2",
+                "phpunit/phpunit": "~12.3.7",
+                "symfony/var-dumper": "~7.3.3",
                 "vimeo/psalm": "~6.13.1"
             },
             "default-branch": true,
@@ -2854,7 +2854,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-08-26T16:57:18+00:00"
+            "time": "2025-08-29T09:38:57+00:00"
         },
         {
             "name": "hamcrest/hamcrest-php",
