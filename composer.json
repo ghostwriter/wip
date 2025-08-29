@@ -56,7 +56,7 @@
         "ghostwriter/psr-phpunit-assertions": "0.1.x-dev#22bad7a",
         "mockery/mockery": "~1.6.12",
         "phpunit/phpunit": "~12.3.7",
-        "symfony/var-dumper": "~7.3.2",
+        "symfony/var-dumper": "~7.3.3",
         "vimeo/psalm": "~6.13.1"
     },
     "prefer-stable": true,
