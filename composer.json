@@ -43,7 +43,6 @@
         "ghostwriter/container": "~5.0.1",
         "ghostwriter/event-dispatcher": "~5.0.3",
         "ghostwriter/filesystem": "~0.1.1",
-        "ghostwriter/http": "@dev",
         "ghostwriter/json": "~3.0.0",
         "ghostwriter/option": "~2.0.0",
         "ghostwriter/result": "~2.0.0",
@@ -53,7 +52,6 @@
     "require-dev": {
         "ext-xdebug": "*",
         "ghostwriter/coding-standard": "dev-main",
-        "ghostwriter/psr-phpunit-assertions": "0.1.x-dev",
         "mockery/mockery": "~1.6.12",
         "phpunit/phpunit": "~12.3.7",
         "symfony/var-dumper": "~7.3.3",
