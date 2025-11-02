@@ -1365,12 +1365,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ghostwriter/coding-standard.git",
-                "reference": "3ae3e7ee0910cfee6f848a5e2328672f378adcb6"
+                "reference": "eb4a5f0d8fc4c82c89fc26c83e4883979f0eadad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/coding-standard/zipball/3ae3e7ee0910cfee6f848a5e2328672f378adcb6",
-                "reference": "3ae3e7ee0910cfee6f848a5e2328672f378adcb6",
+                "url": "https://api.github.com/repos/ghostwriter/coding-standard/zipball/eb4a5f0d8fc4c82c89fc26c83e4883979f0eadad",
+                "reference": "eb4a5f0d8fc4c82c89fc26c83e4883979f0eadad",
                 "shasum": ""
             },
             "require": {
@@ -1400,16 +1400,6 @@
                 "ext-xml": "*",
                 "ext-xmlwriter": "*",
                 "ext-zlib": "*",
-                "ghostwriter/case-converter": "^2.1.0",
-                "ghostwriter/clock": "^3.0.1",
-                "ghostwriter/config": "^1.0.0",
-                "ghostwriter/container": "^5.0.1",
-                "ghostwriter/event-dispatcher": "^5.0.3",
-                "ghostwriter/filesystem": "^0.1.1",
-                "ghostwriter/json": "^3.0.0",
-                "ghostwriter/option": "^2.0.0",
-                "ghostwriter/result": "^2.0.0",
-                "ghostwriter/shell": "^0.1.0",
                 "php": "~8.4.0 || ~8.5.0",
                 "symfony/console": "^7.3.5"
             },
@@ -1526,7 +1516,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-10-30T17:11:59+00:00"
+            "time": "2025-11-02T01:14:37+00:00"
         },
         {
             "name": "hamcrest/hamcrest-php",
