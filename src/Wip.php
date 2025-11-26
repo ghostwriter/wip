@@ -4,10 +4,10 @@ declare(strict_types=1);
 
 namespace Ghostwriter\Wip;
 
-use Ghostwriter\Wip\Interface\FooInterface;
+use Ghostwriter\Wip\Interface\WipInterface;
 
 /** @see FooTest */
-final class Foo implements FooInterface
+final class Wip implements WipInterface
 {
     public function __construct() {}
 
