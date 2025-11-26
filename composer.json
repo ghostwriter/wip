@@ -105,6 +105,10 @@
             "container": {
                 "definition": "Ghostwriter\\Wip\\Container\\WipDefinition"
             }
+        },
+        "thanks": {
+            "url": "https://github.com/ghostwriter/wip",
+            "name": "ghostwriter/wip"
         }
     },
     "scripts": {
