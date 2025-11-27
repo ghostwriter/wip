@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "40196932577d7d0e4ad6cdbe1404910e",
+    "content-hash": "177bfc29cf09929336a425bb5e62566e",
     "packages": [
         {
             "name": "ghostwriter/case-converter",
@@ -280,16 +280,16 @@
         },
         {
             "name": "ghostwriter/console",
-            "version": "0.1.1",
+            "version": "0.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ghostwriter/console.git",
-                "reference": "bc025cb87e19a8bed2580dae175e6ad2b8f791b9"
+                "reference": "9d3649ec7d444be5457d06b58de4c7cc097e02e0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/console/zipball/bc025cb87e19a8bed2580dae175e6ad2b8f791b9",
-                "reference": "bc025cb87e19a8bed2580dae175e6ad2b8f791b9",
+                "url": "https://api.github.com/repos/ghostwriter/console/zipball/9d3649ec7d444be5457d06b58de4c7cc097e02e0",
+                "reference": "9d3649ec7d444be5457d06b58de4c7cc097e02e0",
                 "shasum": ""
             },
             "require": {
@@ -297,17 +297,21 @@
                 "ghostwriter/config": "^2.0.1",
                 "ghostwriter/container": "^6.0.1",
                 "php": "~8.4.0 || ~8.5.0",
-                "symfony/console": "^7.3.6"
+                "symfony/console": "^7.3.6 || ^8.0.0"
             },
             "require-dev": {
                 "ext-xdebug": "*",
                 "ghostwriter/coding-standard": "dev-main",
                 "mockery/mockery": "^1.6.12",
                 "phpunit/phpunit": "^12.4.4",
-                "symfony/var-dumper": "^7.3.5"
+                "symfony/var-dumper": "^7.4.0"
             },
             "type": "library",
             "extra": {
+                "thanks": {
+                    "url": "https://github.com/ghostwriter/console",
+                    "name": "ghostwriter/console"
+                },
                 "ghostwriter": {
                     "container": {
                         "definition": "Ghostwriter\\Console\\Container\\ConsoleDefinition"
@@ -349,7 +353,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-11-25T21:15:12+00:00"
+            "time": "2025-11-27T13:58:10+00:00"
         },
         {
             "name": "ghostwriter/container",
