@@ -41,7 +41,7 @@
         "ghostwriter/clock": "^3.0.1",
         "ghostwriter/collection": "^2.0.0",
         "ghostwriter/config": "^2.0.1",
-        "ghostwriter/console": "^0.1.1",
+        "ghostwriter/console": "^0.1.2",
         "ghostwriter/container": "^6.0.1",
         "ghostwriter/event-dispatcher": "^6.0.2",
         "ghostwriter/filesystem": "^0.1.2",
