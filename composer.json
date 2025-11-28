@@ -107,8 +107,8 @@
             }
         },
         "thanks": {
-            "url": "https://github.com/ghostwriter/wip",
-            "name": "ghostwriter/wip"
+            "name": "ghostwriter/wip",
+            "url": "https://github.com/ghostwriter/wip"
         }
     },
     "scripts": {
