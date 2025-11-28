@@ -2299,12 +2299,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ghostwriter/coding-standard.git",
-                "reference": "776cfbdf9f48c7cff70ef4dc836d06de24266e99"
+                "reference": "b0e40afa398025e10ebd77944191c92be9599f03"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/coding-standard/zipball/776cfbdf9f48c7cff70ef4dc836d06de24266e99",
-                "reference": "776cfbdf9f48c7cff70ef4dc836d06de24266e99",
+                "url": "https://api.github.com/repos/ghostwriter/coding-standard/zipball/b0e40afa398025e10ebd77944191c92be9599f03",
+                "reference": "b0e40afa398025e10ebd77944191c92be9599f03",
                 "shasum": ""
             },
             "require": {
@@ -2350,6 +2350,7 @@
                 "ext-sodium": "*",
                 "ext-sqlite3": "*",
                 "ext-tokenizer": "*",
+                "ext-xdebug": "*",
                 "ext-xml": "*",
                 "ext-xmlreader": "*",
                 "ext-xmlwriter": "*",
@@ -2358,19 +2359,17 @@
                 "ext-zend-opcache": "*",
                 "ext-zip": "*",
                 "ext-zlib": "*",
+                "ghostwriter/config": "^2.0.1",
                 "ghostwriter/console": "^0.1.2",
+                "mockery/mockery": "^1.6.12",
+                "nikic/php-parser": "^5.6.2",
                 "php": "~8.4.0 || ~8.5.0",
-                "symfony/process": "^8.0.0"
+                "phpunit/phpunit": "^12.4.4",
+                "symfony/process": "^8.0.0",
+                "symfony/var-dumper": "^8.0.0"
             },
             "conflict": {
                 "pestphp/pest": "*"
-            },
-            "require-dev": {
-                "ext-xdebug": "*",
-                "mockery/mockery": "^1.6.12",
-                "nikic/php-parser": "^5.6.2",
-                "phpunit/phpunit": "^12.4.4",
-                "symfony/var-dumper": "^8.0.0"
             },
             "default-branch": true,
             "bin": [
@@ -2481,7 +2480,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-11-28T01:32:02+00:00"
+            "time": "2025-11-28T20:43:34+00:00"
         },
         {
             "name": "hamcrest/hamcrest-php",
