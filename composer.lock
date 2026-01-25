@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e4774ed954e2a88178cd37656c34b015",
+    "content-hash": "412b36a4a8cfdb7a1f5ef271822ba0ab",
     "packages": [
         {
             "name": "ghostwriter/case-converter",
@@ -769,16 +769,16 @@
         },
         {
             "name": "ghostwriter/shell",
-            "version": "0.1.2",
+            "version": "0.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ghostwriter/shell.git",
-                "reference": "e6367b96cd6be790291bc23c1e5d3aa607335109"
+                "reference": "52baa393e18d9db93f479c96241d6d644ec07f10"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/shell/zipball/e6367b96cd6be790291bc23c1e5d3aa607335109",
-                "reference": "e6367b96cd6be790291bc23c1e5d3aa607335109",
+                "url": "https://api.github.com/repos/ghostwriter/shell/zipball/52baa393e18d9db93f479c96241d6d644ec07f10",
+                "reference": "52baa393e18d9db93f479c96241d6d644ec07f10",
                 "shasum": ""
             },
             "require": {
@@ -790,7 +790,7 @@
                 "ghostwriter/container": "^6.0.1",
                 "mockery/mockery": "^1.6.12",
                 "phpunit/phpunit": "^12.5.7",
-                "symfony/var-dumper": "^8.0.3"
+                "symfony/var-dumper": "^8.0.4"
             },
             "type": "library",
             "extra": {
@@ -840,7 +840,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-01-25T08:43:34+00:00"
+            "time": "2026-01-25T16:15:33+00:00"
         },
         {
             "name": "ghostwriter/uuid",
