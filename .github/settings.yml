@@ -10,7 +10,7 @@
   "description": "[WIP] Template for PHP projects"
   "topics": "ghostwriter, package-template, php, template, template-repository, wip"
   "homepage": "https://github.com/ghostwriter/wip"
-  "default_branch": "0.1.x"
+  "default_branch": "0.1.0"
   "allow_auto_merge": true
   "allow_forking": true
   "allow_merge_commit": true
