@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c5e3b607e8785225a2c7d75d9faca51a",
+    "content-hash": "f0e96ab203d5c9440f7466666b195e2b",
     "packages": [
         {
             "name": "ghostwriter/case-converter",
@@ -4409,16 +4409,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "13.1.2",
+            "version": "13.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "13cedf8213f89d5a2dcd98945c31b435a55af204"
+                "reference": "06184715ee25f3af84d3b4a9ce28ff1f92bd0bfc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/13cedf8213f89d5a2dcd98945c31b435a55af204",
-                "reference": "13cedf8213f89d5a2dcd98945c31b435a55af204",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/06184715ee25f3af84d3b4a9ce28ff1f92bd0bfc",
+                "reference": "06184715ee25f3af84d3b4a9ce28ff1f92bd0bfc",
                 "shasum": ""
             },
             "require": {
@@ -4488,7 +4488,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
                 "security": "https://github.com/sebastianbergmann/phpunit/security/policy",
-                "source": "https://github.com/sebastianbergmann/phpunit/tree/13.1.2"
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/13.1.3"
             },
             "funding": [
                 {
@@ -4496,7 +4496,7 @@
                     "type": "other"
                 }
             ],
-            "time": "2026-04-13T05:05:18+00:00"
+            "time": "2026-04-13T05:40:20+00:00"
         },
         {
             "name": "psr/clock",
