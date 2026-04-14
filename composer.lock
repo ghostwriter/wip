@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ddc8a919e4413107166fa16d336c0528",
+    "content-hash": "4fc3e601d709319a8cfbdf96633a606c",
     "packages": [
         {
             "name": "ghostwriter/case-converter",
@@ -292,31 +292,31 @@
         },
         {
             "name": "ghostwriter/console",
-            "version": "0.1.3",
+            "version": "0.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ghostwriter/console.git",
-                "reference": "b097c4e7bd69570d2dd255746d2ae834a6dcb054"
+                "reference": "f8a00e1d5a8ebc72bfc421d97eb7e5cdfe561b11"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/console/zipball/b097c4e7bd69570d2dd255746d2ae834a6dcb054",
-                "reference": "b097c4e7bd69570d2dd255746d2ae834a6dcb054",
+                "url": "https://api.github.com/repos/ghostwriter/console/zipball/f8a00e1d5a8ebc72bfc421d97eb7e5cdfe561b11",
+                "reference": "f8a00e1d5a8ebc72bfc421d97eb7e5cdfe561b11",
                 "shasum": ""
             },
             "require": {
                 "ext-mbstring": "*",
-                "ghostwriter/config": "^2.0.2",
-                "ghostwriter/container": "^6.0.1",
+                "ghostwriter/config": "^2.1.0",
+                "ghostwriter/container": "^6.1.1",
                 "php": "~8.4.0 || ~8.5.0",
-                "symfony/console": "^8.0.4"
+                "symfony/console": "^8.0.8"
             },
             "require-dev": {
                 "ext-xdebug": "*",
                 "ghostwriter/coding-standard": "dev-main",
                 "mockery/mockery": "^1.6.12",
-                "phpunit/phpunit": "^13.0.2",
-                "symfony/var-dumper": "^8.0.4"
+                "phpunit/phpunit": "^13.1.3",
+                "symfony/var-dumper": "^8.0.8"
             },
             "type": "library",
             "extra": {
@@ -326,7 +326,9 @@
                 },
                 "ghostwriter": {
                     "container": {
-                        "definition": "Ghostwriter\\Console\\Container\\ConsoleDefinition"
+                        "provider": [
+                            "Ghostwriter\\Console\\Container\\ConsoleProvider"
+                        ]
                     }
                 }
             },
@@ -365,7 +367,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-02-14T18:44:07+00:00"
+            "time": "2026-04-14T14:51:32+00:00"
         },
         {
             "name": "ghostwriter/container",
