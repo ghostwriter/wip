@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5887567534cb3b44a3fa2076acc51365",
+    "content-hash": "e8731866c522ed1d25c162fc69f967a1",
     "packages": [
         {
             "name": "ghostwriter/case-converter",
@@ -361,16 +361,16 @@
         },
         {
             "name": "ghostwriter/container",
-            "version": "6.1.0",
+            "version": "6.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ghostwriter/container.git",
-                "reference": "05aa763090b7dddc79d152b94852fbce73775d01"
+                "reference": "478b61f4b95ea95969e6552f29d539c81fed10d6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/container/zipball/05aa763090b7dddc79d152b94852fbce73775d01",
-                "reference": "05aa763090b7dddc79d152b94852fbce73775d01",
+                "url": "https://api.github.com/repos/ghostwriter/container/zipball/478b61f4b95ea95969e6552f29d539c81fed10d6",
+                "reference": "478b61f4b95ea95969e6552f29d539c81fed10d6",
                 "shasum": ""
             },
             "require": {
@@ -436,24 +436,24 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-04-13T19:15:02+00:00"
+            "time": "2026-04-14T14:00:13+00:00"
         },
         {
             "name": "ghostwriter/event-dispatcher",
-            "version": "6.0.2",
+            "version": "6.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ghostwriter/event-dispatcher.git",
-                "reference": "812d1be3c2850d9901a1e471dd2c0e20bbd15b2a"
+                "reference": "acdf7450096767814e716906dc453cfd0c24c1e8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/event-dispatcher/zipball/812d1be3c2850d9901a1e471dd2c0e20bbd15b2a",
-                "reference": "812d1be3c2850d9901a1e471dd2c0e20bbd15b2a",
+                "url": "https://api.github.com/repos/ghostwriter/event-dispatcher/zipball/acdf7450096767814e716906dc453cfd0c24c1e8",
+                "reference": "acdf7450096767814e716906dc453cfd0c24c1e8",
                 "shasum": ""
             },
             "require": {
-                "ghostwriter/container": "^6.0.1",
+                "ghostwriter/container": "^6.1.1",
                 "php": "~8.4.0 || ~8.5.0",
                 "psr/event-dispatcher": "^1.0.0"
             },
@@ -464,14 +464,18 @@
                 "ext-xdebug": "*",
                 "ghostwriter/coding-standard": "dev-main",
                 "mockery/mockery": "^1.6.12",
-                "phpunit/phpunit": "^12.4.4",
-                "symfony/var-dumper": "^7.3.5"
+                "phpunit/phpunit": "^13.1.3",
+                "symfony/var-dumper": "^8.0.8"
             },
             "type": "library",
             "extra": {
+                "thanks": {
+                    "url": "https://github.com/ghostwriter/event-dispatcher",
+                    "name": "ghostwriter/event-dispatcher"
+                },
                 "ghostwriter": {
                     "container": {
-                        "definition": "Ghostwriter\\EventDispatcher\\Container\\EventDispatcherDefinition"
+                        "provider": "Ghostwriter\\EventDispatcher\\Container\\EventDispatcherProvider"
                     }
                 }
             },
@@ -482,7 +486,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "BSD-4-Clause"
+                "BSD-3-Clause"
             ],
             "authors": [
                 {
@@ -513,7 +517,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-11-23T22:18:37+00:00"
+            "time": "2026-04-14T16:31:20+00:00"
         },
         {
             "name": "ghostwriter/filesystem",
