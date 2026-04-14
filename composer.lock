@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a7a7192798f4f0f895afbddbfaadb423",
+    "content-hash": "ddc8a919e4413107166fa16d336c0528",
     "packages": [
         {
             "name": "ghostwriter/case-converter",
@@ -1038,16 +1038,16 @@
         },
         {
             "name": "ghostwriter/shell",
-            "version": "0.1.4",
+            "version": "0.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ghostwriter/shell.git",
-                "reference": "52baa393e18d9db93f479c96241d6d644ec07f10"
+                "reference": "c672e81c2695fbb7aa9f6a266733dd1588109fc7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/shell/zipball/52baa393e18d9db93f479c96241d6d644ec07f10",
-                "reference": "52baa393e18d9db93f479c96241d6d644ec07f10",
+                "url": "https://api.github.com/repos/ghostwriter/shell/zipball/c672e81c2695fbb7aa9f6a266733dd1588109fc7",
+                "reference": "c672e81c2695fbb7aa9f6a266733dd1588109fc7",
                 "shasum": ""
             },
             "require": {
@@ -1056,10 +1056,10 @@
             "require-dev": {
                 "ext-xdebug": "*",
                 "ghostwriter/coding-standard": "dev-main",
-                "ghostwriter/container": "^6.0.1",
+                "ghostwriter/container": "^6.1.1",
                 "mockery/mockery": "^1.6.12",
-                "phpunit/phpunit": "^12.5.7",
-                "symfony/var-dumper": "^8.0.4"
+                "phpunit/phpunit": "^13.1.3",
+                "symfony/var-dumper": "^8.0.8"
             },
             "type": "library",
             "extra": {
@@ -1069,7 +1069,9 @@
                 },
                 "ghostwriter": {
                     "container": {
-                        "definition": "Ghostwriter\\Shell\\Container\\ShellDefinition"
+                        "provider": [
+                            "Ghostwriter\\Shell\\Container\\ShellProvider"
+                        ]
                     }
                 }
             },
@@ -1109,7 +1111,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-01-25T16:15:33+00:00"
+            "time": "2026-04-14T16:07:44+00:00"
         },
         {
             "name": "ghostwriter/uuid",
