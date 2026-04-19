@@ -16,7 +16,6 @@ use Ghostwriter\Wip\Wip;
 /**
  * @return array{
  *     'alias': array<class-string,class-string>,
- *     'define': array<class-string,class-string<DefinitionInterface>>,
  *     'extend': array<class-string,list<class-string<ExtensionInterface>>>,
  *     'factory': array<class-string,class-string<FactoryInterface>>
  * }
@@ -25,7 +24,6 @@ return [
     'alias' => [
         WipInterface::class => Wip::class,
     ],
-    'define' => [WipDefinition::class],
     'extend' => [
         ConfigurationInterface::class => [ConfigurationExtension::class],
         ListenerProviderInterface::class => [ListenerProviderExtension::class],
