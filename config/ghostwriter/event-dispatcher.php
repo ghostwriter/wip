@@ -10,15 +10,11 @@ use Composer\Plugin\PrePoolCreateEvent;
 use Composer\Script\Event as ComposerScriptEvent;
 
 /**
- * @return array{
- *     'listen': array<'object'|class-string,list<class-string>>
- * }
+ * @return array<'object'|class-string,list<class-string>>
  */
 return [
-    'listen' => [
-        'object' => [],
-        // Event::class => [Listener::class],
-    ],
+    // Event::class => [Listener::class],
+    'object' => [],
     CommandEvent::class => [
         // Composer Plugin events
     ],
@@ -36,6 +32,5 @@ return [
     ],
     ComposerScriptEvent::class => [
         // Composer Plugin events
-        //        ComposerScriptListener::class,
     ],
 ];
