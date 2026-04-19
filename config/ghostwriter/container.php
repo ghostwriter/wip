@@ -3,13 +3,11 @@
 declare(strict_types=1);
 
 use Ghostwriter\Config\Interface\ConfigurationInterface;
-use Ghostwriter\Container\Interface\Service\DefinitionInterface;
 use Ghostwriter\Container\Interface\Service\ExtensionInterface;
 use Ghostwriter\Container\Interface\Service\FactoryInterface;
 use Ghostwriter\EventDispatcher\Interface\ListenerProviderInterface;
-use Ghostwriter\Wip\Container\Ghostwriter\Config\ConfigurationExtension;
+use Ghostwriter\Wip\Container\Ghostwriter\Config\WipConfigurationExtension;
 use Ghostwriter\Wip\Container\Ghostwriter\EventDispatcher\ListenerProviderExtension;
-use Ghostwriter\Wip\Container\WipDefinition;
 use Ghostwriter\Wip\Interface\WipInterface;
 use Ghostwriter\Wip\Wip;
 
@@ -25,7 +23,7 @@ return [
         WipInterface::class => Wip::class,
     ],
     'extend' => [
-        ConfigurationInterface::class => [ConfigurationExtension::class],
+        ConfigurationInterface::class => [WipConfigurationExtension::class],
         ListenerProviderInterface::class => [ListenerProviderExtension::class],
     ],
     'factory' => [],
