@@ -35,8 +35,8 @@ final readonly class WipConfigurationExtension implements ExtensionInterface
         assert($service instanceof WipConfigurationInterface);
 
         $configDirectory = implode(DIRECTORY_SEPARATOR, [dirname(__DIR__, 4), 'config']);
-        
-        assert(is_dir($configDirectory), "Expected configuration directory to exist at path: {$configDirectory}");
+
+        assert(is_dir($configDirectory), 'Expected configuration directory to exist at path: ' . $configDirectory);
 
         $service->mergeDirectory($configDirectory);
     }

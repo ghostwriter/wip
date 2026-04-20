@@ -6,8 +6,10 @@ use Ghostwriter\Config\Interface\ConfigurationInterface;
 use Ghostwriter\Container\Interface\Service\ExtensionInterface;
 use Ghostwriter\Container\Interface\Service\FactoryInterface;
 use Ghostwriter\EventDispatcher\Interface\ListenerProviderInterface;
+use Ghostwriter\Wip\Configuration\WipConfiguration;
 use Ghostwriter\Wip\Container\Ghostwriter\Config\WipConfigurationExtension;
 use Ghostwriter\Wip\Container\Ghostwriter\EventDispatcher\ListenerProviderExtension;
+use Ghostwriter\Wip\Interface\WipConfigurationInterface;
 use Ghostwriter\Wip\Interface\WipInterface;
 use Ghostwriter\Wip\Wip;
 
@@ -21,6 +23,7 @@ use Ghostwriter\Wip\Wip;
 return [
     'alias' => [
         WipInterface::class => Wip::class,
+        WipConfigurationInterface::class => WipConfiguration::class,
     ],
     'extend' => [
         ConfigurationInterface::class => [WipConfigurationExtension::class],

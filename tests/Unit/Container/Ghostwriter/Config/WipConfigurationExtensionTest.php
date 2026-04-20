@@ -11,6 +11,8 @@ use Ghostwriter\Wip\Interface\WipConfigurationInterface;
 use PHPUnit\Framework\Attributes\CoversClass;
 use Tests\Unit\AbstractTestCase;
 
+use const DIRECTORY_SEPARATOR;
+
 use function dirname;
 use function is_a;
 

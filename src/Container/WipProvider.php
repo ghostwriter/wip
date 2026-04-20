@@ -6,7 +6,6 @@ namespace Ghostwriter\Wip\Container;
 
 use Ghostwriter\Config\Interface\ConfigurationInterface;
 use Ghostwriter\Container\Interface\BuilderInterface;
-use Ghostwriter\Container\Interface\ContainerInterface;
 use Ghostwriter\Container\Service\Provider\AbstractProvider;
 use Ghostwriter\EventDispatcher\Interface\ListenerProviderInterface;
 use Ghostwriter\Wip\Configuration\WipConfiguration;
