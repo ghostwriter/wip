@@ -11,8 +11,10 @@ use Ghostwriter\Container\PsrContainer;
 use Ghostwriter\Wip\Container\Symfony\Console\ApplicationFactory;
 use Ghostwriter\Wip\Interface\WipConfigurationInterface;
 use PHPUnit\Framework\Attributes\CoversClass;
+use ReflectionProperty;
 use Symfony\Component\Console\Application;
 use Symfony\Component\Console\Command\Command;
+
 use Tests\Unit\AbstractTestCase;
 
 use function is_a;
@@ -57,7 +59,11 @@ final class ApplicationFactoryTest extends AbstractTestCase
                 ['auto_exit', false],
                 ['catch_errors', false],
                 ['catch_exceptions', false],
-                ['commands', ['app:run' => 'command.service']],
+                [
+                    'commands', [
+                        'app:run' => 'command.service',
+                    ],
+                ],
                 ['default_command', false],
                 ['single_command', false],
             )
@@ -67,7 +73,9 @@ final class ApplicationFactoryTest extends AbstractTestCase
                 true,
                 true,
                 false,
-                ['app:run' => 'command.service'],
+                [
+                    'app:run' => 'command.service',
+                ],
                 'app:run',
                 true,
             )
@@ -76,14 +84,8 @@ final class ApplicationFactoryTest extends AbstractTestCase
         $container = $this->createMock(ContainerInterface::class);
         $container->expects(self::exactly(2))
             ->method('get')
-            ->withParameterSetsInOrder(
-                [WipConfigurationInterface::class],
-                [PsrContainer::class],
-            )
-            ->willReturnOnConsecutiveCalls(
-                $configuration,
-                new PsrContainer($psrContainerDelegate),
-            )
+            ->withParameterSetsInOrder([WipConfigurationInterface::class], [PsrContainer::class])
+            ->willReturnOnConsecutiveCalls($configuration, new PsrContainer($psrContainerDelegate))
             ->seal();
 
         $application = (new ApplicationFactory())($container);
@@ -105,15 +107,15 @@ final class ApplicationFactoryTest extends AbstractTestCase
         return $this->readProperty($object, $property);
     }
 
+    private function readProperty(object $object, string $property): mixed
+    {
+        $reflectionProperty = new ReflectionProperty($object, $property);
+
+        return $reflectionProperty->getValue($object);
+    }
+
     private function readStringProperty(object $object, string $property): string
     {
         return $this->readProperty($object, $property);
-    }
-
-    private function readProperty(object $object, string $property): mixed
-    {
-        $reflectionProperty = new \ReflectionProperty($object, $property);
-
-        return $reflectionProperty->getValue($object);
     }
 }

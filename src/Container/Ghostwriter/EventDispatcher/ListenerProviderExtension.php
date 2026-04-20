@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace Ghostwriter\Wip\Container\Ghostwriter\EventDispatcher;
 
-use Ghostwriter\Config\Interface\ConfigurationInterface;
 use Ghostwriter\Container\Interface\ContainerInterface;
 use Ghostwriter\Container\Interface\Service\ExtensionInterface;
 use Ghostwriter\EventDispatcher\Interface\ListenerProviderInterface;
