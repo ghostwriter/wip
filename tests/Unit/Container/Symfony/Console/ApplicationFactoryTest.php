@@ -57,7 +57,7 @@ final class ApplicationFactoryTest extends AbstractTestCase
                 ['auto_exit', false],
                 ['catch_errors', false],
                 ['catch_exceptions', false],
-                ['commands', []],
+                ['commands', ['app:run' => 'command.service']],
                 ['default_command', false],
                 ['single_command', false],
             )
