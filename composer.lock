@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "87bb66701974e5d99575a86e79331c84",
+    "content-hash": "43261376b86fa9e24d329d0f0e67efc8",
     "packages": [
         {
             "name": "ghostwriter/case-converter",
@@ -225,16 +225,16 @@
         },
         {
             "name": "ghostwriter/config",
-            "version": "2.1.2",
+            "version": "2.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ghostwriter/config.git",
-                "reference": "108d04cba1435d0d2fe1e366f19da869ff9e5284"
+                "reference": "9fbf1f2fccf86dbd4e06b5d9cef6d24a9ab0418d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/config/zipball/108d04cba1435d0d2fe1e366f19da869ff9e5284",
-                "reference": "108d04cba1435d0d2fe1e366f19da869ff9e5284",
+                "url": "https://api.github.com/repos/ghostwriter/config/zipball/9fbf1f2fccf86dbd4e06b5d9cef6d24a9ab0418d",
+                "reference": "9fbf1f2fccf86dbd4e06b5d9cef6d24a9ab0418d",
                 "shasum": ""
             },
             "require": {
@@ -297,7 +297,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-04-20T20:57:17+00:00"
+            "time": "2026-04-21T19:18:09+00:00"
         },
         {
             "name": "ghostwriter/console",
