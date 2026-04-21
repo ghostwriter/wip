@@ -229,12 +229,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ghostwriter/config.git",
-                "reference": "9fbf1f2fccf86dbd4e06b5d9cef6d24a9ab0418d"
+                "reference": "75cf15f580cb3da99aae394692a9d2781273778f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/config/zipball/9fbf1f2fccf86dbd4e06b5d9cef6d24a9ab0418d",
-                "reference": "9fbf1f2fccf86dbd4e06b5d9cef6d24a9ab0418d",
+                "url": "https://api.github.com/repos/ghostwriter/config/zipball/75cf15f580cb3da99aae394692a9d2781273778f",
+                "reference": "75cf15f580cb3da99aae394692a9d2781273778f",
                 "shasum": ""
             },
             "require": {
@@ -297,7 +297,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-04-21T19:18:09+00:00"
+            "time": "2026-04-21T20:07:07+00:00"
         },
         {
             "name": "ghostwriter/console",
