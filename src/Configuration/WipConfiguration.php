@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Ghostwriter\Wip\Configuration;
 
 use Ghostwriter\Config\AbstractConfiguration;
-use Ghostwriter\Wip\Interface\WipConfigurationInterface;
 
 /**
  * @template T of (array<non-empty-string,T>|bool|float|int|null|string)
@@ -14,4 +13,4 @@ use Ghostwriter\Wip\Interface\WipConfigurationInterface;
  *
  * @see WipConfigurationTest
  */
-final class WipConfiguration extends AbstractConfiguration implements WipConfigurationInterface {}
+final class WipConfiguration extends AbstractConfiguration {}

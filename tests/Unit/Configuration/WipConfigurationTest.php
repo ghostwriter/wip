@@ -5,8 +5,8 @@ declare(strict_types=1);
 namespace Tests\Unit\Configuration;
 
 use Ghostwriter\Config\AbstractConfiguration;
+use Ghostwriter\Config\Interface\ConfigurationInterface;
 use Ghostwriter\Wip\Configuration\WipConfiguration;
-use Ghostwriter\Wip\Interface\WipConfigurationInterface;
 use PHPUnit\Framework\Attributes\CoversClass;
 use Tests\Unit\AbstractTestCase;
 
@@ -20,9 +20,9 @@ final class WipConfigurationTest extends AbstractTestCase
         self::assertTrue(is_a(WipConfiguration::class, AbstractConfiguration::class, true));
     }
 
-    public function testImplementsWipConfigurationInterface(): void
+    public function testImplementsConfigurationInterface(): void
     {
-        self::assertTrue(is_a(WipConfiguration::class, WipConfigurationInterface::class, true));
+        self::assertTrue(is_a(WipConfiguration::class, ConfigurationInterface::class, true));
     }
 
     public function testSetStoresNestedConfigurationValues(): void

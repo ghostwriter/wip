@@ -60,11 +60,7 @@
     "autoload": {
         "psr-4": {
             "Ghostwriter\\Wip\\": "src"
-        },
-        "files": [
-            "src/constants.php",
-            "src/functions.php"
-        ]
+        }
     },
     "autoload-dev": {
         "psr-4": {

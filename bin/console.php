@@ -3,38 +3,26 @@
 
 declare(strict_types=1);
 
-namespace Ghostwriter\Wip\Console;
-
-use ErrorException;
-use Ghostwriter\Wip\Foo;
-
-use const DIRECTORY_SEPARATOR;
-use const STDERR;
-
-use function dirname;
-use function file_exists;
-use function fwrite;
-use function restore_error_handler;
-use function set_error_handler;
+use Ghostwriter\Wip\Wip;
 
 /** @var ?string $_composer_autoload_path */
 (static function (string $autoloader): void {
-    set_error_handler(static function (int $severity, string $message, string $file, int $line): never {
-        throw new ErrorException($message, 255, $severity, $file, $line);
-    });
-
-    if (! file_exists($autoloader)) {
+    if (! \file_exists($autoloader)) {
         $message = '[ERROR]Cannot locate "' . $autoloader . '"\n please run "composer install"\n';
-        fwrite(STDERR, $message);
+        \fwrite(\STDERR, $message);
         exit;
     }
 
+    \set_error_handler(static function (int $severity, string $message, string $file, int $line): never {
+        throw new \ErrorException($message, 255, $severity, $file, $line);
+    });
+
     require $autoloader;
 
-    /**
-     * #BlackLivesMatter.
-     */
-    echo Foo::new()->test();
+    \restore_error_handler();
 
-    restore_error_handler();
-})($_composer_autoload_path ?? dirname(__DIR__) . DIRECTORY_SEPARATOR . 'vendor/autoload.php');
+    /** #BlackLivesMatter. */
+    exit(Wip::new()->run($_SERVER['argv'] ?? []));
+})(
+    $_composer_autoload_path ?? \implode(\DIRECTORY_SEPARATOR, [\dirname(__DIR__), 'vendor', 'autoload.php'])
+);

@@ -4,24 +4,27 @@ declare(strict_types=1);
 
 namespace Ghostwriter\Wip;
 
-use Ghostwriter\Wip\Configuration\WipConfiguration;
-use Ghostwriter\Wip\Interface\WipConfigurationInterface;
+use Ghostwriter\Container\Container;
 use Ghostwriter\Wip\Interface\WipInterface;
+use Symfony\Component\Console\Application;
+use Symfony\Component\Console\Input\ArgvInput;
+use Throwable;
 
 /** @see WipTest */
-final class Wip implements WipInterface
+final readonly class Wip implements WipInterface
 {
     public function __construct(
-        private WipConfigurationInterface $configuration
+        private Application $application,
     ) {}
 
-    public static function new(?WipConfigurationInterface $configuration = null): self
+    public static function new(): self
     {
-        return new self($configuration ?? WipConfiguration::new());
+        return Container::getInstance()->get(self::class);
     }
 
-    public function configuration(): WipConfigurationInterface
+    /** @throws Throwable */
+    public function run(array $arguments = []): int
     {
-        return $this->configuration;
+        return $this->application->run(new ArgvInput($arguments));
     }
 }
