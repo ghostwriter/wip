@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Ghostwriter\Wip\Container\Symfony\Console;
+namespace Ghostwriter\Wip\Console;
 
 use Composer\InstalledVersions;
 use Ghostwriter\Container\Interface\ContainerInterface;
 use Ghostwriter\Container\Interface\Service\FactoryInterface;
-use Ghostwriter\Container\PsrContainer;
-use Ghostwriter\Wip\Interface\WipConfigurationInterface;
+use Ghostwriter\Wip\Configuration\WipConfiguration;
 use Override;
+use Psr\Container\ContainerInterface as PsrContainerInterface;
 use Symfony\Component\Console\Application;
 use Symfony\Component\Console\CommandLoader\ContainerCommandLoader;
 use Throwable;
@@ -25,7 +25,7 @@ final readonly class ApplicationFactory implements FactoryInterface
     #[Override]
     public function __invoke(ContainerInterface $container): Application
     {
-        $consoleConfiguration = $container->get(WipConfigurationInterface::class)->wrap('ghostwriter.console');
+        $consoleConfiguration = $container->get(WipConfiguration::class)->wrap('ghostwriter.console');
 
         $application = new Application(
             $consoleConfiguration->get('name', 'Wip Console'),
@@ -39,7 +39,7 @@ final readonly class ApplicationFactory implements FactoryInterface
         $application->setCatchExceptions($consoleConfiguration->get('catch_exceptions', false));
 
         $application->setCommandLoader(new ContainerCommandLoader(
-            $container->get(PsrContainer::class),
+            $container->get(PsrContainerInterface::class),
             $consoleConfiguration->get('commands', [])
         ));
 

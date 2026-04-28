@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Tests\Unit\Container\Ghostwriter\EventDispatcher;
+namespace Tests\Unit\EventDispatcher;
 
 use Ghostwriter\Container\Interface\ContainerInterface;
 use Ghostwriter\Container\Interface\Service\ExtensionInterface;
 use Ghostwriter\EventDispatcher\Interface\ListenerProviderInterface;
-use Ghostwriter\Wip\Container\Ghostwriter\EventDispatcher\ListenerProviderExtension;
-use Ghostwriter\Wip\Interface\WipConfigurationInterface;
+use Ghostwriter\Wip\Configuration\WipConfiguration;
+use Ghostwriter\Wip\EventDispatcher\ListenerProviderExtension;
 use PHPUnit\Framework\Attributes\CoversClass;
 use Tests\Unit\AbstractTestCase;
 
@@ -24,22 +24,19 @@ final class ListenerProviderExtensionTest extends AbstractTestCase
 
     public function testInvokeRegistersConfiguredListeners(): void
     {
-        $configuration = $this->createMock(WipConfigurationInterface::class);
-        $configuration->expects(self::once())
-            ->method('get')
-            ->with('ghostwriter.event-dispatcher', [])
-            ->willReturn([
+        $configuration = WipConfiguration::new([
+            'ghostwriter.event-dispatcher' => [
                 'App\\Event\\UserRegistered' => [
                     'App\\Listener\\SendWelcomeEmail',
                     'App\\Listener\\SyncCrmContact',
                 ],
-            ])
-            ->seal();
+            ],
+        ]);
 
         $container = $this->createMock(ContainerInterface::class);
         $container->expects(self::once())
             ->method('get')
-            ->with(WipConfigurationInterface::class)
+            ->with(WipConfiguration::class)
             ->willReturn($configuration)
             ->seal();
 
