@@ -1408,16 +1408,16 @@
         },
         {
             "name": "guzzlehttp/psr7",
-            "version": "2.10.0",
+            "version": "2.10.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/psr7.git",
-                "reference": "d5ddaf5743c42a61cb6100f83dc9d5a2bafe75ca"
+                "reference": "73ab136360b5dfd858006eae9795e8fe43c80361"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/psr7/zipball/d5ddaf5743c42a61cb6100f83dc9d5a2bafe75ca",
-                "reference": "d5ddaf5743c42a61cb6100f83dc9d5a2bafe75ca",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/73ab136360b5dfd858006eae9795e8fe43c80361",
+                "reference": "73ab136360b5dfd858006eae9795e8fe43c80361",
                 "shasum": ""
             },
             "require": {
@@ -1505,7 +1505,7 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/psr7/issues",
-                "source": "https://github.com/guzzle/psr7/tree/2.10.0"
+                "source": "https://github.com/guzzle/psr7/tree/2.10.1"
             },
             "funding": [
                 {
@@ -1521,7 +1521,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-05-19T17:32:11+00:00"
+            "time": "2026-05-20T09:27:36+00:00"
         },
         {
             "name": "laminas/laminas-diactoros",
@@ -2843,12 +2843,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ghostwriter/coding-standard.git",
-                "reference": "afe147168d83f33756d70e3022f7da2557dbfa1b"
+                "reference": "362529f6642af30ab5f9dd8f58b198e96a574614"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/coding-standard/zipball/afe147168d83f33756d70e3022f7da2557dbfa1b",
-                "reference": "afe147168d83f33756d70e3022f7da2557dbfa1b",
+                "url": "https://api.github.com/repos/ghostwriter/coding-standard/zipball/362529f6642af30ab5f9dd8f58b198e96a574614",
+                "reference": "362529f6642af30ab5f9dd8f58b198e96a574614",
                 "shasum": ""
             },
             "require": {
@@ -2963,7 +2963,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-05-20T05:02:13+00:00"
+            "time": "2026-05-20T08:56:27+00:00"
         },
         {
             "name": "hamcrest/hamcrest-php",
