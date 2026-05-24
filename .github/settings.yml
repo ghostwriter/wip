@@ -8,10 +8,6 @@
 "repository":
   "name": "wip"
   "description": "[WIP] Here be dragons"
-  "topics":
-    - "ghostwriter"
-    - "wip"
-    - "php"
   "homepage": "https://github.com/ghostwriter/wip"
   "default_branch": "0.1.x"
   "allow_auto_merge": true
