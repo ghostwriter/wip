@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8b4f1beb21b0d636008ae7ba2f845be3",
+    "content-hash": "c74383583f0d844ab7141bba9106b9e7",
     "packages": [
         {
             "name": "ghostwriter/case-converter",
@@ -2727,16 +2727,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ghostwriter/coding-standard.git",
-                "reference": "2bdc20814da0fd448a4edf5c5250b581d73cf88f"
+                "reference": "d83e0d58c5b03742f8ee5f9a347281978dfaf4fe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/coding-standard/zipball/2bdc20814da0fd448a4edf5c5250b581d73cf88f",
-                "reference": "2bdc20814da0fd448a4edf5c5250b581d73cf88f",
+                "url": "https://api.github.com/repos/ghostwriter/coding-standard/zipball/d83e0d58c5b03742f8ee5f9a347281978dfaf4fe",
+                "reference": "d83e0d58c5b03742f8ee5f9a347281978dfaf4fe",
                 "shasum": ""
             },
             "require": {
-                "boundwize/structarmed": "^0.7.10",
+                "boundwize/structarmed": "^0.7.11",
                 "ext-apcu": "*",
                 "ext-bcmath": "*",
                 "ext-ctype": "*",
@@ -2847,7 +2847,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-05-25T20:46:31+00:00"
+            "time": "2026-05-26T00:11:34+00:00"
         },
         {
             "name": "ghostwriter/testify",
