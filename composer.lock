@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "870c7fd2474505787520a2da33bc2bc7",
+    "content-hash": "79ee49766f3b703be979f1eda4af1c0e",
     "packages": [
         {
             "name": "ghostwriter/case-converter",
@@ -380,16 +380,16 @@
         },
         {
             "name": "ghostwriter/container",
-            "version": "7.0.1",
+            "version": "7.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ghostwriter/container.git",
-                "reference": "8e49e51d5558cb6482eac4da7170d75a765ee418"
+                "reference": "a5474864d2a54074fef019646bf7ca060eb3638b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/container/zipball/8e49e51d5558cb6482eac4da7170d75a765ee418",
-                "reference": "8e49e51d5558cb6482eac4da7170d75a765ee418",
+                "url": "https://api.github.com/repos/ghostwriter/container/zipball/a5474864d2a54074fef019646bf7ca060eb3638b",
+                "reference": "a5474864d2a54074fef019646bf7ca060eb3638b",
                 "shasum": ""
             },
             "require": {
@@ -400,10 +400,12 @@
                 "psr/container-implementation": "*"
             },
             "require-dev": {
+                "boundwize/structarmed": "^0.7.12",
                 "ext-xdebug": "*",
                 "ghostwriter/coding-standard": "dev-main",
+                "ghostwriter/testify": "^0.1.1",
                 "mockery/mockery": "^1.6.12",
-                "phpunit/phpunit": "^13.1.7",
+                "phpunit/phpunit": "^13.1.12",
                 "symfony/var-dumper": "^8.0.8"
             },
             "type": "library",
@@ -455,7 +457,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-04-22T17:22:16+00:00"
+            "time": "2026-05-27T01:57:36+00:00"
         },
         {
             "name": "ghostwriter/event-dispatcher",
@@ -2727,16 +2729,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ghostwriter/coding-standard.git",
-                "reference": "1cc11f6b5bbc3d4e9e7c01f5bee0648de0d40643"
+                "reference": "33f2332341fecf8f3aaa266cd5862354a94d2c3a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/coding-standard/zipball/1cc11f6b5bbc3d4e9e7c01f5bee0648de0d40643",
-                "reference": "1cc11f6b5bbc3d4e9e7c01f5bee0648de0d40643",
+                "url": "https://api.github.com/repos/ghostwriter/coding-standard/zipball/33f2332341fecf8f3aaa266cd5862354a94d2c3a",
+                "reference": "33f2332341fecf8f3aaa266cd5862354a94d2c3a",
                 "shasum": ""
             },
             "require": {
-                "boundwize/structarmed": "^0.7.11",
+                "boundwize/structarmed": "^0.7.12",
                 "ext-apcu": "*",
                 "ext-bcmath": "*",
                 "ext-ctype": "*",
@@ -2847,7 +2849,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-05-26T13:51:07+00:00"
+            "time": "2026-05-26T18:12:02+00:00"
         },
         {
             "name": "ghostwriter/testify",
