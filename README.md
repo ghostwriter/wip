@@ -1,10 +1,10 @@
 # Wip
 
 [![Automation](https://github.com/ghostwriter/wip/actions/workflows/automation.yml/badge.svg)](https://github.com/ghostwriter/wip/actions/workflows/automation.yml)
-[![GitHub Sponsors](https://img.shields.io/github/sponsors/ghostwriter?label=Sponsor+@ghostwriter/wip&logo=GitHub+Sponsors)](https://github.com/sponsors/ghostwriter)
-[![PayPal](https://img.shields.io/badge/paypal-@codepoet-0079C1?logo=paypal&logoColor=002991)](https://paypal.me/codepoet)
+[![PHP Version](https://badgen.net/packagist/php/ghostwriter/wip?color=777BB4)](https://www.php.net/supported-versions)
 [![Packagist Downloads](https://badgen.net/packagist/dt/ghostwriter/wip?color=F28D1A)](https://packagist.org/packages/ghostwriter/wip)
-[![Supported PHP Version](https://badgen.net/packagist/php/ghostwriter/wip?color=777BB4)](https://www.php.net/supported-versions)
+[![PayPal](https://img.shields.io/badge/paypal-@codepoet-0079C1?logo=paypal&logoColor=002991)](https://paypal.me/codepoet)
+[![Sponsors via GitHub](https://img.shields.io/github/sponsors/ghostwriter?label=Sponsor+@ghostwriter/wip&logo=GitHub+Sponsors)](https://github.com/sponsors/ghostwriter)
 
 work in progress
 
