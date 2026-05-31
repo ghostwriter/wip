@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fe5cec10ab8d1353dbf9dcd96a3e9f27",
+    "content-hash": "e86bfc609cfb5438251bcf60f7f0735a",
     "packages": [
         {
             "name": "ghostwriter/case-converter",
@@ -963,40 +963,37 @@
         },
         {
             "name": "ghostwriter/libraries-io",
-            "version": "0.1.0",
+            "version": "0.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ghostwriter/libraries-io.git",
-                "reference": "c20a98bb0f03c25531cdaaa55b488ca4f14ee95b"
+                "reference": "7f9c7020e57c7f979fe20c31a822875e2345cccb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/libraries-io/zipball/c20a98bb0f03c25531cdaaa55b488ca4f14ee95b",
-                "reference": "c20a98bb0f03c25531cdaaa55b488ca4f14ee95b",
+                "url": "https://api.github.com/repos/ghostwriter/libraries-io/zipball/7f9c7020e57c7f979fe20c31a822875e2345cccb",
+                "reference": "7f9c7020e57c7f979fe20c31a822875e2345cccb",
                 "shasum": ""
             },
             "require": {
                 "ext-mbstring": "*",
-                "ghostwriter/clock": "^3.0.1",
+                "ghostwriter/clock": "^3.0.2",
                 "ghostwriter/container": "^7.0.2",
-                "ghostwriter/event-dispatcher": "^6.1.1",
+                "ghostwriter/event-dispatcher": "^6.1.3",
                 "ghostwriter/http": "^0.2.0",
                 "ghostwriter/uuid": "^1.0.3",
                 "php": "~8.4.0 || ~8.5.0"
             },
             "require-dev": {
-                "boundwize/structarmed": "^0.7.12",
+                "boundwize/structarmed": "^0.9.3",
                 "ext-xdebug": "*",
                 "ghostwriter/coding-standard": "dev-main",
-                "ghostwriter/testify": "^0.1.1",
+                "ghostwriter/phpunit-assertions": "^0.1.0",
+                "ghostwriter/testify": "^0.1.2",
                 "mockery/mockery": "^1.6.12",
-                "phpunit/phpunit": "^13.1.12",
-                "symfony/var-dumper": "^8.0.8"
+                "phpunit/phpunit": "^13.1.13",
+                "symfony/var-dumper": "^8.1.0"
             },
-            "bin": [
-                "bin/console",
-                "bin/console.php"
-            ],
             "type": "library",
             "extra": {
                 "thanks": {
@@ -1055,7 +1052,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-05-27T03:03:26+00:00"
+            "time": "2026-05-31T14:40:26+00:00"
         },
         {
             "name": "ghostwriter/option",
