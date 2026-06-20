@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3d29c1ad137aa08c38759bfe65063496",
+    "content-hash": "b075c8223f3523aeaa98b1f2683c42ab",
     "packages": [
         {
             "name": "ghostwriter/case-converter",
@@ -177,28 +177,31 @@
         },
         {
             "name": "ghostwriter/collection",
-            "version": "2.1.0",
+            "version": "2.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ghostwriter/collection.git",
-                "reference": "4a884657ca3f1644e9fee3dc99560a8217834b4e"
+                "reference": "41fa87c02630630fee56847c11ce929012e26ca4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/collection/zipball/4a884657ca3f1644e9fee3dc99560a8217834b4e",
-                "reference": "4a884657ca3f1644e9fee3dc99560a8217834b4e",
+                "url": "https://api.github.com/repos/ghostwriter/collection/zipball/41fa87c02630630fee56847c11ce929012e26ca4",
+                "reference": "41fa87c02630630fee56847c11ce929012e26ca4",
                 "shasum": ""
             },
             "require": {
                 "ext-mbstring": "*",
-                "php": "~8.4.0 || ~8.5.0"
+                "php": "~8.4.0 || ~8.5.0 || ~8.6.0"
             },
             "require-dev": {
+                "boundwize/structarmed": "^0.13.4",
                 "ext-xdebug": "*",
                 "ghostwriter/coding-standard": "dev-main",
+                "ghostwriter/phpunit-assertions": "^0.1.0",
+                "ghostwriter/testify": "^0.1.2",
                 "mockery/mockery": "^1.6.12",
-                "phpunit/phpunit": "^13.1.6",
-                "symfony/var-dumper": "^8.0.8"
+                "phpunit/phpunit": "^13.2.1",
+                "symfony/var-dumper": "^8.1.0"
             },
             "type": "library",
             "extra": {
@@ -240,9 +243,13 @@
                 {
                     "url": "https://github.com/sponsors/ghostwriter",
                     "type": "github"
+                },
+                {
+                    "url": "https://paypal.me/codepoet",
+                    "type": "paypal"
                 }
             ],
-            "time": "2026-04-17T18:31:40+00:00"
+            "time": "2026-06-19T17:50:36+00:00"
         },
         {
             "name": "ghostwriter/config",
