@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cf8784030c6764549a9fd77e83108e6e",
+    "content-hash": "019c0563a4e7a5a9067371c8639bda1a",
     "packages": [
         {
             "name": "ghostwriter/case-converter",
@@ -2966,16 +2966,16 @@
     "packages-dev": [
         {
             "name": "boundwize/jsonrecast",
-            "version": "0.0.2",
+            "version": "0.2.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/boundwize/jsonrecast.git",
-                "reference": "a22a3bf285b0723d25a8280ab7315a8ca11977c5"
+                "reference": "94ae58f66c408d88cf9487d00c0e057dbe02c633"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/boundwize/jsonrecast/zipball/a22a3bf285b0723d25a8280ab7315a8ca11977c5",
-                "reference": "a22a3bf285b0723d25a8280ab7315a8ca11977c5",
+                "url": "https://api.github.com/repos/boundwize/jsonrecast/zipball/94ae58f66c408d88cf9487d00c0e057dbe02c633",
+                "reference": "94ae58f66c408d88cf9487d00c0e057dbe02c633",
                 "shasum": ""
             },
             "require": {
@@ -2983,13 +2983,18 @@
             },
             "require-dev": {
                 "boundwize/pyrameter": "^0.4.2",
-                "boundwize/structarmed": "^0.13.4",
+                "boundwize/structarmed": "^0.14.9",
                 "laminas/laminas-coding-standard": "^3.1",
                 "phpstan/phpstan": "^2.2",
                 "phpunit/phpunit": "^11.5",
                 "rector/rector": "^2.4"
             },
             "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "0.*.x-dev"
+                }
+            },
             "autoload": {
                 "psr-4": {
                     "Boundwize\\JsonRecast\\": "src/"
@@ -3018,7 +3023,7 @@
             ],
             "support": {
                 "issues": "https://github.com/boundwize/jsonrecast/issues",
-                "source": "https://github.com/boundwize/jsonrecast/tree/0.0.2"
+                "source": "https://github.com/boundwize/jsonrecast/tree/0.2.13"
             },
             "funding": [
                 {
@@ -3026,24 +3031,24 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-06-28T08:42:19+00:00"
+            "time": "2026-07-03T17:54:54+00:00"
         },
         {
             "name": "boundwize/structarmed",
-            "version": "0.14.7",
+            "version": "0.14.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/boundwize/structarmed.git",
-                "reference": "e320ba4226ef09ba2399f806e86153ef15f2d1c7"
+                "reference": "c2a5ef545eed7b181823139d68c707a47b089965"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/boundwize/structarmed/zipball/e320ba4226ef09ba2399f806e86153ef15f2d1c7",
-                "reference": "e320ba4226ef09ba2399f806e86153ef15f2d1c7",
+                "url": "https://api.github.com/repos/boundwize/structarmed/zipball/c2a5ef545eed7b181823139d68c707a47b089965",
+                "reference": "c2a5ef545eed7b181823139d68c707a47b089965",
                 "shasum": ""
             },
             "require": {
-                "boundwize/jsonrecast": "^0.0.2",
+                "boundwize/jsonrecast": ">=0.1 <1.0",
                 "composer-runtime-api": "^2.0",
                 "fidry/cpu-core-counter": "^1.3",
                 "nikic/php-parser": "^5.7",
@@ -3095,7 +3100,7 @@
             ],
             "support": {
                 "issues": "https://github.com/boundwize/structarmed/issues",
-                "source": "https://github.com/boundwize/structarmed/tree/0.14.7"
+                "source": "https://github.com/boundwize/structarmed/tree/0.14.10"
             },
             "funding": [
                 {
@@ -3103,7 +3108,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-07-01T03:24:31+00:00"
+            "time": "2026-07-02T23:26:49+00:00"
         },
         {
             "name": "fidry/cpu-core-counter",
