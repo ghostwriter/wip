@@ -65,7 +65,6 @@
         "boundwize/structarmed": "^0.14.10",
         "ghostwriter/coding-standard": "dev-main",
         "ghostwriter/phpunit-assertions": "^0.1.0",
-        "ghostwriter/testify": "^0.1.2",
         "mockery/mockery": "^1.6.12",
         "phpunit/phpunit": "^13.2.2",
         "symfony/var-dumper": "^8.1.1"
