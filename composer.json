@@ -54,7 +54,7 @@
         "ghostwriter/github-cli": "^0.1.2",
         "ghostwriter/http": "^0.2.2",
         "ghostwriter/json": "^3.0.3",
-        "ghostwriter/libraries-io": "^0.1.1",
+        "ghostwriter/libraries-io": "^0.1.2",
         "ghostwriter/option": "^2.0.0",
         "ghostwriter/result": "^2.0.0",
         "ghostwriter/root": "^0.1.0",
