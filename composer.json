@@ -52,7 +52,7 @@
         "ghostwriter/filesystem": "^0.2.1",
         "ghostwriter/git": "^0.1.7",
         "ghostwriter/github-cli": "^0.1.2",
-        "ghostwriter/http": "^0.2.1",
+        "ghostwriter/http": "^0.2.2",
         "ghostwriter/json": "^3.0.3",
         "ghostwriter/libraries-io": "^0.1.1",
         "ghostwriter/option": "^2.0.0",
