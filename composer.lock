@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "26e64d1c3b4d54eb72fe2fbabebebfc2",
+    "content-hash": "6027fb99bfed4a844a153fc4e3412595",
     "packages": [
         {
             "name": "ghostwriter/case-converter",
@@ -656,31 +656,31 @@
         },
         {
             "name": "ghostwriter/git",
-            "version": "0.1.7",
+            "version": "0.1.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ghostwriter/git.git",
-                "reference": "867b0eb236a4bf1744d7b3bc3b5bd89f88f04c76"
+                "reference": "035e62a21e6386e88169e61e9cdeedacafbf6813"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/git/zipball/867b0eb236a4bf1744d7b3bc3b5bd89f88f04c76",
-                "reference": "867b0eb236a4bf1744d7b3bc3b5bd89f88f04c76",
+                "url": "https://api.github.com/repos/ghostwriter/git/zipball/035e62a21e6386e88169e61e9cdeedacafbf6813",
+                "reference": "035e62a21e6386e88169e61e9cdeedacafbf6813",
                 "shasum": ""
             },
             "require": {
                 "ext-mbstring": "*",
-                "ghostwriter/container": "^7.0.0",
-                "ghostwriter/filesystem": "^0.2.0",
-                "ghostwriter/shell": "^0.1.5",
-                "php": "~8.4.0 || ~8.5.0"
+                "ghostwriter/container": "^7.0.2",
+                "ghostwriter/filesystem": "^0.2.1",
+                "ghostwriter/shell": "^0.1.6",
+                "php": "~8.4.0 || ~8.5.0 || ~8.6.0"
             },
             "require-dev": {
                 "ext-xdebug": "*",
                 "ghostwriter/coding-standard": "dev-main",
+                "ghostwriter/phpunit-assertions": "^0.1.0",
                 "mockery/mockery": "^1.6.12",
-                "phpunit/phpunit": "^13.1.7",
-                "symfony/var-dumper": "^8.0.8"
+                "phpunit/phpunit": "^13.2.6"
             },
             "type": "library",
             "extra": {
@@ -729,9 +729,13 @@
                 {
                     "url": "https://github.com/sponsors/ghostwriter",
                     "type": "github"
+                },
+                {
+                    "url": "https://paypal.me/codepoet",
+                    "type": "paypal"
                 }
             ],
-            "time": "2026-04-20T15:48:03+00:00"
+            "time": "2026-08-06T00:36:09+00:00"
         },
         {
             "name": "ghostwriter/github-cli",
