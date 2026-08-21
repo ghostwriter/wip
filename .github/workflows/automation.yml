@@ -44,7 +44,7 @@ permissions: # https://docs.github.com/en/actions/using-workflows/workflow-synta
 
 jobs:
   automation:
-    uses: ghostwriter/compliance/.github/workflows/automation.yml@c5d6df0d80bb5367b24415ce42df94cbb02a4c03 # v1
+    uses: ghostwriter/compliance/.github/workflows/automation.yml@dc5d992eb84863700afa33e426c52e9ed89533b5 # v1
     secrets:
       GPG_PRIVATE_KEY: ${{ secrets.GPG_PRIVATE_KEY }}
       INFECTION_DASHBOARD_API_KEY: ${{ secrets.INFECTION_DASHBOARD_API_KEY }}
