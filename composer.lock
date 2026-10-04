@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "909a42d38895b5b61fb6db07ea0cc27f",
+    "content-hash": "7dc370efdeaef8a419f86506b509b844",
     "packages": [
         {
             "name": "ghostwriter/case-converter",
@@ -3250,23 +3250,23 @@
         },
         {
             "name": "boundwize/structarmed",
-            "version": "0.17.3",
+            "version": "0.18.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/boundwize/structarmed.git",
-                "reference": "b6a6876aa7e5efb6e012045be9394b2994cd145b"
+                "reference": "21d20e29234b4b106718639a12dc3dd343d2e05b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/boundwize/structarmed/zipball/b6a6876aa7e5efb6e012045be9394b2994cd145b",
-                "reference": "b6a6876aa7e5efb6e012045be9394b2994cd145b",
+                "url": "https://api.github.com/repos/boundwize/structarmed/zipball/21d20e29234b4b106718639a12dc3dd343d2e05b",
+                "reference": "21d20e29234b4b106718639a12dc3dd343d2e05b",
                 "shasum": ""
             },
             "require": {
                 "boundwize/jsonrecast": "^1.0",
                 "composer-runtime-api": "^2.0",
                 "fidry/cpu-core-counter": "^1.3",
-                "nikic/php-parser": "^5.7",
+                "nikic/php-parser": "^5.9",
                 "php": "^8.2"
             },
             "require-dev": {
@@ -3316,7 +3316,7 @@
             ],
             "support": {
                 "issues": "https://github.com/boundwize/structarmed/issues",
-                "source": "https://github.com/boundwize/structarmed/tree/0.17.3"
+                "source": "https://github.com/boundwize/structarmed/tree/0.18.11"
             },
             "funding": [
                 {
@@ -3324,7 +3324,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-09-10T17:44:24+00:00"
+            "time": "2026-10-04T10:04:54+00:00"
         },
         {
             "name": "fidry/cpu-core-counter",
