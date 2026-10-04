@@ -58,6 +58,7 @@
         "ghostwriter/option": "^2.0.0",
         "ghostwriter/result": "^2.0.0",
         "ghostwriter/root": "^0.1.0",
+        "ghostwriter/serializer": "^0.1.0",
         "ghostwriter/shell": "^0.1.6",
         "ghostwriter/uuid": "^1.0.3"
     },
