@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b6e8d6735bc117a2c5cba4932a609b15",
+    "content-hash": "e76c8352589d94b5c3f72e4eda834202",
     "packages": [
         {
             "name": "ghostwriter/case-converter",
@@ -3394,12 +3394,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ghostwriter/coding-standard.git",
-                "reference": "90f6e455b7975c0b135e6b4dda7506237903272a"
+                "reference": "26aac0bd9386b7e7327ad34912ac0ccee7da3c63"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ghostwriter/coding-standard/zipball/90f6e455b7975c0b135e6b4dda7506237903272a",
-                "reference": "90f6e455b7975c0b135e6b4dda7506237903272a",
+                "url": "https://api.github.com/repos/ghostwriter/coding-standard/zipball/26aac0bd9386b7e7327ad34912ac0ccee7da3c63",
+                "reference": "26aac0bd9386b7e7327ad34912ac0ccee7da3c63",
                 "shasum": ""
             },
             "require": {
@@ -3454,10 +3454,10 @@
                 "pestphp/pest": "*"
             },
             "require-dev": {
-                "boundwize/structarmed": "^0.17.12",
+                "boundwize/structarmed": "^0.22.11",
                 "ghostwriter/phpunit-assertions": "^0.1.1",
                 "mockery/mockery": "^1.6.15",
-                "phpunit/phpunit": "^13.3.4"
+                "phpunit/phpunit": "^13.4.8"
             },
             "default-branch": true,
             "type": "library",
@@ -3509,7 +3509,8 @@
                     "type": "paypal"
                 }
             ],
-            "time": "2026-09-28T06:28:15+00:00"
+            "time": "2026-11-25T20:57:23+00:00",
+            "published-time": "2026-11-25T20:58:38+00:00"
         },
         {
             "name": "ghostwriter/phpunit-assertions",
@@ -5687,5 +5688,5 @@
     "platform-overrides": {
         "php": "8.4.999"
     },
-    "plugin-api-version": "2.9.0"
+    "plugin-api-version": "2.11.0"
 }
